@@ -1,0 +1,1 @@
+D:\IDS\Pentaho\BA\design-tools\data-integration\kitchen.bat D:\Kettle\PDI_Jobs\j1_test.kjb /level:basic 1>D:\Kettle\Logs\run.log

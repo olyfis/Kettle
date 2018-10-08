@@ -1,0 +1,3 @@
+Credit_App,Contract_Number,Agreement_Number,Customer_Name,Customer_State,Service_Pymt_Rate,Term,FIS_Territory,Svc_Quote_1,Svc_Quote_2,Svc_Quote_3,Program_Type,MP_Service,SP_Service,Gyrus_Service,EW7_Maint,Date_Commenced,Term_Date,Asset_State,CO_promotion_TBDESC
+11988.0,101-0012586-006,0012586-006,WASHINGTON TOWNSHIP HEALTH CARE DISTRICT,CA,21859.2,18.0,11 - Southwest,F-66-00584-C ,NONE,NONE,FPP LEASE,21859.2,0.0,0.0,0.0,2018/07/09 00:00:00.000,2020/01/09 00:00:00.000,California,NONE
+12026.0,101-0013195-062,0013195-062,"NORTHWELL HEALTH, INC.",NY,91200.0,48.0,1- New England,F-74-00490-A,NONE,NONE,HYBRID FPP/CPP,91200.0,0.0,0.0,0.0,2018/08/01 00:00:00.000,2022/08/01 00:00:00.000,New York,NONE

@@ -1,0 +1,2889 @@
+{
+	"DOCUMENT_DATA_GROUP": {
+		"DATABASEKEY": {
+			"bid_list": {
+				"bid": {
+					"bid_key": "42059011341276812000",
+					"bid_user_key": "113",
+					"bid_customer_key": "9974",
+					"bid_description": "",
+					"bid_primary_quote_key": "",
+					"bid_status_key": "1",
+					"bid_status_desc": "New",
+					"bid_reason_key": "",
+					"bid_reason_desc": "",
+					"bid_status_date": "",
+					"bid_to_close_pct": "",
+					"bid_notes": "",
+					"bid_entered_date": "2016-02-25",
+					"bid_to_close_date": "",
+					"bid_bidid": "113-75",
+					"bid_expiration_date": "",
+					"bid_follow_up_date": "",
+					"bid_program_key": "1",
+					"bid_dealer_code": "",
+					"quote_list": {
+						"quote": {
+							"quote_key": "42059011344279878000",
+							"quote_bid_key": "42059011341276812000",
+							"quote_quote_desc": "",
+							"quote_quote_id": "113-75-113-001",
+							"quote_entered_date": "2016-02-25",
+							"quote_link": "False",
+							"quote_app_key": "",
+							"quote_currency_exch_fkey": "",
+							"quote_exch_rate_history_fkey": "",
+							"quote_calc_data_xml": {
+								"get_rent_output": {
+									"rent_result": {
+										"contract_term_in_months": "37",
+										"rent_term": "37",
+										"yield": "5.19282",
+										"rate_table_value": "",
+										"cost_of_funds": "1",
+										"base_rent_frequency": "0",
+										"solved_for_index": "2",
+										"rent_with_tax_summary": {
+											"row": [
+												{
+													"num": "1",
+													"amount": "6000.00"
+												},
+												{
+													"num": "36",
+													"amount": "1009.74"
+												}
+											]
+										},
+										"rent_schedule": {
+											"row": [
+												{
+													"num": "1",
+													"amount": "6000.00"
+												},
+												{
+													"num": "36",
+													"amount": "1009.74"
+												}
+											]
+										},
+										"asset_list": {
+											"asset_data": [
+												{
+													"equipment_code": "2",
+													"yield": "",
+													"cost": "36010.63",
+													"list_price": "40462.80",
+													"discount": "4452.17",
+													"alt_residual_amount": "",
+													"residual_amount": "0.00",
+													"residual_table_value": "",
+													"alt_residual_table_value": "",
+													"guaranteed_residual": "0.00",
+													"insured_residual": "0.00",
+													"insured_residual_premium": "0.00"
+												},
+												{
+													"equipment_code": "2",
+													"yield": "",
+													"cost": "313.74",
+													"list_price": "313.74",
+													"discount": "313.74",
+													"alt_residual_amount": "",
+													"residual_amount": "0.00",
+													"residual_table_value": "",
+													"alt_residual_table_value": "",
+													"guaranteed_residual": "0.00",
+													"insured_residual": "0.00",
+													"insured_residual_premium": "0.00"
+												},
+												{
+													"equipment_code": "2",
+													"yield": "",
+													"cost": "3269.19",
+													"list_price": "3269.19",
+													"discount": "0.00",
+													"alt_residual_amount": "",
+													"residual_amount": "0.00",
+													"residual_table_value": "",
+													"alt_residual_table_value": "",
+													"guaranteed_residual": "0.00",
+													"insured_residual": "0.00",
+													"insured_residual_premium": "0.00"
+												}
+											]
+										},
+										"yield_summary": {
+											"roi_nompt": "5.1928269509",
+											"roi_nomat": "5.1928269509",
+											"roi_effpt": "5.3182188335",
+											"roi_effat": "5.3182188335",
+											"rcy_nompt": "",
+											"rcy_nomat": "",
+											"rcy_effpt": "",
+											"rcy_effat": "",
+											"emisf_nompt": "",
+											"emisf_nomat": "",
+											"emisf_effpt": "",
+											"emisf_effat": "",
+											"bmisf_nompt": "",
+											"bmisf_nomat": "",
+											"bmisf_effpt": "",
+											"bmisf_effat": "",
+											"roiec_nompt": "",
+											"roiec_nomat": "",
+											"roiec_effpt": "",
+											"roiec_effat": "",
+											"roa_nompt": "",
+											"roa_nomat": "",
+											"roa_effpt": "",
+											"roa_effat": "",
+											"roieb_nompt": "",
+											"roieb_nomat": "",
+											"roieb_effpt": "",
+											"roieb_effat": "",
+											"irr_nompt": "5.1928222833",
+											"irr_nomat": "5.1928222833",
+											"irr_effpt": "5.3182139388",
+											"irr_effat": "5.3182139388",
+											"irrpt_nompt": "",
+											"irrpt_nomat": "",
+											"irrpt_effpt": "",
+											"irrpt_effat": ""
+										},
+										"apr_summary": {
+											"aprstream_mon_bt": "5.1928222831",
+											"aprstream_per_bt": "5.1928222831",
+											"aprstream_eff_bt": "5.3182139387",
+											"aprgresid_mon_bt": "5.1928222831",
+											"aprgresid_per_bt": "5.1928222831",
+											"aprgresid_eff_bt": "5.3182139387",
+											"aprresid_mon_bt": "5.1928222831",
+											"aprresid_per_bt": "5.1928222831",
+											"aprresid_eff_bt": "5.3182139387",
+											"apridc_mon_bt": "5.1928222831",
+											"apridc_per_bt": "5.1928222831",
+											"apridc_eff_bt": "5.3182139387",
+											"aprsd_mon_bt": "5.1928222831",
+											"aprsd_per_bt": "5.1928222831",
+											"aprsd_eff_bt": "5.3182139387",
+											"aprstream_mon_ft": "5.1928222831",
+											"aprstream_per_ft": "5.1928222831",
+											"aprstream_eff_ft": "5.3182139387",
+											"aprgresid_mon_ft": "5.1928222831",
+											"aprgresid_per_ft": "5.1928222831",
+											"aprgresid_eff_ft": "5.3182139387",
+											"aprresid_mon_ft": "5.1928222831",
+											"aprresid_per_ft": "5.1928222831",
+											"aprresid_eff_ft": "5.3182139387",
+											"apridc_mon_ft": "5.1928222831",
+											"apridc_per_ft": "5.1928222831",
+											"apridc_eff_ft": "5.3182139387",
+											"aprsd_mon_ft": "5.1928222831",
+											"aprsd_per_ft": "5.1928222831",
+											"aprsd_eff_ft": "5.3182139387",
+											"aprstreet_mon": "4.8739687472",
+											"aprstreet_per": "4.8739687472",
+											"aprstreet_eff": "4.9843361093",
+											"aprlgresid_mon_bt": "5.1928222831",
+											"aprlgresid_per_bt": "5.1928222831",
+											"aprlgresid_eff_bt": "5.3182139387",
+											"aprlgresid_mon_ft": "5.1928222831",
+											"aprlgresid_per_ft": "5.1928222831",
+											"aprlgresid_eff_ft": "5.3182139387"
+										},
+										"rent_with_tax_summary_no_comp": {
+											"row": [
+												{
+													"num": "1",
+													"amount": "6000.00"
+												},
+												{
+													"num": "36",
+													"amount": "1009.74"
+												}
+											]
+										},
+										"rent_schedule_no_comp": {
+											"row": [
+												{
+													"num": "1",
+													"amount": "6000.00"
+												},
+												{
+													"num": "36",
+													"amount": "1009.74"
+												}
+											]
+										}
+									},
+									"field_updates": {
+										"co_fields": {
+											"termDuration": {
+												"_parent": "CO",
+												"_update": "0",
+												"__text": "37"
+											},
+											"PRICING.TARGET.YIELD": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.19282"
+											},
+											"PRICING.PYMT.FREQUENCY": {
+												"_parent": "CO",
+												"_update": "0",
+												"__text": "0"
+											},
+											"PRICING.EBO.AMOUNT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"PRICING.EBO.YIELD": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"firstPaymentAmount": {
+												"_parent": "CO",
+												"_update": "0"
+											},
+											"paymentAmount": {
+												"_parent": "CO",
+												"_update": "0"
+											},
+											"PRICING.NUM.OF.PYMTS": {
+												"_parent": "CO",
+												"_update": "0",
+												"__text": "1"
+											},
+											"PRICING.BORROWING.PERCENT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"PRICING.COST.OF.FUNDS": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "1"
+											},
+											"PRICING.BUYDOWN.AMT": {
+												"_parent": "CO",
+												"_update": "0"
+											},
+											"PRICING.LESSEE.RATE": {
+												"_parent": "CO",
+												"_update": "0"
+											},
+											"gstOnCC": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"idc": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROI.NOMPT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928269509"
+											},
+											"ROI.NOMAT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928269509"
+											},
+											"ROI.EFFPT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182188335"
+											},
+											"ROI.EFFAT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182188335"
+											},
+											"RCY.NOMPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"RCY.NOMAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"RCY.EFFPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"RCY.EFFAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"EMISF.NOMPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"EMISF.NOMAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"EMISF.EFFPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"EMISF.EFFAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"BMISF.NOMPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"BMISF.NOMAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"BMISF.EFFPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"BMISF.EFFAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROIEC.NOMPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROIEC.NOMAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROIEC.EFFPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROIEC.EFFAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROA.NOMPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROA.NOMAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROA.EFFPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROA.EFFAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROIEB.NOMPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROIEB.NOMAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROIEB.EFFPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"ROIEB.EFFAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"IRR.NOMPT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222833"
+											},
+											"IRR.NOMAT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222833"
+											},
+											"IRR.EFFPT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139388"
+											},
+											"IRR.EFFAT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139388"
+											},
+											"IRRPT.NOMPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"IRRPT.NOMAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"IRRPT.EFFPT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"IRRPT.EFFAT": {
+												"_parent": "CO",
+												"_update": "1"
+											},
+											"APR.MON.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.MON.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.RESID.MON.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.RESID.MON.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.IDC.MON.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.IDC.MON.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.SEC.DEP.MON.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.SEC.DEP.MON.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.GUAR.RESID.MON.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.GUAR.RESID.MON.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.LESSEE.GUAR.RESID.MON.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.LESSEE.GUAR.RESID.MON.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.EFF.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.EFF.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.RESID.EFF.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.RESID.EFF.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.IDC.EFF.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.IDC.EFF.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.SEC.DEP.EFF.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.SEC.DEP.EFF.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.GUAR.RESID.EFF.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.GUAR.RESID.EFF.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.LESSEE.GUAR.RESID.EFF.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.LESSEE.GUAR.RESID.EFF.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.3182139387"
+											},
+											"APR.PER.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.PER.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.RESID.PER.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.RESID.PER.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.IDC.PER.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.IDC.PER.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.SEC.DEP.PER.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.SEC.DEP.PER.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.GUAR.RESID.PER.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.GUAR.RESID.PER.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.LESSEE.GUAR.RESID.PER.BT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"APR.LESSEE.GUAR.RESID.PER.FT": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "5.1928222831"
+											},
+											"STREET.RATE.MONTHLY": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "4.8739687472"
+											},
+											"STREET.RATE.EFFECTIVE": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "4.9843361093"
+											},
+											"STREET.RATE.PERIODIC": {
+												"_parent": "CO",
+												"_update": "1",
+												"__text": "4.8739687472"
+											},
+											"otherExpenses": "",
+											"pricingIDCs": "",
+											"ud_groups": {
+												"ud_group": ""
+											},
+											"assets": {
+												"asset": [
+													{
+														"as_fields": {
+															"totalCost": {
+																"_parent": "AS",
+																"_update": "0",
+																"__text": "36010.63"
+															},
+															"residualAmount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"bookDeprSalvage": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"managersResidualAmount": {
+																"_parent": "AS",
+																"_update": "1"
+															},
+															"PURCHASE.OPTION": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"guaranteedResidualAmount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"insuredResidual": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"residualInsuranceAmount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"assetDiscount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "4452.17"
+															},
+															"listPrice": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "40462.80"
+															},
+															"PRICING.TARGET.YIELD.AS": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"PRICING.PAYMENT.AMOUNT": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"PRICING.BUYDOWN.AMT.AS": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"PRICING.LESSEE.RATE.AS": {
+																"_parent": "AS",
+																"_update": "0"
+															}
+														}
+													},
+													{
+														"as_fields": {
+															"totalCost": {
+																"_parent": "AS",
+																"_update": "0",
+																"__text": "313.74"
+															},
+															"residualAmount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"bookDeprSalvage": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"managersResidualAmount": {
+																"_parent": "AS",
+																"_update": "1"
+															},
+															"PURCHASE.OPTION": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"guaranteedResidualAmount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"insuredResidual": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"residualInsuranceAmount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"assetDiscount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "313.74"
+															},
+															"listPrice": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "313.74"
+															},
+															"PRICING.TARGET.YIELD.AS": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"PRICING.PAYMENT.AMOUNT": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"PRICING.BUYDOWN.AMT.AS": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"PRICING.LESSEE.RATE.AS": {
+																"_parent": "AS",
+																"_update": "0"
+															}
+														}
+													},
+													{
+														"as_fields": {
+															"totalCost": {
+																"_parent": "AS",
+																"_update": "0",
+																"__text": "3269.19"
+															},
+															"residualAmount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"bookDeprSalvage": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"managersResidualAmount": {
+																"_parent": "AS",
+																"_update": "1"
+															},
+															"PURCHASE.OPTION": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"guaranteedResidualAmount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"insuredResidual": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"residualInsuranceAmount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"assetDiscount": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "0.00"
+															},
+															"listPrice": {
+																"_parent": "AS",
+																"_update": "1",
+																"__text": "3269.19"
+															},
+															"PRICING.TARGET.YIELD.AS": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"PRICING.PAYMENT.AMOUNT": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"PRICING.BUYDOWN.AMT.AS": {
+																"_parent": "AS",
+																"_update": "0"
+															},
+															"PRICING.LESSEE.RATE.AS": {
+																"_parent": "AS",
+																"_update": "0"
+															}
+														}
+													}
+												]
+											}
+										}
+									}
+								}
+							},
+							"quote_form_data_xml": {
+								"IronData": {
+									"CO": {
+										"CO_KEY": "",
+										"custName": {
+											"_Type": "ALPHANUMERIC",
+											"__text": "HOSPITAL AUTHORITY OF ALBANY-DOUGHERTY COUNTY"
+										},
+										"custAttention": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"productCode": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"accountingOwnerCode": {
+											"_Type": "TABLE",
+											"_UpdatedBy": "Rule",
+											"_TableField": "1",
+											"_Desc": "101",
+											"__text": "101"
+										},
+										"UD_CO_PRODUCT": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "FPP",
+											"__text": "01"
+										},
+										"purchaseOption": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "$1.00 Buyout",
+											"__text": "01"
+										},
+										"UD_CO_CPP_CPP": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_CPP_AMT": {
+											"_Type": "MONEY"
+										},
+										"PRICING.PRODUCT": {
+											"_Type": "PRICING.PROD.TABLE",
+											"_Desc": "Olympus Test",
+											"__text": "1"
+										},
+										"programCode": {
+											"_Type": "TABLE",
+											"_UpdatedBy": "Rule",
+											"_TableField": "1",
+											"_Desc": "FPP LEASE",
+											"__text": "0004"
+										},
+										"UD_CO_CPP_PERIODIC_PROC": {
+											"_Type": "INTEGER"
+										},
+										"UD_CO_UPFRONT_TAX_TYPE": {
+											"_Type": "BOOLEAN",
+											"__text": "0"
+										},
+										"productLine": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"UD_CO_AMENDMENT": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"region": {
+											"_Type": "TABLE",
+											"_UpdatedBy": "Rule",
+											"_TableField": "1",
+											"_Desc": "FIS WEST-JANET WALSH",
+											"__text": "002"
+										},
+										"branch": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "11 - Southwest",
+											"__text": "11"
+										},
+										"UD_CO_APPROVAL_DATE": {
+											"_Type": "DATE"
+										},
+										"purposeOfLoan": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"UD_CO_CREDIT_APPR_EXPIRE": {
+											"_Type": "DATE"
+										},
+										"UD_CO_CALC_METHOD": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"UD_CO_CURRENT_DATE": {
+											"_Type": "DATE"
+										},
+										"UD_CO_DATE_COMPARE": {
+											"_Type": "INTEGER"
+										},
+										"UD_CO_EXPIRY_WARNING": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_TOTAL_NET_INVEST": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "39593.56"
+										},
+										"UD_CO_WARN_DISC": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_WARN_DISC_AUTH": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_WARN_YIELD": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_WARN_YIELD_AUTH": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_RUN_RATE1": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "39593.56"
+										},
+										"UC_CO_TOT_MONTHLY_PYMT": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"PRICING.PYMT.OPTION": {
+											"_Type": "PRICING.PYMT.OPTION",
+											"_Desc": "Irregular",
+											"__text": "1"
+										},
+										"PRICING.PYMT.FREQUENCY": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "Monthly",
+											"__text": "0"
+										},
+										"termDuration": {
+											"_Type": "INTEGER",
+											"__text": "37"
+										},
+										"PRICING.SOLVE.OPTION": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"PRICING.TARGET.YIELD": {
+											"_Type": "PERCENT",
+											"__text": "5.19282"
+										},
+										"commencementDate": {
+											"_Type": "DATE",
+											"__text": "2016-03-01"
+										},
+										"PRICING.RENT.START.DATE": {
+											"_Type": "DATE"
+										},
+										"isAdvance": {
+											"_Type": "BOOLEAN",
+											"__text": "1"
+										},
+										"targetYield": {
+											"_Type": "PERCENT",
+											"_UpdatedBy": "Rule"
+										},
+										"UD_CO_ORIG_PYMT_AMT": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"PRICING.FIRST.PYMT.AMOUNT": {
+											"_Type": "MONEY"
+										},
+										"paymentAmount": {
+											"_Type": "MONEY",
+											"__text": "0.00"
+										},
+										"UD_CO_FREEZE_PYMT": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"firstPaymentAmount": {
+											"_Type": "MONEY",
+											"__text": "6000.00"
+										},
+										"PRICING.NUM.END.PYMTS.ADV": {
+											"_Type": "INTEGER"
+										},
+										"ROI.NOMPT": {
+											"_Type": "PERCENT",
+											"__text": "5.1928269509"
+										},
+										"ROI.NOMAT": {
+											"_Type": "PERCENT",
+											"__text": "5.1928269509"
+										},
+										"IRR.NOMPT": {
+											"_Type": "PERCENT",
+											"__text": "5.1928222833"
+										},
+										"APR.RESID.EFF.FT": {
+											"_Type": "PERCENT",
+											"__text": "5.3182139387"
+										},
+										"UD_CO_RUN_RATE": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "1070.10"
+										},
+										"UD_CO_TOTAL_CONSUME_AMT": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_CONSUMABLE_PYMT_AMT": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_TOTAL_UPFRONT_TAX": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_TOT_PER_LEAS_PYMT": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"PRICING.ASSET.BASED": {
+											"_Type": "BOOLEAN",
+											"__text": "0"
+										},
+										"UD_CO_SERVICE_QUOTE_NUM": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_PAYMENT_AMT_CHANGE": {
+											"_Type": "MONEY"
+										},
+										"PRICING.FORCE.FINANCE.MODE": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"UD_CO_PYMT_CHANGE_COMPAR": {
+											"_Type": "MONEY"
+										},
+										"PRICING.USE.AS.RENT.SCH": {
+											"_Type": "BOOLEAN",
+											"__text": "0"
+										},
+										"UD_CO_IRRPYMT_EQ_TERM": {
+											"_Type": "ALPHANUMERIC",
+											"_UpdatedBy": "Rule",
+											"__text": "0"
+										},
+										"UD_CO_TOTAL_CONSUME_LANG1": {
+											"_Type": "WP"
+										},
+										"endingPaymentsInAdvance": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule"
+										},
+										"UD_CO_TOTAL_PERIODIC_PYMT": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_ENDO_WORKS_LANG": {
+											"_Type": "WP",
+											"_UpdatedBy": "Rule"
+										},
+										"UD_CO_INTEGRATION_LANG": {
+											"_Type": "WP",
+											"_UpdatedBy": "Rule"
+										},
+										"UD_CO_TOTAL_CONSUME_LANG4": {
+											"_Type": "WP"
+										},
+										"firstPaymentDueDate": {
+											"_Type": "DATE"
+										},
+										"UD_CO_FREIGHT": {
+											"_Type": "MONEY",
+											"__text": "313.74"
+										},
+										"variablePaymentCode": {
+											"_Type": "BOOLEAN",
+											"_UpdatedBy": "Rule",
+											"__text": "1"
+										},
+										"delaydIncome": {
+											"_Type": "BOOLEAN",
+											"__text": "0"
+										},
+										"billingCycle": {
+											"_Type": "YEARCYCLE"
+										},
+										"UD_CO_SUM_IRR_RENTS": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "7009.74"
+										},
+										"bookingDate": {
+											"_Type": "DATE"
+										},
+										"systemDate": {
+											"_Type": "DATE"
+										},
+										"terminationDate": {
+											"_Type": "DATE"
+										},
+										"incomeStartDate": {
+											"_Type": "DATE"
+										},
+										"UD_CO_PROC_MTH": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule"
+										},
+										"periodInAdvanceLast": {
+											"_Type": "INTEGER"
+										},
+										"rentalFactor": {
+											"_Type": "PERCENT"
+										},
+										"combinedSecIRR": {
+											"_Type": "PERCENT"
+										},
+										"financeIRR": {
+											"_Type": "PERCENT"
+										},
+										"combinedIRR": {
+											"_Type": "PERCENT"
+										},
+										"financeSecIRR": {
+											"_Type": "PERCENT"
+										},
+										"salvageValue": {
+											"_Type": "MONEY"
+										},
+										"grossContract": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "42350.64"
+										},
+										"financedAmount": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "2757.08"
+										},
+										"equipmentCost": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "39593.56"
+										},
+										"residualAmount": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule"
+										},
+										"UD_CO_OERPRO_INCLUDED": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "NO",
+											"__text": "0"
+										},
+										"quoteBuyoutCode": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"earningsMethod": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"netFinance": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_COMP_CONVERSION": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "NO",
+											"__text": "NO"
+										},
+										"UD_CO_NEXT_MONTH_COMM": {
+											"_Type": "DATE"
+										},
+										"UD_CO_VAR_PYMT_TOTAL": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "42350.64"
+										},
+										"residualIncomeMethod": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"UD_CO_FIRST_PYMT_MTH": {
+											"_Type": "INTEGER"
+										},
+										"UD_CO_INTEGRATION_CHARGES": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "NO",
+											"__text": "0"
+										},
+										"useTaxResponsibility": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"UD_CO_ENDOWORKS_CHARGES": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "NO",
+											"__text": "0"
+										},
+										"UD_CO_FIRST_PYMT_MONTH": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"UD_CO_12_MONTH_VOL": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_MONTH_MIN": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_TOTAL_TERM_VOL": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_SRV_QUOTE1": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_SERV_AGREE_NAME": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"UD_CO_GYRUS_SERVICE_TOT": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"UD_CO_SP_SERVICE_TOT": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"UD_CO_SRV_QUOTE2": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_SERV_AGREE_NAME2": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"UD_CO_ENDO_WORKS": {
+											"_Type": "BOOLEAN",
+											"__text": "0"
+										},
+										"UD_CO_SRV_QUOTE3": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CO_SERV_AGREE_NAME3": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"udAmount1": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_EW7_MAINT": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_MP_SERVICE": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_SP_SERVICE": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_GYRUS_SERVICE": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_PERIODIC_SERV_RATE": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"UD_CO_EW7_MAINT_TOT": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"UD_CO_MP_SERVICE_TOT": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"UD_CO_TOTAL_EST_PPT": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_MONTHLY_EST_PPT": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_VA_EST_PPT": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_OPTION_YEAR_ONE": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_OPTION_YEAR_TWO": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_OPTION_YEAR_THREE": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_OPTION_YEAR_FOUR": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_TOT_ASSET_COSTS": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "39593.56"
+										},
+										"UD_CO_RESID_ROLLOVER": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_SALES_DISC_TOTAL": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "4452.17"
+										},
+										"UD_CO_PVR_ROLLOVER": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_AB_DISC_TOTAL": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule"
+										},
+										"UD_CO_PVFCF_ROLLOVER": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_CB_DISC_TOTAL": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule"
+										},
+										"UD_CO_BILLED_OUT": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_TOTAL_TRADE_IN": {
+											"_Type": "MONEY"
+										},
+										"UD_CO_TOTAL_FREIGHT": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"UD_CO_TOTAL_CASH_FLOWS": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"UD_CO_RESID_VALUE": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule"
+										},
+										"UD_CO_GROSS_PYMT_RECV": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "0.00"
+										},
+										"UD_CO_TNI": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "39593.56"
+										},
+										"UD_CO_REVENUE_2B_EARNED": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "-39593.56"
+										},
+										"UD_CO_RETURN_ON_NI3": {
+											"_Type": "PERCENT",
+											"_UpdatedBy": "Rule",
+											"__text": "-100.00"
+										},
+										"UD_CO_REVENUE_EXCLUD_RESD": {
+											"_Type": "MONEY",
+											"_UpdatedBy": "Rule",
+											"__text": "-39593.56"
+										},
+										"UD_CO_RETURN_ON_NI5": {
+											"_Type": "PERCENT",
+											"_UpdatedBy": "Rule",
+											"__text": "-100.00"
+										},
+										"AS": [
+											{
+												"AS_KEY": "",
+												"UD_AS_EQUIP_QUOTE_NUM": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "1"
+												},
+												"UD_AS_EQUIP_CODE": {
+													"_Type": "TABLE",
+													"_TableField": "1"
+												},
+												"assetVendor": {
+													"_Type": "Vendor"
+												},
+												"UD_AS_ORDER_NUMBER": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule",
+													"__text": "TBD"
+												},
+												"condition": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "New",
+													"__text": "N"
+												},
+												"UD_AS_TYPE": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "New Asset",
+													"__text": "5"
+												},
+												"UD_AS_EQUIP_DESCRIP": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "B/O",
+													"__text": "03"
+												},
+												"upfrontTaxFinanced": {
+													"_Type": "BOOLEAN",
+													"__text": "0"
+												},
+												"purchaseOption": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "$1.00 Buyout",
+													"__text": "01"
+												},
+												"UD_AS_DISCOUNT_PERCENT": {
+													"_Type": "PERCENT",
+													"_UpdatedBy": "Rule"
+												},
+												"UD_AS_PROD_GRP": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "MP",
+													"__text": "00"
+												},
+												"UD_AS_MODEL": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "B/O",
+													"__text": "34"
+												},
+												"PRICING.EQUIP.CODE": {
+													"_Type": "PRICING.EQUIP.CODE",
+													"_UpdatedBy": "Rule",
+													"_Desc": "New Asset",
+													"__text": "2"
+												},
+												"PRICING.CHANGE.MODEL": {
+													"_Type": "BOOLEAN",
+													"__text": "0"
+												},
+												"PRICING.DEPR.METHOD": {
+													"_Type": "TABLE",
+													"_TableField": "1"
+												},
+												"PRICING.DEPR.CONVENTION": {
+													"_Type": "TABLE",
+													"_TableField": "1"
+												},
+												"PRICING.PAYMENT.AMOUNT": {
+													"_Type": "MONEY"
+												},
+												"listPrice": {
+													"_Type": "MONEY",
+													"__text": "40462.80"
+												},
+												"UD_AS_QUOTE_NUM": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "290329-5"
+												},
+												"UD_AS_SALES_DISCOUNT": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "4452.17"
+												},
+												"assetDiscount": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "4452.17"
+												},
+												"UD_AS_YOUR_PRICE": {
+													"_Type": "MONEY",
+													"__text": "36010.63"
+												},
+												"guaranteedResidualAmount": {
+													"_Type": "MONEY",
+													"__text": "0.00"
+												},
+												"UD_AS_ADD_BLIND_DISCOUNT": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_ADDL_BLIND_DISC_PER": {
+													"_Type": "PERCENT",
+													"__text": "0.00000"
+												},
+												"UD_AS_BLIND_DISC_SUBTOTAL": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "36010.63"
+												},
+												"insuredResidual": {
+													"_Type": "MONEY",
+													"__text": "0.00"
+												},
+												"UD_AS_BLIND_DISCOUNT": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_CORP_BLIND_DIS_PER": {
+													"_Type": "PERCENT",
+													"__text": "0.00000"
+												},
+												"originalCost": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "36010.63"
+												},
+												"dealerCommission": {
+													"_Type": "MONEY"
+												},
+												"totalCost": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "36010.63"
+												},
+												"residualAmount": {
+													"_Type": "MONEY",
+													"__text": "0.00"
+												},
+												"UD_AS_OTHER_COSTS_TOTAL": {
+													"_Type": "MONEY"
+												},
+												"rentalAmount": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule"
+												},
+												"variablePaymentCode": {
+													"_Type": "BOOLEAN",
+													"_UpdatedBy": "Rule",
+													"__text": "0"
+												},
+												"PRICING.TARGET.YIELD.AS": {
+													"_Type": "PERCENT",
+													"_UpdatedBy": "Rule"
+												},
+												"vlDownPayment": {
+													"_Type": "MONEY"
+												},
+												"UD_AS_DEF_MAIN_ADDR": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1"
+												},
+												"assetAddress1": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "4401 N ATLANTIC AVE"
+												},
+												"assetAddress2": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "STE 101"
+												},
+												"assetPostalCode": {
+													"_Type": "POSTALCODE",
+													"_UpdatedBy": "Rule",
+													"__text": "90807"
+												},
+												"assetCity": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule",
+													"__text": "LONG BEACH"
+												},
+												"assetState": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "California",
+													"__text": "CA"
+												},
+												"assetCountry": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "United States",
+													"__text": "US"
+												},
+												"stateCode": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "CALIFORNIA",
+													"__text": "05"
+												},
+												"countyCode": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "LOS ANGELES",
+													"__text": "037"
+												},
+												"cityCode": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "LONG BEACH",
+													"__text": "1860"
+												},
+												"assetCounty": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule",
+													"__text": "LOS ANGELES"
+												},
+												"UD_AS_LOC_CHECK": {
+													"_Type": "BOOLEAN",
+													"__text": "0"
+												},
+												"UD_AS_PROC_TOTAL": {
+													"_Type": "INTEGER"
+												},
+												"UD_AS_PROC_COST": {
+													"_Type": "DECIMAL",
+													"_UpdatedBy": "Rule"
+												},
+												"UD_AS_TOTAL_CPP_COST": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_PROC_MTH": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_PROC_ADD": {
+													"_Type": "DECIMAL"
+												},
+												"_GroupType": "AS"
+											},
+											{
+												"AS_KEY": "",
+												"UD_AS_EQUIP_QUOTE_NUM": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule"
+												},
+												"UD_AS_EQUIP_CODE": {
+													"_Type": "TABLE",
+													"_TableField": "1"
+												},
+												"assetVendor": {
+													"_Type": "Vendor"
+												},
+												"UD_AS_ORDER_NUMBER": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule",
+													"__text": "TBD"
+												},
+												"condition": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "New",
+													"__text": "N"
+												},
+												"UD_AS_TYPE": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "Freight",
+													"__text": "8"
+												},
+												"UD_AS_EQUIP_DESCRIP": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "OTHER FINANCED",
+													"__text": "14"
+												},
+												"upfrontTaxFinanced": {
+													"_Type": "BOOLEAN",
+													"__text": "0"
+												},
+												"purchaseOption": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "$1.00 Buyout",
+													"__text": "01"
+												},
+												"UD_AS_DISCOUNT_PERCENT": {
+													"_Type": "PERCENT",
+													"_UpdatedBy": "Rule"
+												},
+												"UD_AS_PROD_GRP": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "MP",
+													"__text": "00"
+												},
+												"UD_AS_MODEL": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "FREIGHT",
+													"__text": "15"
+												},
+												"PRICING.EQUIP.CODE": {
+													"_Type": "PRICING.EQUIP.CODE",
+													"_UpdatedBy": "Rule",
+													"_Desc": "New Asset",
+													"__text": "2"
+												},
+												"PRICING.CHANGE.MODEL": {
+													"_Type": "BOOLEAN",
+													"__text": "0"
+												},
+												"PRICING.DEPR.METHOD": {
+													"_Type": "TABLE",
+													"_TableField": "1"
+												},
+												"PRICING.DEPR.CONVENTION": {
+													"_Type": "TABLE",
+													"_TableField": "1"
+												},
+												"PRICING.PAYMENT.AMOUNT": {
+													"_Type": "MONEY"
+												},
+												"listPrice": {
+													"_Type": "MONEY",
+													"__text": "313.74"
+												},
+												"UD_AS_QUOTE_NUM": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "290329-5"
+												},
+												"UD_AS_SALES_DISCOUNT": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"assetDiscount": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_YOUR_PRICE": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "313.74"
+												},
+												"guaranteedResidualAmount": {
+													"_Type": "MONEY",
+													"__text": "0.00"
+												},
+												"UD_AS_ADD_BLIND_DISCOUNT": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_ADDL_BLIND_DISC_PER": {
+													"_Type": "PERCENT",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00000"
+												},
+												"UD_AS_BLIND_DISC_SUBTOTAL": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "313.74"
+												},
+												"insuredResidual": {
+													"_Type": "MONEY",
+													"__text": "0.00"
+												},
+												"UD_AS_BLIND_DISCOUNT": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_CORP_BLIND_DIS_PER": {
+													"_Type": "PERCENT",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00000"
+												},
+												"originalCost": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "313.74"
+												},
+												"dealerCommission": {
+													"_Type": "MONEY"
+												},
+												"totalCost": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "313.74"
+												},
+												"residualAmount": {
+													"_Type": "MONEY",
+													"__text": "0.00"
+												},
+												"UD_AS_OTHER_COSTS_TOTAL": {
+													"_Type": "MONEY"
+												},
+												"rentalAmount": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule"
+												},
+												"variablePaymentCode": {
+													"_Type": "BOOLEAN",
+													"_UpdatedBy": "Rule",
+													"__text": "0"
+												},
+												"PRICING.TARGET.YIELD.AS": {
+													"_Type": "PERCENT",
+													"_UpdatedBy": "Rule"
+												},
+												"vlDownPayment": {
+													"_Type": "MONEY"
+												},
+												"UD_AS_DEF_MAIN_ADDR": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1"
+												},
+												"assetAddress1": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "4401 n ATLANTIC AVE"
+												},
+												"assetAddress2": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "STE 101"
+												},
+												"assetPostalCode": {
+													"_Type": "POSTALCODE",
+													"_UpdatedBy": "Rule",
+													"__text": "90807"
+												},
+												"assetCity": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule",
+													"__text": "LONG BEACH"
+												},
+												"assetState": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "California",
+													"__text": "CA"
+												},
+												"assetCountry": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "United States",
+													"__text": "US"
+												},
+												"stateCode": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "CALIFORNIA",
+													"__text": "05"
+												},
+												"countyCode": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "LOS ANGELES",
+													"__text": "037"
+												},
+												"cityCode": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "LONG BEACH",
+													"__text": "1860"
+												},
+												"assetCounty": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule",
+													"__text": "LOS ANGELES"
+												},
+												"UD_AS_LOC_CHECK": {
+													"_Type": "BOOLEAN",
+													"__text": "0"
+												},
+												"UD_AS_PROC_TOTAL": {
+													"_Type": "INTEGER"
+												},
+												"UD_AS_PROC_COST": {
+													"_Type": "DECIMAL",
+													"_UpdatedBy": "Rule"
+												},
+												"UD_AS_TOTAL_CPP_COST": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_PROC_MTH": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_PROC_ADD": {
+													"_Type": "DECIMAL"
+												},
+												"_GroupType": "AS",
+												"_createByRule": "10489"
+											},
+											{
+												"AS_KEY": "",
+												"UD_AS_EQUIP_QUOTE_NUM": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "1"
+												},
+												"UD_AS_EQUIP_CODE": {
+													"_Type": "TABLE",
+													"_TableField": "1"
+												},
+												"assetVendor": {
+													"_Type": "Vendor"
+												},
+												"UD_AS_ORDER_NUMBER": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule",
+													"__text": "TBD"
+												},
+												"condition": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "New",
+													"__text": "N"
+												},
+												"UD_AS_TYPE": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "New Asset",
+													"__text": "5"
+												},
+												"UD_AS_EQUIP_DESCRIP": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "UPFRONT TAX",
+													"__text": "18"
+												},
+												"upfrontTaxFinanced": {
+													"_Type": "BOOLEAN",
+													"__text": "0"
+												},
+												"purchaseOption": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "$1.00 Buyout",
+													"__text": "01"
+												},
+												"UD_AS_DISCOUNT_PERCENT": {
+													"_Type": "PERCENT",
+													"_UpdatedBy": "Rule"
+												},
+												"UD_AS_PROD_GRP": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "MP",
+													"__text": "00"
+												},
+												"UD_AS_MODEL": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "UPFRONT TAX",
+													"__text": "37"
+												},
+												"PRICING.EQUIP.CODE": {
+													"_Type": "PRICING.EQUIP.CODE",
+													"_UpdatedBy": "Rule",
+													"_Desc": "New Asset",
+													"__text": "2"
+												},
+												"PRICING.CHANGE.MODEL": {
+													"_Type": "BOOLEAN",
+													"__text": "0"
+												},
+												"PRICING.DEPR.METHOD": {
+													"_Type": "TABLE",
+													"_TableField": "1"
+												},
+												"PRICING.DEPR.CONVENTION": {
+													"_Type": "TABLE",
+													"_TableField": "1"
+												},
+												"PRICING.PAYMENT.AMOUNT": {
+													"_Type": "MONEY"
+												},
+												"listPrice": {
+													"_Type": "MONEY",
+													"__text": "3269.19"
+												},
+												"UD_AS_QUOTE_NUM": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "TAX"
+												},
+												"UD_AS_SALES_DISCOUNT": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"assetDiscount": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_YOUR_PRICE": {
+													"_Type": "MONEY",
+													"__text": "3269.19"
+												},
+												"guaranteedResidualAmount": {
+													"_Type": "MONEY",
+													"__text": "0.00"
+												},
+												"UD_AS_ADD_BLIND_DISCOUNT": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_ADDL_BLIND_DISC_PER": {
+													"_Type": "PERCENT",
+													"__text": "0.00000"
+												},
+												"UD_AS_BLIND_DISC_SUBTOTAL": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "3269.19"
+												},
+												"insuredResidual": {
+													"_Type": "MONEY",
+													"__text": "0.00"
+												},
+												"UD_AS_BLIND_DISCOUNT": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_CORP_BLIND_DIS_PER": {
+													"_Type": "PERCENT",
+													"__text": "0.00000"
+												},
+												"originalCost": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "3269.19"
+												},
+												"dealerCommission": {
+													"_Type": "MONEY"
+												},
+												"totalCost": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "3269.19"
+												},
+												"residualAmount": {
+													"_Type": "MONEY",
+													"__text": "0.00"
+												},
+												"UD_AS_OTHER_COSTS_TOTAL": {
+													"_Type": "MONEY"
+												},
+												"rentalAmount": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule"
+												},
+												"variablePaymentCode": {
+													"_Type": "BOOLEAN",
+													"_UpdatedBy": "Rule",
+													"__text": "0"
+												},
+												"PRICING.TARGET.YIELD.AS": {
+													"_Type": "PERCENT",
+													"_UpdatedBy": "Rule"
+												},
+												"vlDownPayment": {
+													"_Type": "MONEY"
+												},
+												"UD_AS_DEF_MAIN_ADDR": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1"
+												},
+												"assetAddress1": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "4401 N ATLANTIC AVE"
+												},
+												"assetAddress2": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "STE 101"
+												},
+												"assetPostalCode": {
+													"_Type": "POSTALCODE",
+													"_UpdatedBy": "Rule",
+													"__text": "90807"
+												},
+												"assetCity": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule",
+													"__text": "LONG BEACH"
+												},
+												"assetState": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "California",
+													"__text": "CA"
+												},
+												"assetCountry": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "United States",
+													"__text": "US"
+												},
+												"stateCode": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "CALIFORNIA",
+													"__text": "05"
+												},
+												"countyCode": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "LOS ANGELES",
+													"__text": "037"
+												},
+												"cityCode": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "LONG BEACH",
+													"__text": "1860"
+												},
+												"assetCounty": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule",
+													"__text": "LOS ANGELES"
+												},
+												"UD_AS_LOC_CHECK": {
+													"_Type": "BOOLEAN",
+													"__text": "0"
+												},
+												"UD_AS_PROC_TOTAL": {
+													"_Type": "INTEGER"
+												},
+												"UD_AS_PROC_COST": {
+													"_Type": "DECIMAL",
+													"_UpdatedBy": "Rule"
+												},
+												"UD_AS_TOTAL_CPP_COST": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_PROC_MTH": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "0.00"
+												},
+												"UD_AS_PROC_ADD": {
+													"_Type": "DECIMAL"
+												},
+												"_GroupType": "AS"
+											}
+										],
+										"IRREGULARRENTS": [
+											{
+												"IRREGULARRENTS_KEY": "",
+												"IR.NUMBER.OF.PAYMENTS": {
+													"_Type": "INTEGER",
+													"__text": "1"
+												},
+												"IR.FACTOR": {
+													"_Type": "MONEY",
+													"__text": "6000.00"
+												},
+												"IR.RESULT.AMT": {
+													"_Type": "MONEY",
+													"__text": "6000.00"
+												},
+												"IR.SERVICE.AMT": {
+													"_Type": "MONEY"
+												},
+												"_GroupType": "IRREGULARRENTS"
+											},
+											{
+												"IRREGULARRENTS_KEY": "",
+												"IR.NUMBER.OF.PAYMENTS": {
+													"_Type": "INTEGER",
+													"__text": "36"
+												},
+												"IR.FACTOR": {
+													"_Type": "MONEY",
+													"__text": "1.00"
+												},
+												"IR.RESULT.AMT": {
+													"_Type": "MONEY",
+													"__text": "1009.74"
+												},
+												"IR.SERVICE.AMT": {
+													"_Type": "MONEY"
+												},
+												"_GroupType": "IRREGULARRENTS"
+											}
+										],
+										"SS": [
+											{
+												"SS_KEY": "",
+												"variableDate": {
+													"_Type": "INTEGER",
+													"__text": "1"
+												},
+												"paymentAmount": {
+													"_Type": "MONEY",
+													"__text": "6000.00"
+												},
+												"UD_VARIABLE_TOTAL": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "6000.00"
+												},
+												"_GroupType": "SS"
+											},
+											{
+												"SS_KEY": "",
+												"variableDate": {
+													"_Type": "INTEGER",
+													"__text": "36"
+												},
+												"paymentAmount": {
+													"_Type": "MONEY",
+													"__text": "1009.74"
+												},
+												"UD_VARIABLE_TOTAL": {
+													"_Type": "MONEY",
+													"_UpdatedBy": "Rule",
+													"__text": "36350.64"
+												},
+												"_GroupType": "SS"
+											}
+										],
+										"MR": [
+											{
+												"MR_KEY": "",
+												"mrktngReps": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "LENING, VICTORIA",
+													"__text": "0296"
+												},
+												"mrktngRepPercent": {
+													"_Type": "INTEGER",
+													"__text": "34"
+												},
+												"office": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "FIELD",
+													"__text": "9999"
+												},
+												"mrktngRepRegion": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "FIS WEST-JANET WALSH",
+													"__text": "002"
+												},
+												"UD_MR_AVP_LIST": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "BISHOP, BROOKS",
+													"__text": "9002"
+												},
+												"UD_MR_COUNTER": {
+													"_Type": "INTEGER",
+													"_UpdatedBy": "Rule",
+													"__text": "1"
+												},
+												"_GroupType": "MR"
+											},
+											{
+												"MR_KEY": "",
+												"mrktngReps": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "LENING, VICTORIA",
+													"__text": "0296"
+												},
+												"mrktngRepPercent": {
+													"_Type": "INTEGER",
+													"__text": "33"
+												},
+												"office": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "FIELD",
+													"__text": "9999"
+												},
+												"mrktngRepRegion": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "FIS WEST-JANET WALSH",
+													"__text": "002"
+												},
+												"UD_MR_AVP_LIST": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "BISHOP, BROOKS",
+													"__text": "9002"
+												},
+												"UD_MR_COUNTER": {
+													"_Type": "INTEGER",
+													"_UpdatedBy": "Rule",
+													"__text": "1"
+												},
+												"_GroupType": "MR"
+											},
+											{
+												"MR_KEY": "",
+												"mrktngReps": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "LENING, VICTORIA",
+													"__text": "0296"
+												},
+												"mrktngRepPercent": {
+													"_Type": "INTEGER",
+													"__text": "33"
+												},
+												"office": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1",
+													"_Desc": "FIELD",
+													"__text": "9999"
+												},
+												"mrktngRepRegion": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "FIS WEST-JANET WALSH",
+													"__text": "002"
+												},
+												"UD_MR_AVP_LIST": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "BISHOP, BROOKS",
+													"__text": "9002"
+												},
+												"UD_MR_COUNTER": {
+													"_Type": "INTEGER",
+													"_UpdatedBy": "Rule",
+													"__text": "1"
+												},
+												"_GroupType": "MR"
+											}
+										],
+										"_GroupType": "CO"
+									},
+									"CUST_DATA": {
+										"CUST_DATA_KEY": "9974",
+										"CUST_ID": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CUST_NAME": {
+											"_Type": "ALPHANUMERIC",
+											"__text": "CARE FIRST SURGICAL CENTER, LLC"
+										},
+										"FED_ID": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CREDIT_LIMIT": {
+											"_Type": "MONEY",
+											"__text": "50000.00"
+										},
+										"ADDR_1": {
+											"_Type": "ALPHANUMERIC",
+											"__text": "9903 SANTA MONICA BLVD"
+										},
+										"ADDR_2": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"ADDR_3": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CITY": {
+											"_Type": "ALPHANUMERIC",
+											"__text": "BEVERLY HILLS"
+										},
+										"STATE": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "California",
+											"__text": "CA"
+										},
+										"ZIP": {
+											"_Type": "POSTALCODE",
+											"__text": "90212"
+										},
+										"SHORT_NAME": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"YEAR_END_MONTH": {
+											"_Type": "INTEGER"
+										},
+										"PCT_OWNERSHIP": {
+											"_Type": "PERCENT"
+										},
+										"TITLE": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"COMMENTS": {
+											"_Type": "WP"
+										},
+										"COLLECTOR": {
+											"_Type": "TABLE"
+										},
+										"COUNTY": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"COUNTRY": {
+											"_Type": "TABLE"
+										},
+										"DATE_OF_BIRTH": {
+											"_Type": "DATE",
+											"__text": "2010-06-01"
+										},
+										"DBA": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"INSURANCE_AGENT": {
+											"_Type": "TABLE"
+										},
+										"PREF_CUST": {
+											"_Type": "TABLE"
+										},
+										"PREF_CUST_LIMIT": {
+											"_Type": "MONEY"
+										},
+										"PREF_CUST_CARD": {
+											"_Type": "TABLE"
+										},
+										"EFFECTIVE_DATE": {
+											"_Type": "DATE",
+											"__text": "2014-09-22"
+										},
+										"CREDIT_ANALYST": {
+											"_Type": "TABLE"
+										},
+										"THIRD_PARTY_GUARANTOR": {
+											"_Type": "BOOLEAN"
+										},
+										"DB_RATING_CODE": {
+											"_Type": "TABLE"
+										},
+										"DB_RATING": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"BUSINESS": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "Medical Practice",
+											"__text": "05"
+										},
+										"BUSINESS_TYPE": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "limited liability company",
+											"__text": "28"
+										},
+										"BEGIN_BUSINESS_YEAR": {
+											"_Type": "ALPHANUMERIC",
+											"__text": "2010"
+										},
+										"PREMISES": {
+											"_Type": "TABLE"
+										},
+										"YEARS_IN_BUSINESS": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"PARENT_COMPANY_NAME": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"PARENT_COMPANY_ADDR_1": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"PARENT_COMPANY_ADDR_2": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"PARENT_COMPANY_ADDR_3": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"PARENT_COMPANY_CITY": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"PARENT_COMPANY_STATE": {
+											"_Type": "TABLE"
+										},
+										"PARENT_COMPANY_ZIP": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"PARENT_COMPANY_COUNTY": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"PARENT_COMPANY_COUNTRY": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"PARENT_COMPANY_DBA": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"PARENT_COMPANY_PHONE": {
+											"_Type": "PHONE"
+										},
+										"LANDLORD_NAME": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"LANDLORD_ADDR_1": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"LANDLORD_ADDR_2": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"LANDLORD_ADDR_3": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"LANDLORD_CITY": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"LANDLORD_STATE": {
+											"_Type": "TABLE"
+										},
+										"LANDLORD_ZIP": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"LANDLORD_COUNTY": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"LANDLORD_COUNTRY": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"LANDLORD_PHONE": {
+											"_Type": "PHONE"
+										},
+										"BUSINESS_DESCRIPTION": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CUST_CREDIT_CODE": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "CBR",
+											"__text": "C"
+										},
+										"CUST_CREDIT_SCORE": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CUST_INCORP_STATE": {
+											"_Type": "TABLE",
+											"_TableField": "1",
+											"_Desc": "Delaware",
+											"__text": "DE"
+										},
+										"CUST_PERS_REVIEW_YN": {
+											"_Type": "BOOLEAN"
+										},
+										"CUST_FMR_ADDR": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CUST_FMR_CITY": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CUST_FMR_STATE": {
+											"_Type": "TABLE"
+										},
+										"CUST_FMR_ZIP": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CUST_FMR_COUNTY": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CUST_DEBTOR_ORG_ID": {
+											"_Type": "ALPHANUMERIC",
+											"__text": "4831012"
+										},
+										"CUST_PARENT_CODE": {
+											"_Type": "TABLE"
+										},
+										"UD_CU_TAX_STATUS": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"CUST_ROLE_YN": {
+											"_Type": "BOOLEAN",
+											"__text": "1"
+										},
+										"UD_CU_PROFIT_TYPE": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"UD_CU_EXEMPT_CERT_NUM": {
+											"_Type": "ALPHANUMERIC",
+											"_UpdatedBy": "Rule"
+										},
+										"CUST_USER_ALPHA3": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CUST_USER_ALPHA4": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_CU_FOLLOW_UP_DATE": {
+											"_Type": "DATE",
+											"_UpdatedBy": "Rule"
+										},
+										"CUST_STATE_CODE": {
+											"_Type": "ALPHANUMERIC",
+											"_UpdatedBy": "Rule",
+											"__text": "05"
+										},
+										"LOCAL_SIC_CODE": {
+											"_Type": "TABLE",
+											"_TableField": "1"
+										},
+										"FACILITY_SCORE": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CUST_USER_ALPHA1": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"CUST_USER_ALPHA2": {
+											"_Type": "ALPHANUMERIC"
+										},
+										"UD_EXPIRATION_DATE": {
+											"_Type": "DATE",
+											"_UpdatedBy": "Rule",
+											"__text": "2015-09-22"
+										},
+										"UD_CU_FORCE_EXPOSURE_RECALC": {
+											"_Type": "TABLE",
+											"_UpdatedBy": "Rule",
+											"_TableField": "1",
+											"_Desc": "Recalculate Exposure",
+											"__text": "00"
+										},
+										"INSURANCE_POLICIES": "",
+										"CUSTOMER_ROLE": {
+											"CUSTOMER_ROLE_KEY": "9974-CUSTOMER_ROLE-1",
+											"BILL_TO": {
+												"BT_INV_NAME": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "CARE FIRST SURGICAL CENTER, LLC"
+												},
+												"BT_PRIMARY_YN": {
+													"_Type": "BOOLEAN",
+													"__text": "1"
+												},
+												"BT_ADDR_1": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "9903 SANTA MONICA BLVD"
+												},
+												"BT_CITY": {
+													"_Type": "ALPHANUMERIC",
+													"__text": "BEVERLY HILLS"
+												},
+												"BT_STATE": {
+													"_Type": "TABLE",
+													"_TableField": "1",
+													"_Desc": "California",
+													"__text": "CA"
+												},
+												"BT_ZIP": {
+													"_Type": "POSTALCODE",
+													"__text": "90212"
+												},
+												"BILL_TO_KEY": "9974-BILL_TO-1",
+												"BT_ATTENTION": {
+													"_Type": "ALPHANUMERIC"
+												},
+												"BT_ADDR_2": {
+													"_Type": "ALPHANUMERIC",
+													"_UpdatedBy": "Rule"
+												},
+												"BT_ADDR_3": {
+													"_Type": "ALPHANUMERIC"
+												},
+												"BT_COUNTRY": {
+													"_Type": "TABLE",
+													"_UpdatedBy": "Rule",
+													"_TableField": "1"
+												},
+												"BT_STATE_CODE": {
+													"_Type": "ALPHANUMERIC"
+												}
+											}
+										},
+										"SIC_CODE": {
+											"SIC_CODE_KEY": "9974-SIC_CODE-1",
+											"SCD_CODE": {
+												"_Type": "TABLE",
+												"_TableField": "1",
+												"_Desc": "NEW CUSTOMER",
+												"__text": "9999"
+											},
+											"BOI_KEYS": {
+												"BOI_KEY": {
+													"_BOI": "IL",
+													"_KEY": "9999"
+												}
+											}
+										},
+										"CEC": {
+											"CEC_KEY": "9974-CEC-1",
+											"foDirectExposure": {
+												"_Type": "MONEY"
+											},
+											"boDirectExposure": {
+												"_Type": "MONEY"
+											},
+											"totalDirect": {
+												"_Type": "MONEY"
+											},
+											"foIndirectExposure": {
+												"_Type": "MONEY"
+											},
+											"boIndirectExposure": {
+												"_Type": "MONEY"
+											},
+											"totalIndirect": {
+												"_Type": "MONEY"
+											},
+											"foDirectRelatedPartyExp": {
+												"_Type": "MONEY"
+											},
+											"boDirectRelatedPartyExp": {
+												"_Type": "MONEY"
+											},
+											"totalDirectRelatedParty": {
+												"_Type": "MONEY"
+											},
+											"foIndirectRelatedPartyExp": {
+												"_Type": "MONEY"
+											},
+											"boIndirectRelatedPartyExp": {
+												"_Type": "MONEY"
+											},
+											"totalIndirectRelatedParty": {
+												"_Type": "MONEY"
+											},
+											"totalExposure": {
+												"_Type": "MONEY"
+											},
+											"exposureDateTime": {
+												"_Type": "ALPHANUMERIC"
+											},
+											"exposureCurrency": {
+												"_Type": "TABLE",
+												"_TableField": "1"
+											},
+											"availableCredit": {
+												"_Type": "MONEY"
+											},
+											"creditLimit": {
+												"_Type": "MONEY"
+											},
+											"outstandingBalance": {
+												"_Type": "MONEY"
+											},
+											"_GroupType": "CEC"
+										}
+									},
+									"document_params_list": {
+										"document_params": {
+											"frequency_text": "Monthly",
+											"term_in_months": "37",
+											"term_in_years": "3",
+											"lease_type_text": "Conditional Sale",
+											"number_ending_payments_in_advance": "0",
+											"number_of_payments": "37",
+											"rent_factor": "0",
+											"rent_payment_method_text": "Advance",
+											"rent_type_text": "Irregular",
+											"total_equipment_cost": "39593.56",
+											"yield_type": "Nom PT",
+											"yield": "5.1928",
+											"stream_apr": "5.1928",
+											"street_rate": "4.874",
+											"cost_of_funds_roa": "1",
+											"cost_of_funds_drr": "1",
+											"apr_residual": "5.1928",
+											"pre_payment_penalty": "0.00",
+											"stamp_duty": "",
+											"fid": "",
+											"combined_rent": "",
+											"lessee_name": "",
+											"total_idc_amount": "0.00",
+											"weighted_average_life": "1.341",
+											"gst_on_residual": "",
+											"residual_inclusive_gst": "",
+											"gst_financed": "",
+											"gst_upfront": "",
+											"gst": "",
+											"gst_on_equipment": "",
+											"gst_financed_flag": "",
+											"sd_financed_flag": "",
+											"tot_financed": "",
+											"gst_include_sd_flag": "",
+											"sd_upfront_flag": "",
+											"sd_upfront": "",
+											"rent_schedule": {
+												"row": [
+													{
+														"num": "1",
+														"amount": "6000.00"
+													},
+													{
+														"num": "36",
+														"amount": "1009.74"
+													}
+												]
+											}
+										}
+									}
+								}
+							},
+							"numberDecimals": "2"
+						}
+					}
+				},
+				"EntityReferenceNumber": "111598"
+			},
+			"_KEY": "9120"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+ <xsl:choose>
+        <xsl:when test="price &gt; 10">
+          <td bgcolor="#ff00ff">
+          <xsl:value-of select="artist"/></td>
+        </xsl:when>
+        <xsl:otherwise>
+          <td><xsl:value-of select="artist"/></td>
+        </xsl:otherwise>
+ </xsl:choose>
+ 
+ 
+<fo:block font-size="8pt" font-family="sans-serif">
+	<fo:block>

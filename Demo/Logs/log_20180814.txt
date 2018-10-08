@@ -1,0 +1,255 @@
+2018/08/14 10:45:39 - UpLoad to Box - Opening transformation: [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 10:45:39 - UpLoad to Box - Loading transformation from XML file [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 10:45:39 - UpLoad to Box - Starting transformation...(file=D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr, name=UpLoad to Box, repinfo=null)
+2018/08/14 10:45:39 - UpLoad to Box - Using run configuration [Pentaho local]
+2018/08/14 10:45:39 - UpLoad to Box - Using legacy execution engine
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - Transformation is pre-loaded.
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - nr of steps to run : 1  , nr of hops : 0
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - Dispatching started for transformation [SSH_upload_to_box_2]
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - Nr of arguments detected:0 
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - This is not a replay transformation
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - I found 1 different steps to launch.
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - Allocating rowsets...
+2018/08/14 10:45:39 - SSH_upload_to_box_2 -  Allocating rowsets for step 0 --> Upload to box.com via  SSH commands
+2018/08/14 10:45:39 - SSH_upload_to_box_2 -  Allocated 0 rowsets for step 0 --> Upload to box.com via  SSH commands  
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - Allocating Steps & StepData...
+2018/08/14 10:45:39 - SSH_upload_to_box_2 -  Transformation is about to allocate step [Upload to box.com via  SSH commands] of type [SSH]
+2018/08/14 10:45:39 - SSH_upload_to_box_2 -   Step has nrcopies=1
+2018/08/14 10:45:39 - Upload to box.com via  SSH commands.0 - distribution activated
+2018/08/14 10:45:39 - Upload to box.com via  SSH commands.0 - Starting allocation of buffers & new threads...
+2018/08/14 10:45:39 - Upload to box.com via  SSH commands.0 - Step info: nrinput=0 nroutput=0
+2018/08/14 10:45:39 - Upload to box.com via  SSH commands.0 - Finished dispatching
+2018/08/14 10:45:39 - SSH_upload_to_box_2 -  Transformation has allocated a new step: [Upload to box.com via  SSH commands].0
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - This transformation can be replayed with replay date: 2018/08/14 10:45:39
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - Initialising 1 steps...
+2018/08/14 10:45:39 - Upload to box.com via  SSH commands.0 - Released server socket on port 0
+2018/08/14 10:45:39 - Upload to box.com via  SSH commands.0 - New Connection opened.
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - Step [Upload to box.com via  SSH commands.0] initialized flawlessly.
+2018/08/14 10:45:39 - SSH_upload_to_box_2 - Transformation has allocated 1 threads and 0 rowsets.
+2018/08/14 10:45:39 - Upload to box.com via  SSH commands.0 - Starting to run...
+2018/08/14 10:45:39 - Upload to box.com via  SSH commands.0 - New session opened.
+2018/08/14 10:45:39 - Upload to box.com via  SSH commands.0 - Running command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer hEKVHaoAWTpXTVv72ZSvaivWlsxcJvLP" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json] ...
+2018/08/14 10:45:40 - Upload to box.com via  SSH commands.0 - Runned command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer hEKVHaoAWTpXTVv72ZSvaivWlsxcJvLP" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json]. StdOut = {"total_count":1,"entries":[{"type":"file","id":"311367239650","file_version":{"type":"file_version","id":"328132963090","sha1":"9f36bbe68c8e862cd0815ba337f8043001a0e539"},"sequence_id":"0","etag":"0","sha1":"9f36bbe68c8e862cd0815ba337f8043001a0e539","name":"config.json","description":"","size":2164,"path_collection":{"total_count":2,"entries":[{"type":"folder","id":"0","sequence_id":null,"etag":null,"name":"All Files"},{"type":"folder","id":"52252390983","sequence_id":"0","etag":"0","name":"Rapport_1"}]},"created_at":"2018-08-14T07:45:39-07:00","modified_at":"2018-08-14T07:45:39-07:00","trashed_at":null,"purged_at":null,"content_created_at":"2018-08-14T07:45:39-07:00","content_modified_at":"2018-08-14T07:45:39-07:00","created_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"modified_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"owned_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"shared_link":null,"parent":{"type":"folder","id":"52252390983","sequence_id":"0","etag":"0","name":"Rapport_1"},"item_status":"active"}]}. StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0  2519    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  2519    0     0  100  2519      0   2087  0:00:01  0:00:01 --:--:--  2474
+100  3702  107  1183  100  2519    891   1897  0:00:01  0:00:01 --:--:--  2211.
+2018/08/14 10:45:40 - Upload to box.com via  SSH commands.0 - Session closed.
+2018/08/14 10:45:40 - Upload to box.com via  SSH commands.0 - Signaling 'output done' to 0 output rowsets.
+2018/08/14 10:45:40 - Upload to box.com via  SSH commands.0 - Connection closed.
+2018/08/14 10:45:40 - Upload to box.com via  SSH commands.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/08/14 10:45:40 - SSH_upload_to_box_2 - searching for annotations
+2018/08/14 10:45:40 - SSH_upload_to_box_2 - no annotations found
+2018/08/14 12:39:55 - UpLoad to Box - Opening transformation: [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 12:39:55 - UpLoad to Box - Loading transformation from XML file [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 12:39:55 - UpLoad to Box - Starting transformation...(file=D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr, name=UpLoad to Box, repinfo=null)
+2018/08/14 12:39:55 - UpLoad to Box - Using run configuration [Pentaho local]
+2018/08/14 12:39:55 - UpLoad to Box - Using legacy execution engine
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - Transformation is pre-loaded.
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - nr of steps to run : 1  , nr of hops : 0
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - Dispatching started for transformation [SSH_upload_to_box_2]
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - Nr of arguments detected:0 
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - This is not a replay transformation
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - I found 1 different steps to launch.
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - Allocating rowsets...
+2018/08/14 12:39:55 - SSH_upload_to_box_2 -  Allocating rowsets for step 0 --> Upload to box.com via  SSH commands
+2018/08/14 12:39:55 - SSH_upload_to_box_2 -  Allocated 0 rowsets for step 0 --> Upload to box.com via  SSH commands  
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - Allocating Steps & StepData...
+2018/08/14 12:39:55 - SSH_upload_to_box_2 -  Transformation is about to allocate step [Upload to box.com via  SSH commands] of type [SSH]
+2018/08/14 12:39:55 - SSH_upload_to_box_2 -   Step has nrcopies=1
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - distribution activated
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Starting allocation of buffers & new threads...
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Step info: nrinput=0 nroutput=0
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Finished dispatching
+2018/08/14 12:39:55 - SSH_upload_to_box_2 -  Transformation has allocated a new step: [Upload to box.com via  SSH commands].0
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - This transformation can be replayed with replay date: 2018/08/14 12:39:55
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - Initialising 1 steps...
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Released server socket on port 0
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - New Connection opened.
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - Step [Upload to box.com via  SSH commands.0] initialized flawlessly.
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - Transformation has allocated 1 threads and 0 rowsets.
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Starting to run...
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - New session opened.
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Running command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer hEKVHaoAWTpXTVv72ZSvaivWlsxcJvLP" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json] ...
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Runned command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer hEKVHaoAWTpXTVv72ZSvaivWlsxcJvLP" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json]. StdOut = . StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0  2519    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  2519    0     0  100  2519      0   5523 --:--:-- --:--:-- --:--:-- 11826.
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Session closed.
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Signaling 'output done' to 0 output rowsets.
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Connection closed.
+2018/08/14 12:39:55 - Upload to box.com via  SSH commands.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - searching for annotations
+2018/08/14 12:39:55 - SSH_upload_to_box_2 - no annotations found
+2018/08/14 12:41:34 - UpLoad to Box - Opening transformation: [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 12:41:34 - UpLoad to Box - Loading transformation from XML file [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 12:41:34 - UpLoad to Box - Starting transformation...(file=D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr, name=UpLoad to Box, repinfo=null)
+2018/08/14 12:41:34 - UpLoad to Box - Using run configuration [Pentaho local]
+2018/08/14 12:41:34 - UpLoad to Box - Using legacy execution engine
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - Transformation is pre-loaded.
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - nr of steps to run : 1  , nr of hops : 0
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - Dispatching started for transformation [SSH_upload_to_box_2]
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - Nr of arguments detected:0 
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - This is not a replay transformation
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - I found 1 different steps to launch.
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - Allocating rowsets...
+2018/08/14 12:41:34 - SSH_upload_to_box_2 -  Allocating rowsets for step 0 --> Upload to box.com via  SSH commands
+2018/08/14 12:41:34 - SSH_upload_to_box_2 -  Allocated 0 rowsets for step 0 --> Upload to box.com via  SSH commands  
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - Allocating Steps & StepData...
+2018/08/14 12:41:34 - SSH_upload_to_box_2 -  Transformation is about to allocate step [Upload to box.com via  SSH commands] of type [SSH]
+2018/08/14 12:41:34 - SSH_upload_to_box_2 -   Step has nrcopies=1
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - distribution activated
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Starting allocation of buffers & new threads...
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Step info: nrinput=0 nroutput=0
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Finished dispatching
+2018/08/14 12:41:34 - SSH_upload_to_box_2 -  Transformation has allocated a new step: [Upload to box.com via  SSH commands].0
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - This transformation can be replayed with replay date: 2018/08/14 12:41:34
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - Initialising 1 steps...
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Released server socket on port 0
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - New Connection opened.
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - Step [Upload to box.com via  SSH commands.0] initialized flawlessly.
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - Transformation has allocated 1 threads and 0 rowsets.
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Starting to run...
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - New session opened.
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Running command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer hEKVHaoAWTpXTVv72ZSvaivWlsxcJvLP" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json] ...
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Runned command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer hEKVHaoAWTpXTVv72ZSvaivWlsxcJvLP" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json]. StdOut = . StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0  2519    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  2519    0     0  100  2519      0   5799 --:--:-- --:--:-- --:--:-- 12658.
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Session closed.
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Signaling 'output done' to 0 output rowsets.
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Connection closed.
+2018/08/14 12:41:34 - Upload to box.com via  SSH commands.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - searching for annotations
+2018/08/14 12:41:34 - SSH_upload_to_box_2 - no annotations found
+2018/08/14 12:41:54 - UpLoad to Box - Opening transformation: [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 12:41:54 - UpLoad to Box - Loading transformation from XML file [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 12:41:54 - UpLoad to Box - Starting transformation...(file=D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr, name=UpLoad to Box, repinfo=null)
+2018/08/14 12:41:54 - UpLoad to Box - Using run configuration [Pentaho local]
+2018/08/14 12:41:54 - UpLoad to Box - Using legacy execution engine
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - Transformation is pre-loaded.
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - nr of steps to run : 1  , nr of hops : 0
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - Dispatching started for transformation [SSH_upload_to_box_2]
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - Nr of arguments detected:0 
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - This is not a replay transformation
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - I found 1 different steps to launch.
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - Allocating rowsets...
+2018/08/14 12:41:54 - SSH_upload_to_box_2 -  Allocating rowsets for step 0 --> Upload to box.com via  SSH commands
+2018/08/14 12:41:54 - SSH_upload_to_box_2 -  Allocated 0 rowsets for step 0 --> Upload to box.com via  SSH commands  
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - Allocating Steps & StepData...
+2018/08/14 12:41:54 - SSH_upload_to_box_2 -  Transformation is about to allocate step [Upload to box.com via  SSH commands] of type [SSH]
+2018/08/14 12:41:54 - SSH_upload_to_box_2 -   Step has nrcopies=1
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - distribution activated
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Starting allocation of buffers & new threads...
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Step info: nrinput=0 nroutput=0
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Finished dispatching
+2018/08/14 12:41:54 - SSH_upload_to_box_2 -  Transformation has allocated a new step: [Upload to box.com via  SSH commands].0
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - This transformation can be replayed with replay date: 2018/08/14 12:41:54
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - Initialising 1 steps...
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Released server socket on port 0
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - New Connection opened.
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - Step [Upload to box.com via  SSH commands.0] initialized flawlessly.
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - Transformation has allocated 1 threads and 0 rowsets.
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Starting to run...
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - New session opened.
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Running command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer hEKVHaoAWTpXTVv72ZSvaivWlsxcJvLP" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json] ...
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Runned command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer hEKVHaoAWTpXTVv72ZSvaivWlsxcJvLP" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json]. StdOut = . StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0  2519    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  2519    0     0  100  2519      0   7970 --:--:-- --:--:-- --:--:-- 17372.
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Session closed.
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Signaling 'output done' to 0 output rowsets.
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Connection closed.
+2018/08/14 12:41:54 - Upload to box.com via  SSH commands.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - searching for annotations
+2018/08/14 12:41:54 - SSH_upload_to_box_2 - no annotations found
+2018/08/14 12:42:52 - UpLoad to Box - Opening transformation: [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 12:42:52 - UpLoad to Box - Loading transformation from XML file [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 12:42:52 - UpLoad to Box - Starting transformation...(file=D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr, name=UpLoad to Box, repinfo=null)
+2018/08/14 12:42:52 - UpLoad to Box - Using run configuration [Pentaho local]
+2018/08/14 12:42:52 - UpLoad to Box - Using legacy execution engine
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - Transformation is pre-loaded.
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - nr of steps to run : 1  , nr of hops : 0
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - Dispatching started for transformation [SSH_upload_to_box_2]
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - Nr of arguments detected:0 
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - This is not a replay transformation
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - I found 1 different steps to launch.
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - Allocating rowsets...
+2018/08/14 12:42:52 - SSH_upload_to_box_2 -  Allocating rowsets for step 0 --> Upload to box.com via  SSH commands
+2018/08/14 12:42:52 - SSH_upload_to_box_2 -  Allocated 0 rowsets for step 0 --> Upload to box.com via  SSH commands  
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - Allocating Steps & StepData...
+2018/08/14 12:42:52 - SSH_upload_to_box_2 -  Transformation is about to allocate step [Upload to box.com via  SSH commands] of type [SSH]
+2018/08/14 12:42:52 - SSH_upload_to_box_2 -   Step has nrcopies=1
+2018/08/14 12:42:52 - Upload to box.com via  SSH commands.0 - distribution activated
+2018/08/14 12:42:52 - Upload to box.com via  SSH commands.0 - Starting allocation of buffers & new threads...
+2018/08/14 12:42:52 - Upload to box.com via  SSH commands.0 - Step info: nrinput=0 nroutput=0
+2018/08/14 12:42:52 - Upload to box.com via  SSH commands.0 - Finished dispatching
+2018/08/14 12:42:52 - SSH_upload_to_box_2 -  Transformation has allocated a new step: [Upload to box.com via  SSH commands].0
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - This transformation can be replayed with replay date: 2018/08/14 12:42:52
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - Initialising 1 steps...
+2018/08/14 12:42:52 - Upload to box.com via  SSH commands.0 - Released server socket on port 0
+2018/08/14 12:42:52 - Upload to box.com via  SSH commands.0 - New Connection opened.
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - Step [Upload to box.com via  SSH commands.0] initialized flawlessly.
+2018/08/14 12:42:52 - SSH_upload_to_box_2 - Transformation has allocated 1 threads and 0 rowsets.
+2018/08/14 12:42:52 - Upload to box.com via  SSH commands.0 - Starting to run...
+2018/08/14 12:42:52 - Upload to box.com via  SSH commands.0 - New session opened.
+2018/08/14 12:42:52 - Upload to box.com via  SSH commands.0 - Running command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer N6eVNU0hsE5Dbj8nBTBp5I2vnsrFwVGJ" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json] ...
+2018/08/14 12:42:53 - Upload to box.com via  SSH commands.0 - Runned command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer N6eVNU0hsE5Dbj8nBTBp5I2vnsrFwVGJ" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json]. StdOut = {"total_count":1,"entries":[{"type":"file","id":"311385218324","file_version":{"type":"file_version","id":"328153657748","sha1":"9f36bbe68c8e862cd0815ba337f8043001a0e539"},"sequence_id":"0","etag":"0","sha1":"9f36bbe68c8e862cd0815ba337f8043001a0e539","name":"config.json","description":"","size":2164,"path_collection":{"total_count":2,"entries":[{"type":"folder","id":"0","sequence_id":null,"etag":null,"name":"All Files"},{"type":"folder","id":"52252390983","sequence_id":"0","etag":"0","name":"Rapport_1"}]},"created_at":"2018-08-14T09:42:53-07:00","modified_at":"2018-08-14T09:42:53-07:00","trashed_at":null,"purged_at":null,"content_created_at":"2018-08-14T09:42:53-07:00","content_modified_at":"2018-08-14T09:42:53-07:00","created_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"modified_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"owned_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"shared_link":null,"parent":{"type":"folder","id":"52252390983","sequence_id":"0","etag":"0","name":"Rapport_1"},"item_status":"active"}]}. StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0  2519    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  3702  107  1183  100  2519    886   1887  0:00:01  0:00:01 --:--:--  2578
+100  3702  107  1183  100  2519    886   1887  0:00:01  0:00:01 --:--:--  2578.
+2018/08/14 12:42:53 - Upload to box.com via  SSH commands.0 - Session closed.
+2018/08/14 12:42:53 - Upload to box.com via  SSH commands.0 - Signaling 'output done' to 0 output rowsets.
+2018/08/14 12:42:53 - Upload to box.com via  SSH commands.0 - Connection closed.
+2018/08/14 12:42:53 - Upload to box.com via  SSH commands.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/08/14 12:42:53 - SSH_upload_to_box_2 - searching for annotations
+2018/08/14 12:42:53 - SSH_upload_to_box_2 - no annotations found
+2018/08/14 13:41:40 - UpLoad to Box - Opening transformation: [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 13:41:40 - UpLoad to Box - Loading transformation from XML file [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr]
+2018/08/14 13:41:40 - UpLoad to Box - Starting transformation...(file=D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr, name=UpLoad to Box, repinfo=null)
+2018/08/14 13:41:40 - UpLoad to Box - Using run configuration [Pentaho local]
+2018/08/14 13:41:40 - UpLoad to Box - Using legacy execution engine
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - Transformation is pre-loaded.
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - nr of steps to run : 1  , nr of hops : 0
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - Dispatching started for transformation [SSH_upload_to_box_2]
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - Nr of arguments detected:0 
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - This is not a replay transformation
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - I found 1 different steps to launch.
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - Allocating rowsets...
+2018/08/14 13:41:40 - SSH_upload_to_box_2 -  Allocating rowsets for step 0 --> Upload to box.com via  SSH commands
+2018/08/14 13:41:40 - SSH_upload_to_box_2 -  Allocated 0 rowsets for step 0 --> Upload to box.com via  SSH commands  
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - Allocating Steps & StepData...
+2018/08/14 13:41:40 - SSH_upload_to_box_2 -  Transformation is about to allocate step [Upload to box.com via  SSH commands] of type [SSH]
+2018/08/14 13:41:40 - SSH_upload_to_box_2 -   Step has nrcopies=1
+2018/08/14 13:41:40 - Upload to box.com via  SSH commands.0 - distribution activated
+2018/08/14 13:41:40 - Upload to box.com via  SSH commands.0 - Starting allocation of buffers & new threads...
+2018/08/14 13:41:40 - Upload to box.com via  SSH commands.0 - Step info: nrinput=0 nroutput=0
+2018/08/14 13:41:40 - Upload to box.com via  SSH commands.0 - Finished dispatching
+2018/08/14 13:41:40 - SSH_upload_to_box_2 -  Transformation has allocated a new step: [Upload to box.com via  SSH commands].0
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - This transformation can be replayed with replay date: 2018/08/14 13:41:40
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - Initialising 1 steps...
+2018/08/14 13:41:40 - Upload to box.com via  SSH commands.0 - Released server socket on port 0
+2018/08/14 13:41:40 - Upload to box.com via  SSH commands.0 - New Connection opened.
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - Step [Upload to box.com via  SSH commands.0] initialized flawlessly.
+2018/08/14 13:41:40 - SSH_upload_to_box_2 - Transformation has allocated 1 threads and 0 rowsets.
+2018/08/14 13:41:40 - Upload to box.com via  SSH commands.0 - Starting to run...
+2018/08/14 13:41:40 - Upload to box.com via  SSH commands.0 - New session opened.
+2018/08/14 13:41:40 - Upload to box.com via  SSH commands.0 - Running command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer N6eVNU0hsE5Dbj8nBTBp5I2vnsrFwVGJ" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json] ...
+2018/08/14 13:41:41 - Upload to box.com via  SSH commands.0 - Runned command [curl https://upload.box.com/api/2.0/files/content -H "Authorization: Bearer N6eVNU0hsE5Dbj8nBTBp5I2vnsrFwVGJ" -X POST -F attributes='{"name":"config.json", "parent":{"id":"52252390983"}}' -F file=@/tmp/config.json]. StdOut = {"total_count":1,"entries":[{"type":"file","id":"311392200319","file_version":{"type":"file_version","id":"328161232015","sha1":"9f36bbe68c8e862cd0815ba337f8043001a0e539"},"sequence_id":"0","etag":"0","sha1":"9f36bbe68c8e862cd0815ba337f8043001a0e539","name":"config.json","description":"","size":2164,"path_collection":{"total_count":2,"entries":[{"type":"folder","id":"0","sequence_id":null,"etag":null,"name":"All Files"},{"type":"folder","id":"52252390983","sequence_id":"0","etag":"0","name":"Rapport_1"}]},"created_at":"2018-08-14T10:41:40-07:00","modified_at":"2018-08-14T10:41:40-07:00","trashed_at":null,"purged_at":null,"content_created_at":"2018-08-14T10:41:40-07:00","content_modified_at":"2018-08-14T10:41:40-07:00","created_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"modified_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"owned_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"shared_link":null,"parent":{"type":"folder","id":"52252390983","sequence_id":"0","etag":"0","name":"Rapport_1"},"item_status":"active"}]}. StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0  2519    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 68  3702    0     0  100  2519      0   2342  0:00:01  0:00:01 --:--:--  2774
+100  3702  107  1183  100  2519   1099   2341  0:00:01  0:00:01 --:--:--  2774.
+2018/08/14 13:41:41 - Upload to box.com via  SSH commands.0 - Session closed.
+2018/08/14 13:41:41 - Upload to box.com via  SSH commands.0 - Signaling 'output done' to 0 output rowsets.
+2018/08/14 13:41:41 - Upload to box.com via  SSH commands.0 - Connection closed.
+2018/08/14 13:41:41 - Upload to box.com via  SSH commands.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/08/14 13:41:41 - SSH_upload_to_box_2 - searching for annotations
+2018/08/14 13:41:41 - SSH_upload_to_box_2 - no annotations found

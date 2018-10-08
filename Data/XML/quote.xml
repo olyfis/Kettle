@@ -1,0 +1,933 @@
+<DOCUMENT_DATA_GROUP>
+	<DATABASEKEY KEY="9120">
+		<bid_list>
+			<bid>
+				<bid_key>42059011341276812000</bid_key>
+				<bid_user_key>113</bid_user_key>
+				<bid_customer_key>9974</bid_customer_key>
+				<bid_description/>
+				<bid_primary_quote_key/>
+				<bid_status_key>1</bid_status_key>
+				<bid_status_desc>New</bid_status_desc>
+				<bid_reason_key/>
+				<bid_reason_desc/>
+				<bid_status_date/>
+				<bid_to_close_pct/>
+				<bid_notes/>
+				<bid_entered_date>2016-02-25</bid_entered_date>
+				<bid_to_close_date/>
+				<bid_bidid>113-75</bid_bidid>
+				<bid_expiration_date/>
+				<bid_follow_up_date/>
+				<bid_program_key>1</bid_program_key>
+				<bid_dealer_code/>
+				<quote_list>
+					<quote>
+						<quote_key>42059011344279878000</quote_key>
+						<quote_bid_key>42059011341276812000</quote_bid_key>
+						<quote_quote_desc/>
+						<quote_quote_id>113-75-113-001</quote_quote_id>
+						<quote_entered_date>2016-02-25</quote_entered_date>
+						<quote_link>False</quote_link>
+						<quote_app_key/>
+						<quote_currency_exch_fkey/>
+						<quote_exch_rate_history_fkey/>
+						<quote_calc_data_xml>
+							<get_rent_output>
+								<rent_result>
+									<contract_term_in_months>37</contract_term_in_months>
+									<rent_term>37</rent_term>
+									<yield>5.19282</yield>
+									<rate_table_value/>
+									<cost_of_funds>1</cost_of_funds>
+									<base_rent_frequency>0</base_rent_frequency>
+									<solved_for_index>2</solved_for_index>
+									<rent_with_tax_summary>
+										<row>
+											<num>1</num>
+											<amount>6000.00</amount>
+										</row>
+										<row>
+											<num>36</num>
+											<amount>1009.74</amount>
+										</row>
+									</rent_with_tax_summary>
+									<rent_schedule>
+										<row>
+											<num>1</num>
+											<amount>6000.00</amount>
+										</row>
+										<row>
+											<num>36</num>
+											<amount>1009.74</amount>
+										</row>
+									</rent_schedule>
+									<asset_list>
+										<asset_data>
+											<equipment_code>2</equipment_code>
+											<yield/>
+											<cost>36010.63</cost>
+											<list_price>40462.80</list_price>
+											<discount>4452.17</discount>
+											<alt_residual_amount/>
+											<residual_amount>0.00</residual_amount>
+											<residual_table_value/>
+											<alt_residual_table_value/>
+											<guaranteed_residual>0.00</guaranteed_residual>
+											<insured_residual>0.00</insured_residual>
+											<insured_residual_premium>0.00</insured_residual_premium>
+										</asset_data>
+										<asset_data>
+											<equipment_code>2</equipment_code>
+											<yield/>
+											<cost>313.74</cost>
+											<list_price>313.74</list_price>
+											<discount>313.74</discount>
+											<alt_residual_amount/>
+											<residual_amount>0.00</residual_amount>
+											<residual_table_value/>
+											<alt_residual_table_value/>
+											<guaranteed_residual>0.00</guaranteed_residual>
+											<insured_residual>0.00</insured_residual>
+											<insured_residual_premium>0.00</insured_residual_premium>
+										</asset_data>
+										<asset_data>
+											<equipment_code>2</equipment_code>
+											<yield/>
+											<cost>3269.19</cost>
+											<list_price>3269.19</list_price>
+											<discount>0.00</discount>
+											<alt_residual_amount/>
+											<residual_amount>0.00</residual_amount>
+											<residual_table_value/>
+											<alt_residual_table_value/>
+											<guaranteed_residual>0.00</guaranteed_residual>
+											<insured_residual>0.00</insured_residual>
+											<insured_residual_premium>0.00</insured_residual_premium>
+										</asset_data>
+									</asset_list>
+									<yield_summary>
+										<roi_nompt>5.1928269509</roi_nompt>
+										<roi_nomat>5.1928269509</roi_nomat>
+										<roi_effpt>5.3182188335</roi_effpt>
+										<roi_effat>5.3182188335</roi_effat>
+										<rcy_nompt/>
+										<rcy_nomat/>
+										<rcy_effpt/>
+										<rcy_effat/>
+										<emisf_nompt/>
+										<emisf_nomat/>
+										<emisf_effpt/>
+										<emisf_effat/>
+										<bmisf_nompt/>
+										<bmisf_nomat/>
+										<bmisf_effpt/>
+										<bmisf_effat/>
+										<roiec_nompt/>
+										<roiec_nomat/>
+										<roiec_effpt/>
+										<roiec_effat/>
+										<roa_nompt/>
+										<roa_nomat/>
+										<roa_effpt/>
+										<roa_effat/>
+										<roieb_nompt/>
+										<roieb_nomat/>
+										<roieb_effpt/>
+										<roieb_effat/>
+										<irr_nompt>5.1928222833</irr_nompt>
+										<irr_nomat>5.1928222833</irr_nomat>
+										<irr_effpt>5.3182139388</irr_effpt>
+										<irr_effat>5.3182139388</irr_effat>
+										<irrpt_nompt/>
+										<irrpt_nomat/>
+										<irrpt_effpt/>
+										<irrpt_effat/>
+									</yield_summary>
+									<apr_summary>
+										<aprstream_mon_bt>5.1928222831</aprstream_mon_bt>
+										<aprstream_per_bt>5.1928222831</aprstream_per_bt>
+										<aprstream_eff_bt>5.3182139387</aprstream_eff_bt>
+										<aprgresid_mon_bt>5.1928222831</aprgresid_mon_bt>
+										<aprgresid_per_bt>5.1928222831</aprgresid_per_bt>
+										<aprgresid_eff_bt>5.3182139387</aprgresid_eff_bt>
+										<aprresid_mon_bt>5.1928222831</aprresid_mon_bt>
+										<aprresid_per_bt>5.1928222831</aprresid_per_bt>
+										<aprresid_eff_bt>5.3182139387</aprresid_eff_bt>
+										<apridc_mon_bt>5.1928222831</apridc_mon_bt>
+										<apridc_per_bt>5.1928222831</apridc_per_bt>
+										<apridc_eff_bt>5.3182139387</apridc_eff_bt>
+										<aprsd_mon_bt>5.1928222831</aprsd_mon_bt>
+										<aprsd_per_bt>5.1928222831</aprsd_per_bt>
+										<aprsd_eff_bt>5.3182139387</aprsd_eff_bt>
+										<aprstream_mon_ft>5.1928222831</aprstream_mon_ft>
+										<aprstream_per_ft>5.1928222831</aprstream_per_ft>
+										<aprstream_eff_ft>5.3182139387</aprstream_eff_ft>
+										<aprgresid_mon_ft>5.1928222831</aprgresid_mon_ft>
+										<aprgresid_per_ft>5.1928222831</aprgresid_per_ft>
+										<aprgresid_eff_ft>5.3182139387</aprgresid_eff_ft>
+										<aprresid_mon_ft>5.1928222831</aprresid_mon_ft>
+										<aprresid_per_ft>5.1928222831</aprresid_per_ft>
+										<aprresid_eff_ft>5.3182139387</aprresid_eff_ft>
+										<apridc_mon_ft>5.1928222831</apridc_mon_ft>
+										<apridc_per_ft>5.1928222831</apridc_per_ft>
+										<apridc_eff_ft>5.3182139387</apridc_eff_ft>
+										<aprsd_mon_ft>5.1928222831</aprsd_mon_ft>
+										<aprsd_per_ft>5.1928222831</aprsd_per_ft>
+										<aprsd_eff_ft>5.3182139387</aprsd_eff_ft>
+										<aprstreet_mon>4.8739687472</aprstreet_mon>
+										<aprstreet_per>4.8739687472</aprstreet_per>
+										<aprstreet_eff>4.9843361093</aprstreet_eff>
+										<aprlgresid_mon_bt>5.1928222831</aprlgresid_mon_bt>
+										<aprlgresid_per_bt>5.1928222831</aprlgresid_per_bt>
+										<aprlgresid_eff_bt>5.3182139387</aprlgresid_eff_bt>
+										<aprlgresid_mon_ft>5.1928222831</aprlgresid_mon_ft>
+										<aprlgresid_per_ft>5.1928222831</aprlgresid_per_ft>
+										<aprlgresid_eff_ft>5.3182139387</aprlgresid_eff_ft>
+									</apr_summary>
+									<rent_with_tax_summary_no_comp>
+										<row>
+											<num>1</num>
+											<amount>6000.00</amount>
+										</row>
+										<row>
+											<num>36</num>
+											<amount>1009.74</amount>
+										</row>
+									</rent_with_tax_summary_no_comp>
+									<rent_schedule_no_comp>
+										<row>
+											<num>1</num>
+											<amount>6000.00</amount>
+										</row>
+										<row>
+											<num>36</num>
+											<amount>1009.74</amount>
+										</row>
+									</rent_schedule_no_comp>
+								</rent_result>
+								<field_updates>
+									<co_fields>
+										<termDuration parent="CO" update="0">37</termDuration>
+										<PRICING.TARGET.YIELD parent="CO" update="1">5.19282</PRICING.TARGET.YIELD>
+										<PRICING.PYMT.FREQUENCY parent="CO" update="0">0</PRICING.PYMT.FREQUENCY>
+										<PRICING.EBO.AMOUNT parent="CO" update="1"/>
+										<PRICING.EBO.YIELD parent="CO" update="1"/>
+										<firstPaymentAmount parent="CO" update="0"/>
+										<paymentAmount parent="CO" update="0"/>
+										<PRICING.NUM.OF.PYMTS parent="CO" update="0">1</PRICING.NUM.OF.PYMTS>
+										<PRICING.BORROWING.PERCENT parent="CO" update="1"/>
+										<PRICING.COST.OF.FUNDS parent="CO" update="1">1</PRICING.COST.OF.FUNDS>
+										<PRICING.BUYDOWN.AMT parent="CO" update="0"/>
+										<PRICING.LESSEE.RATE parent="CO" update="0"/>
+										<gstOnCC parent="CO" update="1"/>
+										<idc parent="CO" update="1"/>
+										<ROI.NOMPT parent="CO" update="1">5.1928269509</ROI.NOMPT>
+										<ROI.NOMAT parent="CO" update="1">5.1928269509</ROI.NOMAT>
+										<ROI.EFFPT parent="CO" update="1">5.3182188335</ROI.EFFPT>
+										<ROI.EFFAT parent="CO" update="1">5.3182188335</ROI.EFFAT>
+										<RCY.NOMPT parent="CO" update="1"/>
+										<RCY.NOMAT parent="CO" update="1"/>
+										<RCY.EFFPT parent="CO" update="1"/>
+										<RCY.EFFAT parent="CO" update="1"/>
+										<EMISF.NOMPT parent="CO" update="1"/>
+										<EMISF.NOMAT parent="CO" update="1"/>
+										<EMISF.EFFPT parent="CO" update="1"/>
+										<EMISF.EFFAT parent="CO" update="1"/>
+										<BMISF.NOMPT parent="CO" update="1"/>
+										<BMISF.NOMAT parent="CO" update="1"/>
+										<BMISF.EFFPT parent="CO" update="1"/>
+										<BMISF.EFFAT parent="CO" update="1"/>
+										<ROIEC.NOMPT parent="CO" update="1"/>
+										<ROIEC.NOMAT parent="CO" update="1"/>
+										<ROIEC.EFFPT parent="CO" update="1"/>
+										<ROIEC.EFFAT parent="CO" update="1"/>
+										<ROA.NOMPT parent="CO" update="1"/>
+										<ROA.NOMAT parent="CO" update="1"/>
+										<ROA.EFFPT parent="CO" update="1"/>
+										<ROA.EFFAT parent="CO" update="1"/>
+										<ROIEB.NOMPT parent="CO" update="1"/>
+										<ROIEB.NOMAT parent="CO" update="1"/>
+										<ROIEB.EFFPT parent="CO" update="1"/>
+										<ROIEB.EFFAT parent="CO" update="1"/>
+										<IRR.NOMPT parent="CO" update="1">5.1928222833</IRR.NOMPT>
+										<IRR.NOMAT parent="CO" update="1">5.1928222833</IRR.NOMAT>
+										<IRR.EFFPT parent="CO" update="1">5.3182139388</IRR.EFFPT>
+										<IRR.EFFAT parent="CO" update="1">5.3182139388</IRR.EFFAT>
+										<IRRPT.NOMPT parent="CO" update="1"/>
+										<IRRPT.NOMAT parent="CO" update="1"/>
+										<IRRPT.EFFPT parent="CO" update="1"/>
+										<IRRPT.EFFAT parent="CO" update="1"/>
+										<APR.MON.BT parent="CO" update="1">5.1928222831</APR.MON.BT>
+										<APR.MON.FT parent="CO" update="1">5.1928222831</APR.MON.FT>
+										<APR.RESID.MON.BT parent="CO" update="1">5.1928222831</APR.RESID.MON.BT>
+										<APR.RESID.MON.FT parent="CO" update="1">5.1928222831</APR.RESID.MON.FT>
+										<APR.IDC.MON.BT parent="CO" update="1">5.1928222831</APR.IDC.MON.BT>
+										<APR.IDC.MON.FT parent="CO" update="1">5.1928222831</APR.IDC.MON.FT>
+										<APR.SEC.DEP.MON.BT parent="CO" update="1">5.1928222831</APR.SEC.DEP.MON.BT>
+										<APR.SEC.DEP.MON.FT parent="CO" update="1">5.1928222831</APR.SEC.DEP.MON.FT>
+										<APR.GUAR.RESID.MON.BT parent="CO" update="1">5.1928222831</APR.GUAR.RESID.MON.BT>
+										<APR.GUAR.RESID.MON.FT parent="CO" update="1">5.1928222831</APR.GUAR.RESID.MON.FT>
+										<APR.LESSEE.GUAR.RESID.MON.BT parent="CO" update="1">5.1928222831</APR.LESSEE.GUAR.RESID.MON.BT>
+										<APR.LESSEE.GUAR.RESID.MON.FT parent="CO" update="1">5.1928222831</APR.LESSEE.GUAR.RESID.MON.FT>
+										<APR.EFF.BT parent="CO" update="1">5.3182139387</APR.EFF.BT>
+										<APR.EFF.FT parent="CO" update="1">5.3182139387</APR.EFF.FT>
+										<APR.RESID.EFF.BT parent="CO" update="1">5.3182139387</APR.RESID.EFF.BT>
+										<APR.RESID.EFF.FT parent="CO" update="1">5.3182139387</APR.RESID.EFF.FT>
+										<APR.IDC.EFF.BT parent="CO" update="1">5.3182139387</APR.IDC.EFF.BT>
+										<APR.IDC.EFF.FT parent="CO" update="1">5.3182139387</APR.IDC.EFF.FT>
+										<APR.SEC.DEP.EFF.BT parent="CO" update="1">5.3182139387</APR.SEC.DEP.EFF.BT>
+										<APR.SEC.DEP.EFF.FT parent="CO" update="1">5.3182139387</APR.SEC.DEP.EFF.FT>
+										<APR.GUAR.RESID.EFF.BT parent="CO" update="1">5.3182139387</APR.GUAR.RESID.EFF.BT>
+										<APR.GUAR.RESID.EFF.FT parent="CO" update="1">5.3182139387</APR.GUAR.RESID.EFF.FT>
+										<APR.LESSEE.GUAR.RESID.EFF.BT parent="CO" update="1">5.3182139387</APR.LESSEE.GUAR.RESID.EFF.BT>
+										<APR.LESSEE.GUAR.RESID.EFF.FT parent="CO" update="1">5.3182139387</APR.LESSEE.GUAR.RESID.EFF.FT>
+										<APR.PER.BT parent="CO" update="1">5.1928222831</APR.PER.BT>
+										<APR.PER.FT parent="CO" update="1">5.1928222831</APR.PER.FT>
+										<APR.RESID.PER.BT parent="CO" update="1">5.1928222831</APR.RESID.PER.BT>
+										<APR.RESID.PER.FT parent="CO" update="1">5.1928222831</APR.RESID.PER.FT>
+										<APR.IDC.PER.BT parent="CO" update="1">5.1928222831</APR.IDC.PER.BT>
+										<APR.IDC.PER.FT parent="CO" update="1">5.1928222831</APR.IDC.PER.FT>
+										<APR.SEC.DEP.PER.BT parent="CO" update="1">5.1928222831</APR.SEC.DEP.PER.BT>
+										<APR.SEC.DEP.PER.FT parent="CO" update="1">5.1928222831</APR.SEC.DEP.PER.FT>
+										<APR.GUAR.RESID.PER.BT parent="CO" update="1">5.1928222831</APR.GUAR.RESID.PER.BT>
+										<APR.GUAR.RESID.PER.FT parent="CO" update="1">5.1928222831</APR.GUAR.RESID.PER.FT>
+										<APR.LESSEE.GUAR.RESID.PER.BT parent="CO" update="1">5.1928222831</APR.LESSEE.GUAR.RESID.PER.BT>
+										<APR.LESSEE.GUAR.RESID.PER.FT parent="CO" update="1">5.1928222831</APR.LESSEE.GUAR.RESID.PER.FT>
+										<STREET.RATE.MONTHLY parent="CO" update="1">4.8739687472</STREET.RATE.MONTHLY>
+										<STREET.RATE.EFFECTIVE parent="CO" update="1">4.9843361093</STREET.RATE.EFFECTIVE>
+										<STREET.RATE.PERIODIC parent="CO" update="1">4.8739687472</STREET.RATE.PERIODIC>
+										<otherExpenses/>
+										<pricingIDCs/>
+										<ud_groups>
+											<ud_group/>
+										</ud_groups>
+										<assets>
+											<asset>
+												<as_fields>
+													<totalCost parent="AS" update="0">36010.63</totalCost>
+													<residualAmount parent="AS" update="1">0.00</residualAmount>
+													<bookDeprSalvage parent="AS" update="1">0.00</bookDeprSalvage>
+													<managersResidualAmount parent="AS" update="1"/>
+													<PURCHASE.OPTION parent="AS" update="0"/>
+													<guaranteedResidualAmount parent="AS" update="1">0.00</guaranteedResidualAmount>
+													<insuredResidual parent="AS" update="1">0.00</insuredResidual>
+													<residualInsuranceAmount parent="AS" update="1">0.00</residualInsuranceAmount>
+													<assetDiscount parent="AS" update="1">4452.17</assetDiscount>
+													<listPrice parent="AS" update="1">40462.80</listPrice>
+													<PRICING.TARGET.YIELD.AS parent="AS" update="0"/>
+													<PRICING.PAYMENT.AMOUNT parent="AS" update="0"/>
+													<PRICING.BUYDOWN.AMT.AS parent="AS" update="0"/>
+													<PRICING.LESSEE.RATE.AS parent="AS" update="0"/>
+												</as_fields>
+											</asset>
+											<asset>
+												<as_fields>
+													<totalCost parent="AS" update="0">313.74</totalCost>
+													<residualAmount parent="AS" update="1">0.00</residualAmount>
+													<bookDeprSalvage parent="AS" update="1">0.00</bookDeprSalvage>
+													<managersResidualAmount parent="AS" update="1"/>
+													<PURCHASE.OPTION parent="AS" update="0"/>
+													<guaranteedResidualAmount parent="AS" update="1">0.00</guaranteedResidualAmount>
+													<insuredResidual parent="AS" update="1">0.00</insuredResidual>
+													<residualInsuranceAmount parent="AS" update="1">0.00</residualInsuranceAmount>
+													<assetDiscount parent="AS" update="1">313.74</assetDiscount>
+													<listPrice parent="AS" update="1">313.74</listPrice>
+													<PRICING.TARGET.YIELD.AS parent="AS" update="0"/>
+													<PRICING.PAYMENT.AMOUNT parent="AS" update="0"/>
+													<PRICING.BUYDOWN.AMT.AS parent="AS" update="0"/>
+													<PRICING.LESSEE.RATE.AS parent="AS" update="0"/>
+												</as_fields>
+											</asset>
+											<asset>
+												<as_fields>
+													<totalCost parent="AS" update="0">3269.19</totalCost>
+													<residualAmount parent="AS" update="1">0.00</residualAmount>
+													<bookDeprSalvage parent="AS" update="1">0.00</bookDeprSalvage>
+													<managersResidualAmount parent="AS" update="1"/>
+													<PURCHASE.OPTION parent="AS" update="0"/>
+													<guaranteedResidualAmount parent="AS" update="1">0.00</guaranteedResidualAmount>
+													<insuredResidual parent="AS" update="1">0.00</insuredResidual>
+													<residualInsuranceAmount parent="AS" update="1">0.00</residualInsuranceAmount>
+													<assetDiscount parent="AS" update="1">0.00</assetDiscount>
+													<listPrice parent="AS" update="1">3269.19</listPrice>
+													<PRICING.TARGET.YIELD.AS parent="AS" update="0"/>
+													<PRICING.PAYMENT.AMOUNT parent="AS" update="0"/>
+													<PRICING.BUYDOWN.AMT.AS parent="AS" update="0"/>
+													<PRICING.LESSEE.RATE.AS parent="AS" update="0"/>
+												</as_fields>
+											</asset>
+										</assets>
+									</co_fields>
+								</field_updates>
+							</get_rent_output>
+						</quote_calc_data_xml>
+						<quote_form_data_xml>
+							<IronData>
+								<CO GroupType="CO">
+									<CO_KEY/>
+									<custName Type="ALPHANUMERIC">HOSPITAL AUTHORITY OF ALBANY-DOUGHERTY COUNTY</custName>
+									<custAttention Type="ALPHANUMERIC"/>
+									<productCode Type="TABLE" TableField="1"/>
+									<accountingOwnerCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="101">101</accountingOwnerCode>
+									<UD_CO_PRODUCT Type="TABLE" TableField="1" Desc="FPP">01</UD_CO_PRODUCT>
+									<purchaseOption Type="TABLE" TableField="1" Desc="$1.00 Buyout">01</purchaseOption>
+									<UD_CO_CPP_CPP Type="MONEY"/>
+									<UD_CO_CPP_AMT Type="MONEY"/>
+									<PRICING.PRODUCT Type="PRICING.PROD.TABLE" Desc="Olympus Test">1</PRICING.PRODUCT>
+									<programCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="FPP LEASE">0004</programCode>
+									<UD_CO_CPP_PERIODIC_PROC Type="INTEGER"/>
+									<UD_CO_UPFRONT_TAX_TYPE Type="BOOLEAN">0</UD_CO_UPFRONT_TAX_TYPE>
+									<productLine Type="TABLE" TableField="1"/>
+									<UD_CO_AMENDMENT Type="TABLE" TableField="1"/>
+									<region Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="FIS WEST-JANET WALSH">002</region>
+									<branch Type="TABLE" TableField="1" Desc="11 - Southwest">11</branch>
+									<UD_CO_APPROVAL_DATE Type="DATE"/>
+									<purposeOfLoan Type="TABLE" TableField="1"/>
+									<UD_CO_CREDIT_APPR_EXPIRE Type="DATE"/>
+									<UD_CO_CALC_METHOD Type="TABLE" TableField="1"/>
+									<UD_CO_CURRENT_DATE Type="DATE"/>
+									<UD_CO_DATE_COMPARE Type="INTEGER"/>
+									<UD_CO_EXPIRY_WARNING Type="ALPHANUMERIC"/>
+									<UD_CO_TOTAL_NET_INVEST Type="MONEY" UpdatedBy="Rule">39593.56</UD_CO_TOTAL_NET_INVEST>
+									<UD_CO_WARN_DISC Type="ALPHANUMERIC"/>
+									<UD_CO_WARN_DISC_AUTH Type="ALPHANUMERIC"/>
+									<UD_CO_WARN_YIELD Type="ALPHANUMERIC"/>
+									<UD_CO_WARN_YIELD_AUTH Type="ALPHANUMERIC"/>
+									<UD_CO_RUN_RATE1 Type="MONEY" UpdatedBy="Rule">39593.56</UD_CO_RUN_RATE1>
+									<UC_CO_TOT_MONTHLY_PYMT Type="MONEY" UpdatedBy="Rule">0.00</UC_CO_TOT_MONTHLY_PYMT>
+									<PRICING.PYMT.OPTION Type="PRICING.PYMT.OPTION" Desc="Irregular">1</PRICING.PYMT.OPTION>
+									<PRICING.PYMT.FREQUENCY Type="TABLE" TableField="1" Desc="Monthly">0</PRICING.PYMT.FREQUENCY>
+									<termDuration Type="INTEGER">37</termDuration>
+									<PRICING.SOLVE.OPTION Type="TABLE" TableField="1"/>
+									<PRICING.TARGET.YIELD Type="PERCENT">5.19282</PRICING.TARGET.YIELD>
+									<commencementDate Type="DATE">2016-03-01</commencementDate>
+									<PRICING.RENT.START.DATE Type="DATE"/>
+									<isAdvance Type="BOOLEAN">1</isAdvance>
+									<targetYield Type="PERCENT" UpdatedBy="Rule"/>
+									<UD_CO_ORIG_PYMT_AMT Type="MONEY" UpdatedBy="Rule">0.00</UD_CO_ORIG_PYMT_AMT>
+									<PRICING.FIRST.PYMT.AMOUNT Type="MONEY"/>
+									<paymentAmount Type="MONEY">0.00</paymentAmount>
+									<UD_CO_FREEZE_PYMT Type="TABLE" TableField="1"/>
+									<firstPaymentAmount Type="MONEY">6000.00</firstPaymentAmount>
+									<PRICING.NUM.END.PYMTS.ADV Type="INTEGER"/>
+									<ROI.NOMPT Type="PERCENT">5.1928269509</ROI.NOMPT>
+									<ROI.NOMAT Type="PERCENT">5.1928269509</ROI.NOMAT>
+									<IRR.NOMPT Type="PERCENT">5.1928222833</IRR.NOMPT>
+									<APR.RESID.EFF.FT Type="PERCENT">5.3182139387</APR.RESID.EFF.FT>
+									<UD_CO_RUN_RATE Type="MONEY" UpdatedBy="Rule">1070.10</UD_CO_RUN_RATE>
+									<UD_CO_TOTAL_CONSUME_AMT Type="MONEY"/>
+									<UD_CO_CONSUMABLE_PYMT_AMT Type="MONEY"/>
+									<UD_CO_TOTAL_UPFRONT_TAX Type="MONEY"/>
+									<UD_CO_TOT_PER_LEAS_PYMT Type="MONEY" UpdatedBy="Rule">0.00</UD_CO_TOT_PER_LEAS_PYMT>
+									<PRICING.ASSET.BASED Type="BOOLEAN">0</PRICING.ASSET.BASED>
+									<UD_CO_SERVICE_QUOTE_NUM Type="ALPHANUMERIC"/>
+									<UD_CO_PAYMENT_AMT_CHANGE Type="MONEY"/>
+									<PRICING.FORCE.FINANCE.MODE Type="TABLE" TableField="1"/>
+									<UD_CO_PYMT_CHANGE_COMPAR Type="MONEY"/>
+									<PRICING.USE.AS.RENT.SCH Type="BOOLEAN">0</PRICING.USE.AS.RENT.SCH>
+									<UD_CO_IRRPYMT_EQ_TERM Type="ALPHANUMERIC" UpdatedBy="Rule">0</UD_CO_IRRPYMT_EQ_TERM>
+									<UD_CO_TOTAL_CONSUME_LANG1 Type="WP"/>
+									<endingPaymentsInAdvance Type="MONEY" UpdatedBy="Rule"/>
+									<UD_CO_TOTAL_PERIODIC_PYMT Type="ALPHANUMERIC"/>
+									<UD_CO_ENDO_WORKS_LANG Type="WP" UpdatedBy="Rule"/>
+									<UD_CO_INTEGRATION_LANG Type="WP" UpdatedBy="Rule"/>
+									<UD_CO_TOTAL_CONSUME_LANG4 Type="WP"/>
+									<firstPaymentDueDate Type="DATE"/>
+									<UD_CO_FREIGHT Type="MONEY">313.74</UD_CO_FREIGHT>
+									<variablePaymentCode Type="BOOLEAN" UpdatedBy="Rule">1</variablePaymentCode>
+									<delaydIncome Type="BOOLEAN">0</delaydIncome>
+									<billingCycle Type="YEARCYCLE"/>
+									<UD_CO_SUM_IRR_RENTS Type="MONEY" UpdatedBy="Rule">7009.74</UD_CO_SUM_IRR_RENTS>
+									<bookingDate Type="DATE"/>
+									<systemDate Type="DATE"/>
+									<terminationDate Type="DATE"/>
+									<incomeStartDate Type="DATE"/>
+									<UD_CO_PROC_MTH Type="MONEY" UpdatedBy="Rule"/>
+									<periodInAdvanceLast Type="INTEGER"/>
+									<rentalFactor Type="PERCENT"/>
+									<combinedSecIRR Type="PERCENT"/>
+									<financeIRR Type="PERCENT"/>
+									<combinedIRR Type="PERCENT"/>
+									<financeSecIRR Type="PERCENT"/>
+									<salvageValue Type="MONEY"/>
+									<grossContract Type="MONEY" UpdatedBy="Rule">42350.64</grossContract>
+									<financedAmount Type="MONEY" UpdatedBy="Rule">2757.08</financedAmount>
+									<equipmentCost Type="MONEY" UpdatedBy="Rule">39593.56</equipmentCost>
+									<residualAmount Type="MONEY" UpdatedBy="Rule"/>
+									<UD_CO_OERPRO_INCLUDED Type="TABLE" TableField="1" Desc="NO">0</UD_CO_OERPRO_INCLUDED>
+									<quoteBuyoutCode Type="TABLE" TableField="1"/>
+									<earningsMethod Type="TABLE" TableField="1"/>
+									<netFinance Type="MONEY"/>
+									<UD_CO_COMP_CONVERSION Type="TABLE" TableField="1" Desc="NO">NO</UD_CO_COMP_CONVERSION>
+									<UD_CO_NEXT_MONTH_COMM Type="DATE"/>
+									<UD_CO_VAR_PYMT_TOTAL Type="MONEY" UpdatedBy="Rule">42350.64</UD_CO_VAR_PYMT_TOTAL>
+									<residualIncomeMethod Type="TABLE" TableField="1"/>
+									<UD_CO_FIRST_PYMT_MTH Type="INTEGER"/>
+									<UD_CO_INTEGRATION_CHARGES Type="TABLE" TableField="1" Desc="NO">0</UD_CO_INTEGRATION_CHARGES>
+									<useTaxResponsibility Type="TABLE" TableField="1"/>
+									<UD_CO_ENDOWORKS_CHARGES Type="TABLE" TableField="1" Desc="NO">0</UD_CO_ENDOWORKS_CHARGES>
+									<UD_CO_FIRST_PYMT_MONTH Type="TABLE" TableField="1"/>
+									<UD_CO_12_MONTH_VOL Type="MONEY"/>
+									<UD_CO_MONTH_MIN Type="ALPHANUMERIC"/>
+									<UD_CO_TOTAL_TERM_VOL Type="ALPHANUMERIC"/>
+									<UD_CO_SRV_QUOTE1 Type="ALPHANUMERIC"/>
+									<UD_CO_SERV_AGREE_NAME Type="TABLE" TableField="1"/>
+									<UD_CO_GYRUS_SERVICE_TOT Type="MONEY" UpdatedBy="Rule">0.00</UD_CO_GYRUS_SERVICE_TOT>
+									<UD_CO_SP_SERVICE_TOT Type="MONEY" UpdatedBy="Rule">0.00</UD_CO_SP_SERVICE_TOT>
+									<UD_CO_SRV_QUOTE2 Type="ALPHANUMERIC"/>
+									<UD_CO_SERV_AGREE_NAME2 Type="TABLE" TableField="1"/>
+									<UD_CO_ENDO_WORKS Type="BOOLEAN">0</UD_CO_ENDO_WORKS>
+									<UD_CO_SRV_QUOTE3 Type="ALPHANUMERIC"/>
+									<UD_CO_SERV_AGREE_NAME3 Type="TABLE" TableField="1"/>
+									<udAmount1 Type="MONEY"/>
+									<UD_CO_EW7_MAINT Type="MONEY"/>
+									<UD_CO_MP_SERVICE Type="MONEY"/>
+									<UD_CO_SP_SERVICE Type="MONEY"/>
+									<UD_CO_GYRUS_SERVICE Type="MONEY"/>
+									<UD_CO_PERIODIC_SERV_RATE Type="MONEY" UpdatedBy="Rule">0.00</UD_CO_PERIODIC_SERV_RATE>
+									<UD_CO_EW7_MAINT_TOT Type="MONEY" UpdatedBy="Rule">0.00</UD_CO_EW7_MAINT_TOT>
+									<UD_CO_MP_SERVICE_TOT Type="MONEY" UpdatedBy="Rule">0.00</UD_CO_MP_SERVICE_TOT>
+									<UD_CO_TOTAL_EST_PPT Type="MONEY"/>
+									<UD_CO_MONTHLY_EST_PPT Type="MONEY"/>
+									<UD_CO_VA_EST_PPT Type="MONEY"/>
+									<UD_CO_OPTION_YEAR_ONE Type="MONEY"/>
+									<UD_CO_OPTION_YEAR_TWO Type="MONEY"/>
+									<UD_CO_OPTION_YEAR_THREE Type="MONEY"/>
+									<UD_CO_OPTION_YEAR_FOUR Type="MONEY"/>
+									<UD_CO_TOT_ASSET_COSTS Type="MONEY" UpdatedBy="Rule">39593.56</UD_CO_TOT_ASSET_COSTS>
+									<UD_CO_RESID_ROLLOVER Type="MONEY"/>
+									<UD_CO_SALES_DISC_TOTAL Type="MONEY" UpdatedBy="Rule">4452.17</UD_CO_SALES_DISC_TOTAL>
+									<UD_CO_PVR_ROLLOVER Type="MONEY"/>
+									<UD_CO_AB_DISC_TOTAL Type="MONEY" UpdatedBy="Rule"/>
+									<UD_CO_PVFCF_ROLLOVER Type="MONEY"/>
+									<UD_CO_CB_DISC_TOTAL Type="MONEY" UpdatedBy="Rule"/>
+									<UD_CO_BILLED_OUT Type="MONEY"/>
+									<UD_CO_TOTAL_TRADE_IN Type="MONEY"/>
+									<UD_CO_TOTAL_FREIGHT Type="MONEY" UpdatedBy="Rule">0.00</UD_CO_TOTAL_FREIGHT>
+									<UD_CO_TOTAL_CASH_FLOWS Type="MONEY" UpdatedBy="Rule">0.00</UD_CO_TOTAL_CASH_FLOWS>
+									<UD_CO_RESID_VALUE Type="MONEY" UpdatedBy="Rule"/>
+									<UD_CO_GROSS_PYMT_RECV Type="MONEY" UpdatedBy="Rule">0.00</UD_CO_GROSS_PYMT_RECV>
+									<UD_CO_TNI Type="MONEY" UpdatedBy="Rule">39593.56</UD_CO_TNI>
+									<UD_CO_REVENUE_2B_EARNED Type="MONEY" UpdatedBy="Rule">-39593.56</UD_CO_REVENUE_2B_EARNED>
+									<UD_CO_RETURN_ON_NI3 Type="PERCENT" UpdatedBy="Rule">-100.00</UD_CO_RETURN_ON_NI3>
+									<UD_CO_REVENUE_EXCLUD_RESD Type="MONEY" UpdatedBy="Rule">-39593.56</UD_CO_REVENUE_EXCLUD_RESD>
+									<UD_CO_RETURN_ON_NI5 Type="PERCENT" UpdatedBy="Rule">-100.00</UD_CO_RETURN_ON_NI5>
+									<AS GroupType="AS">
+										<AS_KEY/>
+										<UD_AS_EQUIP_QUOTE_NUM Type="ALPHANUMERIC">1</UD_AS_EQUIP_QUOTE_NUM>
+										<UD_AS_EQUIP_CODE Type="TABLE" TableField="1"/>
+										<assetVendor Type="Vendor"/>
+										<UD_AS_ORDER_NUMBER Type="ALPHANUMERIC" UpdatedBy="Rule">TBD</UD_AS_ORDER_NUMBER>
+										<condition Type="TABLE" TableField="1" Desc="New">N</condition>
+										<UD_AS_TYPE Type="TABLE" TableField="1" Desc="New Asset">5</UD_AS_TYPE>
+										<UD_AS_EQUIP_DESCRIP Type="TABLE" TableField="1" Desc="B/O">03</UD_AS_EQUIP_DESCRIP>
+										<upfrontTaxFinanced Type="BOOLEAN">0</upfrontTaxFinanced>
+										<purchaseOption Type="TABLE" TableField="1" Desc="$1.00 Buyout">01</purchaseOption>
+										<UD_AS_DISCOUNT_PERCENT Type="PERCENT" UpdatedBy="Rule"/>
+										<UD_AS_PROD_GRP Type="TABLE" TableField="1" Desc="MP">00</UD_AS_PROD_GRP>
+										<UD_AS_MODEL Type="TABLE" TableField="1" Desc="B/O">34</UD_AS_MODEL>
+										<PRICING.EQUIP.CODE Type="PRICING.EQUIP.CODE" UpdatedBy="Rule" Desc="New Asset">2</PRICING.EQUIP.CODE>
+										<PRICING.CHANGE.MODEL Type="BOOLEAN">0</PRICING.CHANGE.MODEL>
+										<PRICING.DEPR.METHOD Type="TABLE" TableField="1"/>
+										<PRICING.DEPR.CONVENTION Type="TABLE" TableField="1"/>
+										<PRICING.PAYMENT.AMOUNT Type="MONEY"/>
+										<listPrice Type="MONEY">40462.80</listPrice>
+										<UD_AS_QUOTE_NUM Type="ALPHANUMERIC">290329-5</UD_AS_QUOTE_NUM>
+										<UD_AS_SALES_DISCOUNT Type="MONEY" UpdatedBy="Rule">4452.17</UD_AS_SALES_DISCOUNT>
+										<assetDiscount Type="MONEY" UpdatedBy="Rule">4452.17</assetDiscount>
+										<UD_AS_YOUR_PRICE Type="MONEY">36010.63</UD_AS_YOUR_PRICE>
+										<guaranteedResidualAmount Type="MONEY">0.00</guaranteedResidualAmount>
+										<UD_AS_ADD_BLIND_DISCOUNT Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_ADD_BLIND_DISCOUNT>
+										<UD_AS_ADDL_BLIND_DISC_PER Type="PERCENT">0.00000</UD_AS_ADDL_BLIND_DISC_PER>
+										<UD_AS_BLIND_DISC_SUBTOTAL Type="MONEY" UpdatedBy="Rule">36010.63</UD_AS_BLIND_DISC_SUBTOTAL>
+										<insuredResidual Type="MONEY">0.00</insuredResidual>
+										<UD_AS_BLIND_DISCOUNT Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_BLIND_DISCOUNT>
+										<UD_AS_CORP_BLIND_DIS_PER Type="PERCENT">0.00000</UD_AS_CORP_BLIND_DIS_PER>
+										<originalCost Type="MONEY" UpdatedBy="Rule">36010.63</originalCost>
+										<dealerCommission Type="MONEY"/>
+										<totalCost Type="MONEY" UpdatedBy="Rule">36010.63</totalCost>
+										<residualAmount Type="MONEY">0.00</residualAmount>
+										<UD_AS_OTHER_COSTS_TOTAL Type="MONEY"/>
+										<rentalAmount Type="MONEY" UpdatedBy="Rule"/>
+										<variablePaymentCode Type="BOOLEAN" UpdatedBy="Rule">0</variablePaymentCode>
+										<PRICING.TARGET.YIELD.AS Type="PERCENT" UpdatedBy="Rule"/>
+										<vlDownPayment Type="MONEY"/>
+										<UD_AS_DEF_MAIN_ADDR Type="TABLE" UpdatedBy="Rule" TableField="1"/>
+										<assetAddress1 Type="ALPHANUMERIC">4401 N ATLANTIC AVE</assetAddress1>
+										<assetAddress2 Type="ALPHANUMERIC">STE 101</assetAddress2>
+										<assetPostalCode Type="POSTALCODE" UpdatedBy="Rule">90807</assetPostalCode>
+										<assetCity Type="ALPHANUMERIC" UpdatedBy="Rule">LONG BEACH</assetCity>
+										<assetState Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="California">CA</assetState>
+										<assetCountry Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="United States">US</assetCountry>
+										<stateCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="CALIFORNIA">05</stateCode>
+										<countyCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="LOS ANGELES">037</countyCode>
+										<cityCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="LONG BEACH">1860</cityCode>
+										<assetCounty Type="ALPHANUMERIC" UpdatedBy="Rule">LOS ANGELES</assetCounty>
+										<UD_AS_LOC_CHECK Type="BOOLEAN">0</UD_AS_LOC_CHECK>
+										<UD_AS_PROC_TOTAL Type="INTEGER"/>
+										<UD_AS_PROC_COST Type="DECIMAL" UpdatedBy="Rule"/>
+										<UD_AS_TOTAL_CPP_COST Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_TOTAL_CPP_COST>
+										<UD_AS_PROC_MTH Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_PROC_MTH>
+										<UD_AS_PROC_ADD Type="DECIMAL"/>
+									</AS>
+									<AS GroupType="AS" createByRule="10489">
+										<AS_KEY/>
+										<UD_AS_EQUIP_QUOTE_NUM Type="ALPHANUMERIC" UpdatedBy="Rule"/>
+										<UD_AS_EQUIP_CODE Type="TABLE" TableField="1"/>
+										<assetVendor Type="Vendor"/>
+										<UD_AS_ORDER_NUMBER Type="ALPHANUMERIC" UpdatedBy="Rule">TBD</UD_AS_ORDER_NUMBER>
+										<condition Type="TABLE" TableField="1" Desc="New">N</condition>
+										<UD_AS_TYPE Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="Freight">8</UD_AS_TYPE>
+										<UD_AS_EQUIP_DESCRIP Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="OTHER FINANCED">14</UD_AS_EQUIP_DESCRIP>
+										<upfrontTaxFinanced Type="BOOLEAN">0</upfrontTaxFinanced>
+										<purchaseOption Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="$1.00 Buyout">01</purchaseOption>
+										<UD_AS_DISCOUNT_PERCENT Type="PERCENT" UpdatedBy="Rule"/>
+										<UD_AS_PROD_GRP Type="TABLE" TableField="1" Desc="MP">00</UD_AS_PROD_GRP>
+										<UD_AS_MODEL Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="FREIGHT">15</UD_AS_MODEL>
+										<PRICING.EQUIP.CODE Type="PRICING.EQUIP.CODE" UpdatedBy="Rule" Desc="New Asset">2</PRICING.EQUIP.CODE>
+										<PRICING.CHANGE.MODEL Type="BOOLEAN">0</PRICING.CHANGE.MODEL>
+										<PRICING.DEPR.METHOD Type="TABLE" TableField="1"/>
+										<PRICING.DEPR.CONVENTION Type="TABLE" TableField="1"/>
+										<PRICING.PAYMENT.AMOUNT Type="MONEY"/>
+										<listPrice Type="MONEY">313.74</listPrice>
+										<UD_AS_QUOTE_NUM Type="ALPHANUMERIC">290329-5</UD_AS_QUOTE_NUM>
+										<UD_AS_SALES_DISCOUNT Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_SALES_DISCOUNT>
+										<assetDiscount Type="MONEY" UpdatedBy="Rule">0.00</assetDiscount>
+										<UD_AS_YOUR_PRICE Type="MONEY" UpdatedBy="Rule">313.74</UD_AS_YOUR_PRICE>
+										<guaranteedResidualAmount Type="MONEY">0.00</guaranteedResidualAmount>
+										<UD_AS_ADD_BLIND_DISCOUNT Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_ADD_BLIND_DISCOUNT>
+										<UD_AS_ADDL_BLIND_DISC_PER Type="PERCENT" UpdatedBy="Rule">0.00000</UD_AS_ADDL_BLIND_DISC_PER>
+										<UD_AS_BLIND_DISC_SUBTOTAL Type="MONEY" UpdatedBy="Rule">313.74</UD_AS_BLIND_DISC_SUBTOTAL>
+										<insuredResidual Type="MONEY">0.00</insuredResidual>
+										<UD_AS_BLIND_DISCOUNT Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_BLIND_DISCOUNT>
+										<UD_AS_CORP_BLIND_DIS_PER Type="PERCENT" UpdatedBy="Rule">0.00000</UD_AS_CORP_BLIND_DIS_PER>
+										<originalCost Type="MONEY" UpdatedBy="Rule">313.74</originalCost>
+										<dealerCommission Type="MONEY"/>
+										<totalCost Type="MONEY" UpdatedBy="Rule">313.74</totalCost>
+										<residualAmount Type="MONEY">0.00</residualAmount>
+										<UD_AS_OTHER_COSTS_TOTAL Type="MONEY"/>
+										<rentalAmount Type="MONEY" UpdatedBy="Rule"/>
+										<variablePaymentCode Type="BOOLEAN" UpdatedBy="Rule">0</variablePaymentCode>
+										<PRICING.TARGET.YIELD.AS Type="PERCENT" UpdatedBy="Rule"/>
+										<vlDownPayment Type="MONEY"/>
+										<UD_AS_DEF_MAIN_ADDR Type="TABLE" UpdatedBy="Rule" TableField="1"/>
+										<assetAddress1 Type="ALPHANUMERIC">4401 n ATLANTIC AVE</assetAddress1>
+										<assetAddress2 Type="ALPHANUMERIC">STE 101</assetAddress2>
+										<assetPostalCode Type="POSTALCODE" UpdatedBy="Rule">90807</assetPostalCode>
+										<assetCity Type="ALPHANUMERIC" UpdatedBy="Rule">LONG BEACH</assetCity>
+										<assetState Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="California">CA</assetState>
+										<assetCountry Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="United States">US</assetCountry>
+										<stateCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="CALIFORNIA">05</stateCode>
+										<countyCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="LOS ANGELES">037</countyCode>
+										<cityCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="LONG BEACH">1860</cityCode>
+										<assetCounty Type="ALPHANUMERIC" UpdatedBy="Rule">LOS ANGELES</assetCounty>
+										<UD_AS_LOC_CHECK Type="BOOLEAN">0</UD_AS_LOC_CHECK>
+										<UD_AS_PROC_TOTAL Type="INTEGER"/>
+										<UD_AS_PROC_COST Type="DECIMAL" UpdatedBy="Rule"/>
+										<UD_AS_TOTAL_CPP_COST Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_TOTAL_CPP_COST>
+										<UD_AS_PROC_MTH Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_PROC_MTH>
+										<UD_AS_PROC_ADD Type="DECIMAL"/>
+									</AS>
+									<AS GroupType="AS">
+										<AS_KEY/>
+										<UD_AS_EQUIP_QUOTE_NUM Type="ALPHANUMERIC">1</UD_AS_EQUIP_QUOTE_NUM>
+										<UD_AS_EQUIP_CODE Type="TABLE" TableField="1"/>
+										<assetVendor Type="Vendor"/>
+										<UD_AS_ORDER_NUMBER Type="ALPHANUMERIC" UpdatedBy="Rule">TBD</UD_AS_ORDER_NUMBER>
+										<condition Type="TABLE" TableField="1" Desc="New">N</condition>
+										<UD_AS_TYPE Type="TABLE" TableField="1" Desc="New Asset">5</UD_AS_TYPE>
+										<UD_AS_EQUIP_DESCRIP Type="TABLE" TableField="1" Desc="UPFRONT TAX">18</UD_AS_EQUIP_DESCRIP>
+										<upfrontTaxFinanced Type="BOOLEAN">0</upfrontTaxFinanced>
+										<purchaseOption Type="TABLE" TableField="1" Desc="$1.00 Buyout">01</purchaseOption>
+										<UD_AS_DISCOUNT_PERCENT Type="PERCENT" UpdatedBy="Rule"/>
+										<UD_AS_PROD_GRP Type="TABLE" TableField="1" Desc="MP">00</UD_AS_PROD_GRP>
+										<UD_AS_MODEL Type="TABLE" TableField="1" Desc="UPFRONT TAX">37</UD_AS_MODEL>
+										<PRICING.EQUIP.CODE Type="PRICING.EQUIP.CODE" UpdatedBy="Rule" Desc="New Asset">2</PRICING.EQUIP.CODE>
+										<PRICING.CHANGE.MODEL Type="BOOLEAN">0</PRICING.CHANGE.MODEL>
+										<PRICING.DEPR.METHOD Type="TABLE" TableField="1"/>
+										<PRICING.DEPR.CONVENTION Type="TABLE" TableField="1"/>
+										<PRICING.PAYMENT.AMOUNT Type="MONEY"/>
+										<listPrice Type="MONEY">3269.19</listPrice>
+										<UD_AS_QUOTE_NUM Type="ALPHANUMERIC">TAX</UD_AS_QUOTE_NUM>
+										<UD_AS_SALES_DISCOUNT Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_SALES_DISCOUNT>
+										<assetDiscount Type="MONEY" UpdatedBy="Rule">0.00</assetDiscount>
+										<UD_AS_YOUR_PRICE Type="MONEY">3269.19</UD_AS_YOUR_PRICE>
+										<guaranteedResidualAmount Type="MONEY">0.00</guaranteedResidualAmount>
+										<UD_AS_ADD_BLIND_DISCOUNT Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_ADD_BLIND_DISCOUNT>
+										<UD_AS_ADDL_BLIND_DISC_PER Type="PERCENT">0.00000</UD_AS_ADDL_BLIND_DISC_PER>
+										<UD_AS_BLIND_DISC_SUBTOTAL Type="MONEY" UpdatedBy="Rule">3269.19</UD_AS_BLIND_DISC_SUBTOTAL>
+										<insuredResidual Type="MONEY">0.00</insuredResidual>
+										<UD_AS_BLIND_DISCOUNT Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_BLIND_DISCOUNT>
+										<UD_AS_CORP_BLIND_DIS_PER Type="PERCENT">0.00000</UD_AS_CORP_BLIND_DIS_PER>
+										<originalCost Type="MONEY" UpdatedBy="Rule">3269.19</originalCost>
+										<dealerCommission Type="MONEY"/>
+										<totalCost Type="MONEY" UpdatedBy="Rule">3269.19</totalCost>
+										<residualAmount Type="MONEY">0.00</residualAmount>
+										<UD_AS_OTHER_COSTS_TOTAL Type="MONEY"/>
+										<rentalAmount Type="MONEY" UpdatedBy="Rule"/>
+										<variablePaymentCode Type="BOOLEAN" UpdatedBy="Rule">0</variablePaymentCode>
+										<PRICING.TARGET.YIELD.AS Type="PERCENT" UpdatedBy="Rule"/>
+										<vlDownPayment Type="MONEY"/>
+										<UD_AS_DEF_MAIN_ADDR Type="TABLE" UpdatedBy="Rule" TableField="1"/>
+										<assetAddress1 Type="ALPHANUMERIC">4401 N ATLANTIC AVE</assetAddress1>
+										<assetAddress2 Type="ALPHANUMERIC">STE 101</assetAddress2>
+										<assetPostalCode Type="POSTALCODE" UpdatedBy="Rule">90807</assetPostalCode>
+										<assetCity Type="ALPHANUMERIC" UpdatedBy="Rule">LONG BEACH</assetCity>
+										<assetState Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="California">CA</assetState>
+										<assetCountry Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="United States">US</assetCountry>
+										<stateCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="CALIFORNIA">05</stateCode>
+										<countyCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="LOS ANGELES">037</countyCode>
+										<cityCode Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="LONG BEACH">1860</cityCode>
+										<assetCounty Type="ALPHANUMERIC" UpdatedBy="Rule">LOS ANGELES</assetCounty>
+										<UD_AS_LOC_CHECK Type="BOOLEAN">0</UD_AS_LOC_CHECK>
+										<UD_AS_PROC_TOTAL Type="INTEGER"/>
+										<UD_AS_PROC_COST Type="DECIMAL" UpdatedBy="Rule"/>
+										<UD_AS_TOTAL_CPP_COST Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_TOTAL_CPP_COST>
+										<UD_AS_PROC_MTH Type="MONEY" UpdatedBy="Rule">0.00</UD_AS_PROC_MTH>
+										<UD_AS_PROC_ADD Type="DECIMAL"/>
+									</AS>
+									<IRREGULARRENTS GroupType="IRREGULARRENTS">
+										<IRREGULARRENTS_KEY/>
+										<IR.NUMBER.OF.PAYMENTS Type="INTEGER">1</IR.NUMBER.OF.PAYMENTS>
+										<IR.FACTOR Type="MONEY">6000.00</IR.FACTOR>
+										<IR.RESULT.AMT Type="MONEY">6000.00</IR.RESULT.AMT>
+										<IR.SERVICE.AMT Type="MONEY"/>
+									</IRREGULARRENTS>
+									<IRREGULARRENTS GroupType="IRREGULARRENTS">
+										<IRREGULARRENTS_KEY/>
+										<IR.NUMBER.OF.PAYMENTS Type="INTEGER">36</IR.NUMBER.OF.PAYMENTS>
+										<IR.FACTOR Type="MONEY">1.00</IR.FACTOR>
+										<IR.RESULT.AMT Type="MONEY">1009.74</IR.RESULT.AMT>
+										<IR.SERVICE.AMT Type="MONEY"/>
+									</IRREGULARRENTS>
+									<SS GroupType="SS">
+										<SS_KEY/>
+										<variableDate Type="INTEGER">1</variableDate>
+										<paymentAmount Type="MONEY">6000.00</paymentAmount>
+										<UD_VARIABLE_TOTAL Type="MONEY" UpdatedBy="Rule">6000.00</UD_VARIABLE_TOTAL>
+									</SS>
+									<SS GroupType="SS">
+										<SS_KEY/>
+										<variableDate Type="INTEGER">36</variableDate>
+										<paymentAmount Type="MONEY">1009.74</paymentAmount>
+										<UD_VARIABLE_TOTAL Type="MONEY" UpdatedBy="Rule">36350.64</UD_VARIABLE_TOTAL>
+									</SS>
+									<MR GroupType="MR">
+										<MR_KEY/>
+										<mrktngReps Type="TABLE" TableField="1" Desc="LENING, VICTORIA">0296</mrktngReps>
+										<mrktngRepPercent Type="INTEGER">34</mrktngRepPercent>
+										<office Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="FIELD">9999</office>
+										<mrktngRepRegion Type="TABLE" TableField="1" Desc="FIS WEST-JANET WALSH">002</mrktngRepRegion>
+										<UD_MR_AVP_LIST Type="TABLE" TableField="1" Desc="BISHOP, BROOKS">9002</UD_MR_AVP_LIST>
+										<UD_MR_COUNTER Type="INTEGER" UpdatedBy="Rule">1</UD_MR_COUNTER>
+									</MR>
+									<MR GroupType="MR">
+										<MR_KEY/>
+										<mrktngReps Type="TABLE" TableField="1" Desc="LENING, VICTORIA">0296</mrktngReps>
+										<mrktngRepPercent Type="INTEGER">33</mrktngRepPercent>
+										<office Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="FIELD">9999</office>
+										<mrktngRepRegion Type="TABLE" TableField="1" Desc="FIS WEST-JANET WALSH">002</mrktngRepRegion>
+										<UD_MR_AVP_LIST Type="TABLE" TableField="1" Desc="BISHOP, BROOKS">9002</UD_MR_AVP_LIST>
+										<UD_MR_COUNTER Type="INTEGER" UpdatedBy="Rule">1</UD_MR_COUNTER>
+									</MR>
+									<MR GroupType="MR">
+										<MR_KEY/>
+										<mrktngReps Type="TABLE" TableField="1" Desc="LENING, VICTORIA">0296</mrktngReps>
+										<mrktngRepPercent Type="INTEGER">33</mrktngRepPercent>
+										<office Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="FIELD">9999</office>
+										<mrktngRepRegion Type="TABLE" TableField="1" Desc="FIS WEST-JANET WALSH">002</mrktngRepRegion>
+										<UD_MR_AVP_LIST Type="TABLE" TableField="1" Desc="BISHOP, BROOKS">9002</UD_MR_AVP_LIST>
+										<UD_MR_COUNTER Type="INTEGER" UpdatedBy="Rule">1</UD_MR_COUNTER>
+									</MR>
+								</CO>
+								<CUST_DATA>
+									<CUST_DATA_KEY>9974</CUST_DATA_KEY>
+									<CUST_ID Type="ALPHANUMERIC"/>
+									<CUST_NAME Type="ALPHANUMERIC">CARE FIRST SURGICAL CENTER, LLC</CUST_NAME>
+									<FED_ID Type="ALPHANUMERIC"/>
+									<CREDIT_LIMIT Type="MONEY">50000.00</CREDIT_LIMIT>
+									<ADDR_1 Type="ALPHANUMERIC">9903 SANTA MONICA BLVD</ADDR_1>
+									<ADDR_2 Type="ALPHANUMERIC"/>
+									<ADDR_3 Type="ALPHANUMERIC"/>
+									<CITY Type="ALPHANUMERIC">BEVERLY HILLS</CITY>
+									<STATE Type="TABLE" TableField="1" Desc="California">CA</STATE>
+									<ZIP Type="POSTALCODE">90212</ZIP>
+									<SHORT_NAME Type="ALPHANUMERIC"/>
+									<YEAR_END_MONTH Type="INTEGER"/>
+									<PCT_OWNERSHIP Type="PERCENT"/>
+									<TITLE Type="ALPHANUMERIC"/>
+									<COMMENTS Type="WP"/>
+									<COLLECTOR Type="TABLE"/>
+									<COUNTY Type="ALPHANUMERIC"/>
+									<COUNTRY Type="TABLE"/>
+									<DATE_OF_BIRTH Type="DATE">2010-06-01</DATE_OF_BIRTH>
+									<DBA Type="ALPHANUMERIC"/>
+									<INSURANCE_AGENT Type="TABLE"/>
+									<PREF_CUST Type="TABLE"/>
+									<PREF_CUST_LIMIT Type="MONEY"/>
+									<PREF_CUST_CARD Type="TABLE"/>
+									<EFFECTIVE_DATE Type="DATE">2014-09-22</EFFECTIVE_DATE>
+									<CREDIT_ANALYST Type="TABLE"/>
+									<THIRD_PARTY_GUARANTOR Type="BOOLEAN"/>
+									<DB_RATING_CODE Type="TABLE"/>
+									<DB_RATING Type="ALPHANUMERIC"/>
+									<BUSINESS Type="TABLE" TableField="1" Desc="Medical Practice">05</BUSINESS>
+									<BUSINESS_TYPE Type="TABLE" TableField="1" Desc="limited liability company">28</BUSINESS_TYPE>
+									<BEGIN_BUSINESS_YEAR Type="ALPHANUMERIC">2010</BEGIN_BUSINESS_YEAR>
+									<PREMISES Type="TABLE"/>
+									<YEARS_IN_BUSINESS Type="ALPHANUMERIC"/>
+									<PARENT_COMPANY_NAME Type="ALPHANUMERIC"/>
+									<PARENT_COMPANY_ADDR_1 Type="ALPHANUMERIC"/>
+									<PARENT_COMPANY_ADDR_2 Type="ALPHANUMERIC"/>
+									<PARENT_COMPANY_ADDR_3 Type="ALPHANUMERIC"/>
+									<PARENT_COMPANY_CITY Type="ALPHANUMERIC"/>
+									<PARENT_COMPANY_STATE Type="TABLE"/>
+									<PARENT_COMPANY_ZIP Type="ALPHANUMERIC"/>
+									<PARENT_COMPANY_COUNTY Type="ALPHANUMERIC"/>
+									<PARENT_COMPANY_COUNTRY Type="ALPHANUMERIC"/>
+									<PARENT_COMPANY_DBA Type="ALPHANUMERIC"/>
+									<PARENT_COMPANY_PHONE Type="PHONE"/>
+									<LANDLORD_NAME Type="ALPHANUMERIC"/>
+									<LANDLORD_ADDR_1 Type="ALPHANUMERIC"/>
+									<LANDLORD_ADDR_2 Type="ALPHANUMERIC"/>
+									<LANDLORD_ADDR_3 Type="ALPHANUMERIC"/>
+									<LANDLORD_CITY Type="ALPHANUMERIC"/>
+									<LANDLORD_STATE Type="TABLE"/>
+									<LANDLORD_ZIP Type="ALPHANUMERIC"/>
+									<LANDLORD_COUNTY Type="ALPHANUMERIC"/>
+									<LANDLORD_COUNTRY Type="ALPHANUMERIC"/>
+									<LANDLORD_PHONE Type="PHONE"/>
+									<BUSINESS_DESCRIPTION Type="ALPHANUMERIC"/>
+									<CUST_CREDIT_CODE Type="TABLE" TableField="1" Desc="CBR">C</CUST_CREDIT_CODE>
+									<CUST_CREDIT_SCORE Type="ALPHANUMERIC"/>
+									<CUST_INCORP_STATE Type="TABLE" TableField="1" Desc="Delaware">DE</CUST_INCORP_STATE>
+									<CUST_PERS_REVIEW_YN Type="BOOLEAN"/>
+									<CUST_FMR_ADDR Type="ALPHANUMERIC"/>
+									<CUST_FMR_CITY Type="ALPHANUMERIC"/>
+									<CUST_FMR_STATE Type="TABLE"/>
+									<CUST_FMR_ZIP Type="ALPHANUMERIC"/>
+									<CUST_FMR_COUNTY Type="ALPHANUMERIC"/>
+									<CUST_DEBTOR_ORG_ID Type="ALPHANUMERIC">4831012</CUST_DEBTOR_ORG_ID>
+									<CUST_PARENT_CODE Type="TABLE"/>
+									<UD_CU_TAX_STATUS Type="TABLE" TableField="1"/>
+									<CUST_ROLE_YN Type="BOOLEAN">1</CUST_ROLE_YN>
+									<UD_CU_PROFIT_TYPE Type="TABLE" TableField="1"/>
+									<UD_CU_EXEMPT_CERT_NUM Type="ALPHANUMERIC" UpdatedBy="Rule"/>
+									<CUST_USER_ALPHA3 Type="ALPHANUMERIC"/>
+									<CUST_USER_ALPHA4 Type="ALPHANUMERIC"/>
+									<UD_CU_FOLLOW_UP_DATE Type="DATE" UpdatedBy="Rule"/>
+									<CUST_STATE_CODE Type="ALPHANUMERIC" UpdatedBy="Rule">05</CUST_STATE_CODE>
+									<LOCAL_SIC_CODE Type="TABLE" TableField="1"/>
+									<FACILITY_SCORE Type="ALPHANUMERIC"/>
+									<CUST_USER_ALPHA1 Type="ALPHANUMERIC"/>
+									<CUST_USER_ALPHA2 Type="ALPHANUMERIC"/>
+									<UD_EXPIRATION_DATE Type="DATE" UpdatedBy="Rule">2015-09-22</UD_EXPIRATION_DATE>
+									<UD_CU_FORCE_EXPOSURE_RECALC Type="TABLE" UpdatedBy="Rule" TableField="1" Desc="Recalculate Exposure">00</UD_CU_FORCE_EXPOSURE_RECALC>
+									<INSURANCE_POLICIES/>
+									<CUSTOMER_ROLE>
+										<CUSTOMER_ROLE_KEY>9974-CUSTOMER_ROLE-1</CUSTOMER_ROLE_KEY>
+										<BILL_TO>
+											<BT_INV_NAME Type="ALPHANUMERIC">CARE FIRST SURGICAL CENTER, LLC</BT_INV_NAME>
+											<BT_PRIMARY_YN Type="BOOLEAN">1</BT_PRIMARY_YN>
+											<BT_ADDR_1 Type="ALPHANUMERIC">9903 SANTA MONICA BLVD</BT_ADDR_1>
+											<BT_CITY Type="ALPHANUMERIC">BEVERLY HILLS</BT_CITY>
+											<BT_STATE Type="TABLE" TableField="1" Desc="California">CA</BT_STATE>
+											<BT_ZIP Type="POSTALCODE">90212</BT_ZIP>
+											<BILL_TO_KEY>9974-BILL_TO-1</BILL_TO_KEY>
+											<BT_ATTENTION Type="ALPHANUMERIC"/>
+											<BT_ADDR_2 Type="ALPHANUMERIC" UpdatedBy="Rule"/>
+											<BT_ADDR_3 Type="ALPHANUMERIC"/>
+											<BT_COUNTRY Type="TABLE" UpdatedBy="Rule" TableField="1"/>
+											<BT_STATE_CODE Type="ALPHANUMERIC"/>
+										</BILL_TO>
+									</CUSTOMER_ROLE>
+									<SIC_CODE>
+										<SIC_CODE_KEY>9974-SIC_CODE-1</SIC_CODE_KEY>
+										<SCD_CODE Type="TABLE" TableField="1" Desc="NEW CUSTOMER">9999</SCD_CODE>
+										<BOI_KEYS>
+											<BOI_KEY BOI="IL" KEY="9999"/>
+										</BOI_KEYS>
+									</SIC_CODE>
+									<CEC GroupType="CEC">
+										<CEC_KEY>9974-CEC-1</CEC_KEY>
+										<foDirectExposure Type="MONEY"/>
+										<boDirectExposure Type="MONEY"/>
+										<totalDirect Type="MONEY"/>
+										<foIndirectExposure Type="MONEY"/>
+										<boIndirectExposure Type="MONEY"/>
+										<totalIndirect Type="MONEY"/>
+										<foDirectRelatedPartyExp Type="MONEY"/>
+										<boDirectRelatedPartyExp Type="MONEY"/>
+										<totalDirectRelatedParty Type="MONEY"/>
+										<foIndirectRelatedPartyExp Type="MONEY"/>
+										<boIndirectRelatedPartyExp Type="MONEY"/>
+										<totalIndirectRelatedParty Type="MONEY"/>
+										<totalExposure Type="MONEY"/>
+										<exposureDateTime Type="ALPHANUMERIC"/>
+										<exposureCurrency Type="TABLE" TableField="1"/>
+										<availableCredit Type="MONEY"/>
+										<creditLimit Type="MONEY"/>
+										<outstandingBalance Type="MONEY"/>
+									</CEC>
+								</CUST_DATA>
+								<document_params_list>
+									<document_params>
+										<frequency_text>Monthly</frequency_text>
+										<term_in_months>37</term_in_months>
+										<term_in_years>3</term_in_years>
+										<lease_type_text>Conditional Sale</lease_type_text>
+										<number_ending_payments_in_advance>0</number_ending_payments_in_advance>
+										<number_of_payments>37</number_of_payments>
+										<rent_factor>0</rent_factor>
+										<rent_payment_method_text>Advance</rent_payment_method_text>
+										<rent_type_text>Irregular</rent_type_text>
+										<total_equipment_cost>39593.56</total_equipment_cost>
+										<yield_type>Nom PT</yield_type>
+										<yield>5.1928</yield>
+										<stream_apr>5.1928</stream_apr>
+										<street_rate>4.874</street_rate>
+										<cost_of_funds_roa>1</cost_of_funds_roa>
+										<cost_of_funds_drr>1</cost_of_funds_drr>
+										<apr_residual>5.1928</apr_residual>
+										<pre_payment_penalty>0.00</pre_payment_penalty>
+										<stamp_duty/>
+										<fid/>
+										<combined_rent/>
+										<lessee_name/>
+										<total_idc_amount>0.00</total_idc_amount>
+										<weighted_average_life>1.341</weighted_average_life>
+										<gst_on_residual/>
+										<residual_inclusive_gst/>
+										<gst_financed/>
+										<gst_upfront/>
+										<gst/>
+										<gst_on_equipment/>
+										<gst_financed_flag/>
+										<sd_financed_flag/>
+										<tot_financed/>
+										<gst_include_sd_flag/>
+										<sd_upfront_flag/>
+										<sd_upfront/>
+										<rent_schedule>
+											<row>
+												<num>1</num>
+												<amount>6000.00</amount>
+											</row>
+											<row>
+												<num>36</num>
+												<amount>1009.74</amount>
+											</row>
+										</rent_schedule>
+									</document_params>
+								</document_params_list>
+							</IronData>
+						</quote_form_data_xml>
+						<numberDecimals>2</numberDecimals>
+					</quote>
+				</quote_list>
+			</bid>
+			<EntityReferenceNumber>111598</EntityReferenceNumber>
+		</bid_list>
+	</DATABASEKEY>
+</DOCUMENT_DATA_GROUP>

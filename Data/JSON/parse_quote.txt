@@ -1,0 +1,8 @@
+
+$.DOCUMENT_DATA_GROUP.DATABASEKEY.bid_list[*].quote_list.quote
+
+
+$.DOCUMENT_DATA_GROUP.DATABASEKEY.bid_list[*].quote_list.quote.quote_calc_data_xml.get_rent_output.rent_result.yield
+
+$.DOCUMENT_DATA_GROUP.DATABASEKEY.bid_list[*].quote_list.quote.quote_calc_data_xml.get_rent_output.rent_result.rent_with_tax_summary.row[1].num
+

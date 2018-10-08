@@ -1,0 +1,23 @@
+
+
+
+
+
+
+<%= 
+/*
+ReadXMLFile.getXMLdata("101-0017172-001") ;
+ArrayList<Item> list = (ArrayList<Item>) request.getAttribute("itemList");
+*/
+
+%>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rows>
+   <Row>
+      <Credit_App>11988.0</Credit_App>
+      <Contract_Number>101-0012586-006</Contract_Number>
+      <Agreement_Number>0012586-006</Agreement_Number>
+      <Customer_Name>WASHINGTON TOWNSHIP HEALTH CARE DISTRICT</Customer_Name>
+      <Customer_State>CA</Customer_State>
+      <Service_Pymt_Rate>21859.2</Service_Pymt_Rate>
+      <Term>18.0</Term>
+      <FIS_Territory>11 - Southwest</FIS_Territory>
+      <Svc_Quote_1>F-66-00584-C</Svc_Quote_1>
+      <Svc_Quote_2>NONE</Svc_Quote_2>
+      <Svc_Quote_3>NONE</Svc_Quote_3>
+      <Program_Type>FPP LEASE</Program_Type>
+      <MP_Service>21859.2</MP_Service>
+      <SP_Service>0.0</SP_Service>
+      <Gyrus_Service>0.0</Gyrus_Service>
+      <EW7_Maint>0.0</EW7_Maint>
+      <Date_Commenced>2018/07/09 00:00:00.000</Date_Commenced>
+      <Term_Date>2020/01/09 00:00:00.000</Term_Date>
+      <Asset_State>California</Asset_State>
+      <CO_promotion_TBDESC>NONE</CO_promotion_TBDESC>
+   </Row>
+   <Row>
+      <Credit_App>12026.0</Credit_App>
+      <Contract_Number>101-0013195-062</Contract_Number>
+      <Agreement_Number>0013195-062</Agreement_Number>
+      <Customer_Name>NORTHWELL HEALTH, INC.</Customer_Name>
+      <Customer_State>NY</Customer_State>
+      <Service_Pymt_Rate>91200.0</Service_Pymt_Rate>
+      <Term>48.0</Term>
+      <FIS_Territory>1- New England</FIS_Territory>
+      <Svc_Quote_1>F-74-00490-A</Svc_Quote_1>
+      <Svc_Quote_2>NONE</Svc_Quote_2>
+      <Svc_Quote_3>NONE</Svc_Quote_3>
+      <Program_Type>HYBRID FPP/CPP</Program_Type>
+      <MP_Service>91200.0</MP_Service>
+      <SP_Service>0.0</SP_Service>
+      <Gyrus_Service>0.0</Gyrus_Service>
+      <EW7_Maint>0.0</EW7_Maint>
+      <Date_Commenced>2018/08/01 00:00:00.000</Date_Commenced>
+      <Term_Date>2022/08/01 00:00:00.000</Term_Date>
+      <Asset_State>New York</Asset_State>
+      <CO_promotion_TBDESC>NONE</CO_promotion_TBDESC>
+   </Row>
+</Rows>

@@ -1,0 +1,345 @@
+2018/08/28 08:44:54 - UpLoad to Box - Opening transformation: [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr] in directory []
+2018/08/28 08:44:54 - UpLoad to Box - Loading transformation from repository [null] in directory []
+2018/08/28 08:44:54 - UpLoad to Box - ERROR (version 7.1.0.0-12, build 1 from 2017-05-16 17.18.02 by buildguy) : org.pentaho.di.core.exception.KettleException: 
+2018/08/28 08:44:54 - UpLoad to Box - Unexpected error during transformation metadata load
+2018/08/28 08:44:54 - UpLoad to Box - 
+2018/08/28 08:44:54 - UpLoad to Box - Unable to load transformation from path [null]
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.run (Job.java:436)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:546)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:724)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.execute (JobEntryTrans.java:681)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta (JobEntryTrans.java:1302)
+2018/08/28 08:44:54 - UpLoad to Box -  at com.sun.proxy.$Proxy90.loadTransformation (null:-1)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.ui.repo.RepositorySessionTimeoutHandler.invoke (RepositorySessionTimeoutHandler.java:71)
+2018/08/28 08:44:54 - UpLoad to Box -  at java.lang.reflect.Method.invoke (null:-1)
+2018/08/28 08:44:54 - UpLoad to Box -  at sun.reflect.DelegatingMethodAccessorImpl.invoke (null:-1)
+2018/08/28 08:44:54 - UpLoad to Box -  at sun.reflect.GeneratedMethodAccessor813.invoke (null:-1)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.loadTransformation (PurRepository.java:2152)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.getPath (PurRepository.java:815)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.checkAndSanitize (PurRepository.java:2340)
+2018/08/28 08:44:54 - UpLoad to Box - 
+2018/08/28 08:44:54 - UpLoad to Box - 
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1351)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:681)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:724)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:546)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.job.Job.run(Job.java:436)
+2018/08/28 08:44:54 - UpLoad to Box - Caused by: org.pentaho.di.core.exception.KettleException: 
+2018/08/28 08:44:54 - UpLoad to Box - Unable to load transformation from path [null]
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.run (Job.java:436)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:546)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:724)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.execute (JobEntryTrans.java:681)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta (JobEntryTrans.java:1302)
+2018/08/28 08:44:54 - UpLoad to Box -  at com.sun.proxy.$Proxy90.loadTransformation (null:-1)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.ui.repo.RepositorySessionTimeoutHandler.invoke (RepositorySessionTimeoutHandler.java:71)
+2018/08/28 08:44:54 - UpLoad to Box -  at java.lang.reflect.Method.invoke (null:-1)
+2018/08/28 08:44:54 - UpLoad to Box -  at sun.reflect.DelegatingMethodAccessorImpl.invoke (null:-1)
+2018/08/28 08:44:54 - UpLoad to Box -  at sun.reflect.GeneratedMethodAccessor813.invoke (null:-1)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.loadTransformation (PurRepository.java:2152)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.getPath (PurRepository.java:815)
+2018/08/28 08:44:54 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.checkAndSanitize (PurRepository.java:2340)
+2018/08/28 08:44:54 - UpLoad to Box - 
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.loadTransformation(PurRepository.java:2172)
+2018/08/28 08:44:54 - UpLoad to Box - 	at sun.reflect.GeneratedMethodAccessor813.invoke(Unknown Source)
+2018/08/28 08:44:54 - UpLoad to Box - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2018/08/28 08:44:54 - UpLoad to Box - 	at java.lang.reflect.Method.invoke(Unknown Source)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.ui.repo.RepositorySessionTimeoutHandler.invoke(RepositorySessionTimeoutHandler.java:71)
+2018/08/28 08:44:54 - UpLoad to Box - 	at com.sun.proxy.$Proxy90.loadTransformation(Unknown Source)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1302)
+2018/08/28 08:44:54 - UpLoad to Box - 	... 7 more
+2018/08/28 08:44:54 - UpLoad to Box - Caused by: java.lang.IllegalArgumentException
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.checkAndSanitize(PurRepository.java:2340)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.getPath(PurRepository.java:815)
+2018/08/28 08:44:54 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.loadTransformation(PurRepository.java:2152)
+2018/08/28 08:44:54 - UpLoad to Box - 	... 13 more
+2018/08/28 09:21:14 - UpLoad to Box - Opening transformation: [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr] in directory []
+2018/08/28 09:21:14 - UpLoad to Box - Loading transformation from repository [null] in directory []
+2018/08/28 09:21:14 - UpLoad to Box - ERROR (version 7.1.0.0-12, build 1 from 2017-05-16 17.18.02 by buildguy) : org.pentaho.di.core.exception.KettleException: 
+2018/08/28 09:21:14 - UpLoad to Box - Unexpected error during transformation metadata load
+2018/08/28 09:21:14 - UpLoad to Box - 
+2018/08/28 09:21:14 - UpLoad to Box - Unable to load transformation from path [null]
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.run (Job.java:436)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:546)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:724)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.execute (JobEntryTrans.java:681)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta (JobEntryTrans.java:1302)
+2018/08/28 09:21:14 - UpLoad to Box -  at com.sun.proxy.$Proxy90.loadTransformation (null:-1)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.ui.repo.RepositorySessionTimeoutHandler.invoke (RepositorySessionTimeoutHandler.java:71)
+2018/08/28 09:21:14 - UpLoad to Box -  at java.lang.reflect.Method.invoke (null:-1)
+2018/08/28 09:21:14 - UpLoad to Box -  at sun.reflect.DelegatingMethodAccessorImpl.invoke (null:-1)
+2018/08/28 09:21:14 - UpLoad to Box -  at sun.reflect.GeneratedMethodAccessor813.invoke (null:-1)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.loadTransformation (PurRepository.java:2152)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.getPath (PurRepository.java:815)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.checkAndSanitize (PurRepository.java:2340)
+2018/08/28 09:21:14 - UpLoad to Box - 
+2018/08/28 09:21:14 - UpLoad to Box - 
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1351)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:681)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:724)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:546)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.job.Job.run(Job.java:436)
+2018/08/28 09:21:14 - UpLoad to Box - Caused by: org.pentaho.di.core.exception.KettleException: 
+2018/08/28 09:21:14 - UpLoad to Box - Unable to load transformation from path [null]
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.run (Job.java:436)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:546)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:724)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.execute (JobEntryTrans.java:681)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta (JobEntryTrans.java:1302)
+2018/08/28 09:21:14 - UpLoad to Box -  at com.sun.proxy.$Proxy90.loadTransformation (null:-1)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.ui.repo.RepositorySessionTimeoutHandler.invoke (RepositorySessionTimeoutHandler.java:71)
+2018/08/28 09:21:14 - UpLoad to Box -  at java.lang.reflect.Method.invoke (null:-1)
+2018/08/28 09:21:14 - UpLoad to Box -  at sun.reflect.DelegatingMethodAccessorImpl.invoke (null:-1)
+2018/08/28 09:21:14 - UpLoad to Box -  at sun.reflect.GeneratedMethodAccessor813.invoke (null:-1)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.loadTransformation (PurRepository.java:2152)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.getPath (PurRepository.java:815)
+2018/08/28 09:21:14 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.checkAndSanitize (PurRepository.java:2340)
+2018/08/28 09:21:14 - UpLoad to Box - 
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.loadTransformation(PurRepository.java:2172)
+2018/08/28 09:21:14 - UpLoad to Box - 	at sun.reflect.GeneratedMethodAccessor813.invoke(Unknown Source)
+2018/08/28 09:21:14 - UpLoad to Box - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2018/08/28 09:21:14 - UpLoad to Box - 	at java.lang.reflect.Method.invoke(Unknown Source)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.ui.repo.RepositorySessionTimeoutHandler.invoke(RepositorySessionTimeoutHandler.java:71)
+2018/08/28 09:21:14 - UpLoad to Box - 	at com.sun.proxy.$Proxy90.loadTransformation(Unknown Source)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1302)
+2018/08/28 09:21:14 - UpLoad to Box - 	... 8 more
+2018/08/28 09:21:14 - UpLoad to Box - Caused by: java.lang.IllegalArgumentException
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.checkAndSanitize(PurRepository.java:2340)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.getPath(PurRepository.java:815)
+2018/08/28 09:21:14 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.loadTransformation(PurRepository.java:2152)
+2018/08/28 09:21:14 - UpLoad to Box - 	... 14 more
+2018/08/28 09:22:09 - UpLoad to Box - Opening transformation: [D:\Kettle\Demo\Trans\SSH_upload_to_box_2.ktr] in directory []
+2018/08/28 09:22:09 - UpLoad to Box - Loading transformation from repository [null] in directory []
+2018/08/28 09:22:09 - UpLoad to Box - ERROR (version 7.1.0.0-12, build 1 from 2017-05-16 17.18.02 by buildguy) : org.pentaho.di.core.exception.KettleException: 
+2018/08/28 09:22:09 - UpLoad to Box - Unexpected error during transformation metadata load
+2018/08/28 09:22:09 - UpLoad to Box - 
+2018/08/28 09:22:09 - UpLoad to Box - Unable to load transformation from path [null]
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.run (Job.java:436)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:546)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:724)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.execute (JobEntryTrans.java:681)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta (JobEntryTrans.java:1302)
+2018/08/28 09:22:09 - UpLoad to Box -  at com.sun.proxy.$Proxy90.loadTransformation (null:-1)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.ui.repo.RepositorySessionTimeoutHandler.invoke (RepositorySessionTimeoutHandler.java:71)
+2018/08/28 09:22:09 - UpLoad to Box -  at java.lang.reflect.Method.invoke (null:-1)
+2018/08/28 09:22:09 - UpLoad to Box -  at sun.reflect.DelegatingMethodAccessorImpl.invoke (null:-1)
+2018/08/28 09:22:09 - UpLoad to Box -  at sun.reflect.GeneratedMethodAccessor813.invoke (null:-1)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.loadTransformation (PurRepository.java:2152)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.getPath (PurRepository.java:815)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.checkAndSanitize (PurRepository.java:2340)
+2018/08/28 09:22:09 - UpLoad to Box - 
+2018/08/28 09:22:09 - UpLoad to Box - 
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1351)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:681)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:724)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.job.Job.execute(Job.java:546)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.job.Job.run(Job.java:436)
+2018/08/28 09:22:09 - UpLoad to Box - Caused by: org.pentaho.di.core.exception.KettleException: 
+2018/08/28 09:22:09 - UpLoad to Box - Unable to load transformation from path [null]
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.run (Job.java:436)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:546)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:865)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.Job.execute (Job.java:724)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.execute (JobEntryTrans.java:681)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta (JobEntryTrans.java:1302)
+2018/08/28 09:22:09 - UpLoad to Box -  at com.sun.proxy.$Proxy90.loadTransformation (null:-1)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.ui.repo.RepositorySessionTimeoutHandler.invoke (RepositorySessionTimeoutHandler.java:71)
+2018/08/28 09:22:09 - UpLoad to Box -  at java.lang.reflect.Method.invoke (null:-1)
+2018/08/28 09:22:09 - UpLoad to Box -  at sun.reflect.DelegatingMethodAccessorImpl.invoke (null:-1)
+2018/08/28 09:22:09 - UpLoad to Box -  at sun.reflect.GeneratedMethodAccessor813.invoke (null:-1)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.loadTransformation (PurRepository.java:2152)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.getPath (PurRepository.java:815)
+2018/08/28 09:22:09 - UpLoad to Box -  at org.pentaho.di.repository.pur.PurRepository.checkAndSanitize (PurRepository.java:2340)
+2018/08/28 09:22:09 - UpLoad to Box - 
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.loadTransformation(PurRepository.java:2172)
+2018/08/28 09:22:09 - UpLoad to Box - 	at sun.reflect.GeneratedMethodAccessor813.invoke(Unknown Source)
+2018/08/28 09:22:09 - UpLoad to Box - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2018/08/28 09:22:09 - UpLoad to Box - 	at java.lang.reflect.Method.invoke(Unknown Source)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.ui.repo.RepositorySessionTimeoutHandler.invoke(RepositorySessionTimeoutHandler.java:71)
+2018/08/28 09:22:09 - UpLoad to Box - 	at com.sun.proxy.$Proxy90.loadTransformation(Unknown Source)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1302)
+2018/08/28 09:22:09 - UpLoad to Box - 	... 8 more
+2018/08/28 09:22:09 - UpLoad to Box - Caused by: java.lang.IllegalArgumentException
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.checkAndSanitize(PurRepository.java:2340)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.getPath(PurRepository.java:815)
+2018/08/28 09:22:09 - UpLoad to Box - 	at org.pentaho.di.repository.pur.PurRepository.loadTransformation(PurRepository.java:2152)
+2018/08/28 09:22:09 - UpLoad to Box - 	... 14 more
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Opening transformation: [null] in directory [/home/admin]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Loading transformation from repository [Rapport_SSH_Upload_to_Box] in directory [/home/admin]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Starting transformation...(file=null, name=Rapport_SSH_Upload_to_Box, repinfo=null)
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Using run configuration [Pentaho local]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Using legacy execution engine
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Transformation is pre-loaded.
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - nr of steps to run : 4  , nr of hops : 3
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Dispatching started for transformation [Rapport_SSH_Upload_to_Box]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Nr of arguments detected:0 
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - This is not a replay transformation
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - I found 4 different steps to launch.
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Allocating rowsets...
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Allocating rowsets for step 0 --> Concat Fields
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -   prevcopies = 1, nextcopies=1
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Transformation allocated new rowset [Concat Fields.0 - Upload to box.com via  SSH commands.0]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -   prevcopies = 1, nextcopies=1
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Transformation allocated new rowset [Concat Fields.0 - Text file output.0]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Allocated 2 rowsets for step 0 --> Concat Fields  
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Allocating rowsets for step 1 --> Upload to box.com via  SSH commands
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Allocated 2 rowsets for step 1 --> Upload to box.com via  SSH commands  
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Allocating rowsets for step 2 --> Generate Rows
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -   prevcopies = 1, nextcopies=1
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Transformation allocated new rowset [Generate Rows.0 - Concat Fields.0]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Allocated 3 rowsets for step 2 --> Generate Rows  
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Allocating rowsets for step 3 --> Text file output
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Allocated 3 rowsets for step 3 --> Text file output  
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Allocating Steps & StepData...
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Transformation is about to allocate step [Concat Fields] of type [ConcatFields]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -   Step has nrcopies=1
+2018/08/28 09:35:37 - Concat Fields.0 - distribution activated
+2018/08/28 09:35:37 - Concat Fields.0 - Starting allocation of buffers & new threads...
+2018/08/28 09:35:37 - Concat Fields.0 - Step info: nrinput=1 nroutput=2
+2018/08/28 09:35:37 - Concat Fields.0 - Got previous step from [Concat Fields] #0 --> Generate Rows
+2018/08/28 09:35:37 - Concat Fields.0 - input rel is 1:1
+2018/08/28 09:35:37 - Concat Fields.0 - Found input rowset [Generate Rows.0 - Concat Fields.0]
+2018/08/28 09:35:37 - Concat Fields.0 - output rel. is  1:1
+2018/08/28 09:35:37 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Upload to box.com via  SSH commands.0]
+2018/08/28 09:35:37 - Concat Fields.0 - output rel. is  1:1
+2018/08/28 09:35:37 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Text file output.0]
+2018/08/28 09:35:37 - Concat Fields.0 - Finished dispatching
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Transformation has allocated a new step: [Concat Fields].0
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Transformation is about to allocate step [Upload to box.com via  SSH commands] of type [SSH]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -   Step has nrcopies=1
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - distribution activated
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - Starting allocation of buffers & new threads...
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - Step info: nrinput=1 nroutput=0
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - Got previous step from [Upload to box.com via  SSH commands] #0 --> Concat Fields
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - input rel is 1:1
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - Found input rowset [Concat Fields.0 - Upload to box.com via  SSH commands.0]
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - Finished dispatching
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Transformation has allocated a new step: [Upload to box.com via  SSH commands].0
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Transformation is about to allocate step [Generate Rows] of type [RowGenerator]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -   Step has nrcopies=1
+2018/08/28 09:35:37 - Generate Rows.0 - distribution activated
+2018/08/28 09:35:37 - Generate Rows.0 - Starting allocation of buffers & new threads...
+2018/08/28 09:35:37 - Generate Rows.0 - Step info: nrinput=0 nroutput=1
+2018/08/28 09:35:37 - Generate Rows.0 - output rel. is  1:1
+2018/08/28 09:35:37 - Generate Rows.0 - Found output rowset [Generate Rows.0 - Concat Fields.0]
+2018/08/28 09:35:37 - Generate Rows.0 - Finished dispatching
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Transformation has allocated a new step: [Generate Rows].0
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Transformation is about to allocate step [Text file output] of type [TextFileOutput]
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -   Step has nrcopies=1
+2018/08/28 09:35:37 - Text file output.0 - distribution activated
+2018/08/28 09:35:37 - Text file output.0 - Starting allocation of buffers & new threads...
+2018/08/28 09:35:37 - Text file output.0 - Step info: nrinput=1 nroutput=0
+2018/08/28 09:35:37 - Text file output.0 - Got previous step from [Text file output] #0 --> Concat Fields
+2018/08/28 09:35:37 - Text file output.0 - input rel is 1:1
+2018/08/28 09:35:37 - Text file output.0 - Found input rowset [Concat Fields.0 - Text file output.0]
+2018/08/28 09:35:37 - Text file output.0 - Finished dispatching
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box -  Transformation has allocated a new step: [Text file output].0
+2018/08/28 09:35:37 - live_logging_info - New database connection defined
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Opening log connection [live_logging_info]
+2018/08/28 09:35:37 - live_logging_info - Auto commit off
+2018/08/28 09:35:37 - live_logging_info - Auto commit off
+2018/08/28 09:35:37 - live_logging_info - launch DDL statement: 
+2018/08/28 09:35:37 - live_logging_info - LOCK TABLE pentaho_dilogs.trans_logs IN ACCESS EXCLUSIVE MODE
+2018/08/28 09:35:37 - live_logging_info - 1 statement executed
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Start date found from previous log entry: 2018-08-28 09:29:36.938
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - This transformation can be replayed with replay date: 2018/08/28 09:35:37
+2018/08/28 09:35:37 - live_logging_info - Preparing statement: 
+2018/08/28 09:35:37 - live_logging_info - INSERT INTO pentaho_dilogs.trans_logs (ID_BATCH, CHANNEL_ID, TRANSNAME, STATUS, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS, STARTDATE, ENDDATE, LOGDATE, DEPDATE, REPLAYDATE, LOG_FIELD) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2018/08/28 09:35:37 - live_logging_info - Commit on database connection [live_logging_info]
+2018/08/28 09:35:37 - live_logging_info - Commit on database connection [live_logging_info]
+2018/08/28 09:35:37 - live_logging_info - Connection to database closed!
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Initialising 4 steps...
+2018/08/28 09:35:37 - Concat Fields.0 - Released server socket on port 0
+2018/08/28 09:35:37 - Generate Rows.0 - Released server socket on port 0
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - Released server socket on port 0
+2018/08/28 09:35:37 - Text file output.0 - Released server socket on port 0
+2018/08/28 09:35:37 - Text file output.0 - Parent folder exists [file:///C:/TEMP]!
+2018/08/28 09:35:37 - Text file output.0 - Opening output stream using provider: None
+2018/08/28 09:35:37 - Text file output.0 - Opening output stream in encoding: windows-1252
+2018/08/28 09:35:37 - Text file output.0 - Opened new file with name [file:///C:/TEMP/cmd.txt]
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - New Connection opened.
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Step [Concat Fields.0] initialized flawlessly.
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Step [Upload to box.com via  SSH commands.0] initialized flawlessly.
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Step [Generate Rows.0] initialized flawlessly.
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Step [Text file output.0] initialized flawlessly.
+2018/08/28 09:35:37 - Rapport_SSH_Upload_to_Box - Transformation has allocated 4 threads and 3 rowsets.
+2018/08/28 09:35:37 - Concat Fields.0 - Starting to run...
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - Starting to run...
+2018/08/28 09:35:37 - Generate Rows.0 - Starting to run...
+2018/08/28 09:35:37 - Text file output.0 - Starting to run...
+2018/08/28 09:35:37 - Generate Rows.0 - Signaling 'output done' to 1 output rowsets.
+2018/08/28 09:35:37 - Generate Rows.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - New session opened.
+2018/08/28 09:35:37 - Upload to box.com via  SSH commands.0 - Running command [/home/idsroot/box/upload_box.sh 	d5JMQQNZrt5S5ovSYCLyrP9agJQcGOib	rapport_daily_booking.xls	/tmp/rapport_daily_booking.xls] ...
+2018/08/28 09:35:37 - Concat Fields.0 - Signaling 'output done' to 2 output rowsets.
+2018/08/28 09:35:37 - Concat Fields.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/08/28 09:35:37 - Text file output.0 - Signaling 'output done' to 0 output rowsets.
+2018/08/28 09:35:37 - Text file output.0 - Closing normal file ...
+2018/08/28 09:35:37 - Text file output.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2018/08/28 09:35:38 - Upload to box.com via  SSH commands.0 - Runned command [/home/idsroot/box/upload_box.sh 	d5JMQQNZrt5S5ovSYCLyrP9agJQcGOib	rapport_daily_booking.xls	/tmp/rapport_daily_booking.xls]. StdOut = {"total_count":1,"entries":[{"type":"file","id":"314759611435","file_version":{"type":"file_version","id":"331809480283","sha1":"6890636ccbae917077b439a36cc64a8fa0b0e472"},"sequence_id":"0","etag":"0","sha1":"6890636ccbae917077b439a36cc64a8fa0b0e472","name":"rapport_daily_booking.xls","description":"","size":30208,"path_collection":{"total_count":2,"entries":[{"type":"folder","id":"0","sequence_id":null,"etag":null,"name":"All Files"},{"type":"folder","id":"52252390983","sequence_id":"0","etag":"0","name":"Rapport_1"}]},"created_at":"2018-08-28T06:35:38-07:00","modified_at":"2018-08-28T06:35:38-07:00","trashed_at":null,"purged_at":null,"content_created_at":"2018-08-28T06:35:38-07:00","content_modified_at":"2018-08-28T06:35:38-07:00","created_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"modified_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"owned_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"shared_link":null,"parent":{"type":"folder","id":"52252390983","sequence_id":"0","etag":"0","name":"Rapport_1"},"item_status":"active"}]}. StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0 30591    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 30591    0     0  100 30591      0  22751  0:00:01  0:00:01 --:--:-- 29903
+100 31789  108  1198  100 30591    853  21794  0:00:01  0:00:01 --:--:-- 28272.
+2018/08/28 09:35:38 - Upload to box.com via  SSH commands.0 - Session closed.
+2018/08/28 09:35:38 - Upload to box.com via  SSH commands.0 - Signaling 'output done' to 0 output rowsets.
+2018/08/28 09:35:38 - Upload to box.com via  SSH commands.0 - Connection closed.
+2018/08/28 09:35:38 - Upload to box.com via  SSH commands.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2018/08/28 09:35:38 - Rapport_SSH_Upload_to_Box - searching for annotations
+2018/08/28 09:35:38 - Rapport_SSH_Upload_to_Box - no annotations found
+2018/08/28 09:35:38 - live_logging_info - New database connection defined
+2018/08/28 09:35:38 - live_logging_info - Auto commit off
+2018/08/28 09:35:38 - live_logging_info - Commit on database connection [live_logging_info]
+2018/08/28 09:35:38 - live_logging_info - Commit on database connection [live_logging_info]
+2018/08/28 09:35:38 - live_logging_info - Connection to database closed!
+2018/08/28 09:35:38 - live_logging_info - New database connection defined
+2018/08/28 09:35:38 - live_logging_info - Auto commit off
+2018/08/28 09:35:39 - live_logging_info - Commit on database connection [live_logging_info]
+2018/08/28 09:35:39 - live_logging_info - Commit on database connection [live_logging_info]
+2018/08/28 09:35:39 - live_logging_info - Connection to database closed!
+2018/08/28 09:35:39 - live_logging_info - New database connection defined
+2018/08/28 09:35:39 - live_logging_info - Auto commit off
+2018/08/28 09:35:39 - live_logging_info - Preparing statement: 
+2018/08/28 09:35:39 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2018/08/28 09:35:39 - live_logging_info - Preparing statement: 
+2018/08/28 09:35:39 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2018/08/28 09:35:39 - live_logging_info - Preparing statement: 
+2018/08/28 09:35:39 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2018/08/28 09:35:39 - live_logging_info - Preparing statement: 
+2018/08/28 09:35:39 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2018/08/28 09:35:39 - live_logging_info - Commit on database connection [live_logging_info]
+2018/08/28 09:35:39 - live_logging_info - Commit on database connection [live_logging_info]
+2018/08/28 09:35:39 - live_logging_info - Connection to database closed!

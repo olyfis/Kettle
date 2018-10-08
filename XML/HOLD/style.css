@@ -1,0 +1,16 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+
+
+/* Applies to all <h1>...</h1> elements. */
+td {
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* Applies to all elements with <... class="someclass"> specified. */
+.someclass { color: red; }
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: green; }
