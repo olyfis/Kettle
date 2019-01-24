@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>Rapport_Daily_Booking_V5</name>
+  <name>Share_point_XML_to_HTML_to_Prod_NF_V1</name>
   <description />
-  <extended_description> </extended_description>
+  <extended_description />
   <job_version />
   <job_status>0</job_status>
-  <directory>/home/admin/Production/Rapport_Booking</directory>
+  <directory>/home/admin/Production/DashBoard_NF</directory>
   <created_user>-</created_user>
-  <created_date>2018/07/13 13:17:54.394</created_date>
+  <created_date>2018/09/11 11:43:19.836</created_date>
   <modified_user>admin</modified_user>
-  <modified_date>2019/01/23 13:14:06.311</modified_date>
+  <modified_date>2019/01/16 09:59:27.074</modified_date>
   <parameters>
     </parameters>
   <slaveservers>
@@ -377,24 +377,24 @@
       <schedulerType>0</schedulerType>
       <intervalSeconds>0</intervalSeconds>
       <intervalMinutes>10</intervalMinutes>
-      <hour>23</hour>
-      <minutes>27</minutes>
+      <hour>12</hour>
+      <minutes>0</minutes>
       <weekDay>1</weekDay>
       <DayOfMonth>1</DayOfMonth>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>48</xloc>
-      <yloc>80</yloc>
+      <yloc>144</yloc>
     </entry>
     <entry>
-      <name>Run_Rapport_Query</name>
+      <name>XML_to_HTML_SharePoint_Query_NF_V2</name>
       <description />
       <type>TRANS</type>
       <specification_method>rep_name</specification_method>
       <trans_object_id />
       <filename />
-      <transname>Rapport_Daily_Booking_V5</transname>
+      <transname>XML_to_HTML_SharePoint_Query_NF_V2</transname>
       <directory>${Internal.Entry.Current.Directory}</directory>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -402,11 +402,11 @@
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>N</set_logfile>
-      <logfile>C:\TEMP\plog</logfile>
-      <logext>txt</logext>
+      <logfile />
+      <logext />
       <add_date>N</add_date>
       <add_time>N</add_time>
-      <loglevel>Detailed</loglevel>
+      <loglevel>Basic</loglevel>
       <cluster>N</cluster>
       <slave_server_name />
       <set_append_logfile>N</set_append_logfile>
@@ -421,259 +421,159 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>384</xloc>
-      <yloc>336</yloc>
+      <xloc>272</xloc>
+      <yloc>144</yloc>
     </entry>
     <entry>
-      <name>Mail</name>
+      <name>XSL Transformation</name>
       <description />
-      <type>MAIL</type>
-      <server>oaismail</server>
-      <port>25</port>
-      <destination>joseph.balshi@olympus.com</destination>
-      <destinationCc>joseph.balshi@olympus.com shannon.vlaeminck@olympus.com janice.sandt@olympus.com atsuko.braverman@olympus.com brent.nagle@olympus.com brett.e.miller@olympus.com chad.sattouf@olympus.com clarissa.thomas@olympus.com dana.rozakis@olympus.com elizabeth.bendel@olympus.com erik.olson@olympus.com jonathan.paul@olympus.com kaitlyn.miller@olympus.com karen.hucaluk@olympus.com laura.meneeley@olympus.com lavern.mcqueen@olympus.com malany.belle@olympus.com mark.bensinger@olympus.com matthew.sell@olympus.com michael.naab@olympus.com michael.penna@olympus.com michael.santiago@olympus.com rita.braxmeier@olympus.com sheri.shelton@olympus.com tonyalee.phillips@olympus.com</destinationCc>
-      <destinationBCc />
-      <replyto>donotreply@olympus.com</replyto>
-      <replytoname>donotreply@olympus.com</replytoname>
-      <subject>Rapport Daily Booking Report</subject>
-      <include_date>Y</include_date>
-      <contact_person />
-      <contact_phone />
-      <comment>&lt;h2>Rapport Daily Booking Report &lt;/h2>
-&lt;br>
-
-&lt;pre>
-
-Files were uploaded to box.com:
-https://olympus.app.box.com/folder/52920620434
-
-File: ${EX_FILE_NAME}
-
-&lt;/pre></comment>
-      <include_files>Y</include_files>
-      <zip_files>N</zip_files>
-      <zip_name>C:\TEMP\rapport_query.xls</zip_name>
-      <use_auth>N</use_auth>
-      <use_secure_auth>N</use_secure_auth>
-      <auth_user />
-      <auth_password>Encrypted </auth_password>
-      <only_comment>Y</only_comment>
-      <use_HTML>Y</use_HTML>
-      <use_Priority>N</use_Priority>
-      <encoding>UTF-8</encoding>
-      <priority>normal</priority>
-      <importance>normal</importance>
-      <sensitivity>normal</sensitivity>
-      <secureconnectiontype>SSL</secureconnectiontype>
-      <replyToAddresses />
-      <filetypes>
-        <filetype>GENERAL</filetype>
-      </filetypes>
-      <embeddedimages>
-      </embeddedimages>
+      <type>XSLT</type>
+      <xmlfilename>D:\pentaho\Kettle\Dashboard\XML\dashboard_NF\sharepoint_NF.xml</xmlfilename>
+      <xslfilename>D:\pentaho\Kettle\Dashboard\XLS\dashboard_NF\sharepoint_NF_filter_V2.xsl</xslfilename>
+      <outputfilename>D:\pentaho\Kettle\Dashboard\HTML\dashboard_NF\dashnf.html</outputfilename>
+      <iffileexists>0</iffileexists>
+      <addfiletoresult>Y</addfiletoresult>
+      <filenamesfromprevious>N</filenamesfromprevious>
+      <xsltfactory>JAXP</xsltfactory>
+      <parameters>
+    </parameters>
+      <outputproperties>
+        <outputproperty>
+          <name>media-type</name>
+          <value>xsl</value>
+        </outputproperty>
+      </outputproperties>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>784</xloc>
-      <yloc>96</yloc>
+      <xloc>656</xloc>
+      <yloc>144</yloc>
     </entry>
     <entry>
-      <name>Checks if files exist</name>
+      <name>Success</name>
       <description />
-      <type>FILES_EXIST</type>
+      <type>SUCCESS</type>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>928</xloc>
+      <yloc>208</yloc>
+    </entry>
+    <entry>
+      <name>FIS_Operational_from_BOBJ_NF_V1</name>
+      <description />
+      <type>TRANS</type>
+      <specification_method>rep_name</specification_method>
+      <trans_object_id />
       <filename />
-      <fields>
-        <field>
-          <name>${TMP_REPORT_FILE}</name>
-        </field>
-      </fields>
+      <transname>FIS_Contract_BOBJ_NF_V1</transname>
+      <directory>${Internal.Entry.Current.Directory}</directory>
+      <arg_from_previous>N</arg_from_previous>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile />
+      <logext />
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name />
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <logging_remote_work>N</logging_remote_work>
+      <run_configuration>Pentaho local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>512</xloc>
-      <yloc>224</yloc>
+      <xloc>448</xloc>
+      <yloc>272</yloc>
+    </entry>
+    <entry>
+      <name>XSL Transformation 2</name>
+      <description />
+      <type>XSLT</type>
+      <xmlfilename>D:\pentaho\Kettle\Dashboard\XML\dashboard_NF\bobj_report_NF.xml</xmlfilename>
+      <xslfilename>D:\pentaho\Kettle\Dashboard\XLS\dashboard_NF\sharepoint_BOBJ_NF.xsl</xslfilename>
+      <outputfilename>D:\pentaho\Kettle\Dashboard\HTML\dashboard_NF\dashnf_BOBJ_NF.html</outputfilename>
+      <iffileexists>0</iffileexists>
+      <addfiletoresult>Y</addfiletoresult>
+      <filenamesfromprevious>N</filenamesfromprevious>
+      <xsltfactory>JAXP</xsltfactory>
+      <parameters>
+    </parameters>
+      <outputproperties>
+        <outputproperty>
+          <name>media-type</name>
+          <value>xsl</value>
+        </outputproperty>
+      </outputproperties>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>656</xloc>
+      <yloc>272</yloc>
     </entry>
     <entry>
       <name>Delete file</name>
       <description />
       <type>DELETE_FILE</type>
-      <filename>${DELETE_FILE}</filename>
+      <filename>D:\Kettle\XML\dash.html</filename>
       <fail_if_file_not_exists>N</fail_if_file_not_exists>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>176</xloc>
-      <yloc>336</yloc>
-    </entry>
-    <entry>
-      <name>Set variables</name>
-      <description />
-      <type>SET_VARIABLES</type>
-      <replacevars>Y</replacevars>
-      <filename />
-      <file_variable_type>JVM</file_variable_type>
-      <fields>
-        <field>
-          <variable_name>DATE_CURR</variable_name>
-          <variable_value>${CURR_DATE}</variable_value>
-          <variable_type>ROOT_JOB</variable_type>
-        </field>
-        <field>
-          <variable_name>REPORT_PATH</variable_name>
-          <variable_value>D:\Kettle\Tmp\Booking_Reports</variable_value>
-          <variable_type>ROOT_JOB</variable_type>
-        </field>
-        <field>
-          <variable_name>REPORT_FILE</variable_name>
-          <variable_value>${REPORT_PATH}\rapport_daily_booking_${DATE_CURR}</variable_value>
-          <variable_type>ROOT_JOB</variable_type>
-        </field>
-        <field>
-          <variable_name>EX_FILE_NAME</variable_name>
-          <variable_value>rapport_daily_booking_${DATE_CURR}.xls</variable_value>
-          <variable_type>ROOT_JOB</variable_type>
-        </field>
-        <field>
-          <variable_name>TMP_FILE_NAME</variable_name>
-          <variable_value>/tmp/rapport_daily_booking_${DATE_CURR}.xls</variable_value>
-          <variable_type>ROOT_JOB</variable_type>
-        </field>
-        <field>
-          <variable_name>TMP_REPORT_FILE</variable_name>
-          <variable_value>${REPORT_PATH}\rapport_daily_booking_${DATE_CURR}.xls</variable_value>
-          <variable_type>ROOT_JOB</variable_type>
-        </field>
-        <field>
-          <variable_name>DELETE_FILE</variable_name>
-          <variable_value>${REPORT_PATH}\rapport_daily_booking_*.xls</variable_value>
-          <variable_type>ROOT_JOB</variable_type>
-        </field>
-      </fields>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>272</xloc>
-      <yloc>96</yloc>
-    </entry>
-    <entry>
-      <name>Write To Log</name>
-      <description />
-      <type>WRITE_TO_LOG</type>
-      <logmessage>------*************************---- ^^^^EXCEL FILE=${TMP_REPORT_FILE}</logmessage>
-      <loglevel>Basic</loglevel>
-      <logsubject>---- LOG ---</logsubject>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>384</xloc>
-      <yloc>224</yloc>
-    </entry>
-    <entry>
-      <name>Rapport_Upload to Box V6</name>
-      <description />
-      <type>JOB</type>
-      <specification_method>rep_name</specification_method>
-      <job_object_id />
-      <filename />
-      <jobname>Rapport_Upload_to_Box_V6</jobname>
-      <directory>${Internal.Entry.Current.Directory}</directory>
-      <arg_from_previous>N</arg_from_previous>
-      <params_from_previous>N</params_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <set_logfile>N</set_logfile>
-      <logfile />
-      <logext />
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Nothing</loglevel>
-      <slave_server_name />
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <expand_remote_job>N</expand_remote_job>
-      <create_parent_folder>N</create_parent_folder>
-      <pass_export>N</pass_export>
-      <parameters>
-        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>
-      <set_append_logfile>N</set_append_logfile>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>784</xloc>
-      <yloc>336</yloc>
-    </entry>
-    <entry>
-      <name>Return_Current_Date</name>
-      <description />
-      <type>TRANS</type>
-      <specification_method>rep_name</specification_method>
-      <trans_object_id />
-      <filename />
-      <transname>Get_Curr_Date</transname>
-      <directory>${Internal.Entry.Current.Directory}</directory>
-      <arg_from_previous>N</arg_from_previous>
-      <params_from_previous>N</params_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <clear_rows>N</clear_rows>
-      <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile />
-      <logext />
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
-      <cluster>N</cluster>
-      <slave_server_name />
-      <set_append_logfile>N</set_append_logfile>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <create_parent_folder>N</create_parent_folder>
-      <logging_remote_work>N</logging_remote_work>
-      <run_configuration>Pentaho local</run_configuration>
-      <parameters>
-        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>160</xloc>
-      <yloc>96</yloc>
-    </entry>
-    <entry>
-      <name>Write To Log 2</name>
-      <description />
-      <type>WRITE_TO_LOG</type>
-      <logmessage>%%%%%%% DATE=${DATE_CURR} \n
-
-%%%%%%% FILE=${REPORT_FILE}</logmessage>
-      <loglevel>Basic</loglevel>
-      <logsubject>****** </logsubject>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>272</xloc>
-      <yloc>224</yloc>
-    </entry>
-    <entry>
-      <name>Write To Log 3</name>
-      <description />
-      <type>WRITE_TO_LOG</type>
-      <logmessage>********^^^^^^^^^^^^^^^********* EX_FILE_NAME=${EX_FILE_NAME}
-********^^^^^^^^^^^^^^^********* TMP_FILE_NAME=${TMP_FILE_NAME}
-********^^^^^^^^^^^^^^^********* TMP_REPORT_FILE_NAME=${TMP_REPORT_FILE}</logmessage>
-      <loglevel>Basic</loglevel>
-      <logsubject>^^^^ FILENAMES -----</logsubject>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>512</xloc>
-      <yloc>336</yloc>
+      <xloc>144</xloc>
+      <yloc>256</yloc>
     </entry>
   </entries>
   <hops>
     <hop>
-      <from>Write To Log</from>
-      <to>Checks if files exist</to>
+      <from>XML_to_HTML_SharePoint_Query_NF_V2</from>
+      <to>XSL Transformation</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>XSL Transformation</from>
+      <to>Success</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>XML_to_HTML_SharePoint_Query_NF_V2</from>
+      <to>FIS_Operational_from_BOBJ_NF_V1</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>FIS_Operational_from_BOBJ_NF_V1</from>
+      <to>XSL Transformation 2</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>XSL Transformation 2</from>
+      <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -682,7 +582,7 @@ File: ${EX_FILE_NAME}
     </hop>
     <hop>
       <from>START</from>
-      <to>Return_Current_Date</to>
+      <to>Delete file</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -690,71 +590,8 @@ File: ${EX_FILE_NAME}
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>Return_Current_Date</from>
-      <to>Set variables</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
       <from>Delete file</from>
-      <to>Run_Rapport_Query</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Set variables</from>
-      <to>Write To Log 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Write To Log 2</from>
-      <to>Delete file</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Run_Rapport_Query</from>
-      <to>Write To Log</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Checks if files exist</from>
-      <to>Rapport_Upload to Box V6</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Checks if files exist</from>
-      <to>Mail</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Checks if files exist</from>
-      <to>Write To Log 3</to>
+      <to>XML_to_HTML_SharePoint_Query_NF_V2</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>

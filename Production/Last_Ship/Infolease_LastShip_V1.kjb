@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>Rapport_Daily_Booking_V5</name>
+  <name>Infolease_LastShip_V1</name>
   <description />
-  <extended_description> </extended_description>
+  <extended_description />
   <job_version />
   <job_status>0</job_status>
-  <directory>/home/admin/Production/Rapport_Booking</directory>
+  <directory>/home/admin/Production/LastShip</directory>
   <created_user>-</created_user>
   <created_date>2018/07/13 13:17:54.394</created_date>
   <modified_user>admin</modified_user>
-  <modified_date>2019/01/23 13:14:06.311</modified_date>
+  <modified_date>2019/01/15 11:38:15.087</modified_date>
   <parameters>
     </parameters>
   <slaveservers>
@@ -378,23 +378,23 @@
       <intervalSeconds>0</intervalSeconds>
       <intervalMinutes>10</intervalMinutes>
       <hour>23</hour>
-      <minutes>27</minutes>
+      <minutes>21</minutes>
       <weekDay>1</weekDay>
       <DayOfMonth>1</DayOfMonth>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>48</xloc>
-      <yloc>80</yloc>
+      <xloc>32</xloc>
+      <yloc>96</yloc>
     </entry>
     <entry>
-      <name>Run_Rapport_Query</name>
+      <name>Run_LastShip_Query</name>
       <description />
       <type>TRANS</type>
       <specification_method>rep_name</specification_method>
       <trans_object_id />
       <filename />
-      <transname>Rapport_Daily_Booking_V5</transname>
+      <transname>LastShip_Query_V1</transname>
       <directory>${Internal.Entry.Current.Directory}</directory>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -431,25 +431,22 @@
       <server>oaismail</server>
       <port>25</port>
       <destination>joseph.balshi@olympus.com</destination>
-      <destinationCc>joseph.balshi@olympus.com shannon.vlaeminck@olympus.com janice.sandt@olympus.com atsuko.braverman@olympus.com brent.nagle@olympus.com brett.e.miller@olympus.com chad.sattouf@olympus.com clarissa.thomas@olympus.com dana.rozakis@olympus.com elizabeth.bendel@olympus.com erik.olson@olympus.com jonathan.paul@olympus.com kaitlyn.miller@olympus.com karen.hucaluk@olympus.com laura.meneeley@olympus.com lavern.mcqueen@olympus.com malany.belle@olympus.com mark.bensinger@olympus.com matthew.sell@olympus.com michael.naab@olympus.com michael.penna@olympus.com michael.santiago@olympus.com rita.braxmeier@olympus.com sheri.shelton@olympus.com tonyalee.phillips@olympus.com</destinationCc>
+      <destinationCc />
       <destinationBCc />
       <replyto>donotreply@olympus.com</replyto>
       <replytoname>donotreply@olympus.com</replytoname>
-      <subject>Rapport Daily Booking Report</subject>
+      <subject>Infolease Last Ship Report</subject>
       <include_date>Y</include_date>
       <contact_person />
       <contact_phone />
-      <comment>&lt;h2>Rapport Daily Booking Report &lt;/h2>
-&lt;br>
-
-&lt;pre>
+      <comment>Infolease Last Ship Report
 
 Files were uploaded to box.com:
-https://olympus.app.box.com/folder/52920620434
+https://olympus.app.box.com/folder/63949294892
 
-File: ${EX_FILE_NAME}
+File: ${LS_EX_FILE_NAME}
 
-&lt;/pre></comment>
+</comment>
       <include_files>Y</include_files>
       <zip_files>N</zip_files>
       <zip_name>C:\TEMP\rapport_query.xls</zip_name>
@@ -474,8 +471,8 @@ File: ${EX_FILE_NAME}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>784</xloc>
-      <yloc>96</yloc>
+      <xloc>976</xloc>
+      <yloc>64</yloc>
     </entry>
     <entry>
       <name>Checks if files exist</name>
@@ -484,7 +481,7 @@ File: ${EX_FILE_NAME}
       <filename />
       <fields>
         <field>
-          <name>${TMP_REPORT_FILE}</name>
+          <name>${LS_TMP_FILE}</name>
         </field>
       </fields>
       <parallel>N</parallel>
@@ -497,12 +494,12 @@ File: ${EX_FILE_NAME}
       <name>Delete file</name>
       <description />
       <type>DELETE_FILE</type>
-      <filename>${DELETE_FILE}</filename>
+      <filename>${LS_TMP_FILE}</filename>
       <fail_if_file_not_exists>N</fail_if_file_not_exists>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>176</xloc>
+      <xloc>128</xloc>
       <yloc>336</yloc>
     </entry>
     <entry>
@@ -520,32 +517,27 @@ File: ${EX_FILE_NAME}
         </field>
         <field>
           <variable_name>REPORT_PATH</variable_name>
-          <variable_value>D:\Kettle\Tmp\Booking_Reports</variable_value>
+          <variable_value>D:\Kettle\Tmp\LastShip_Reports</variable_value>
           <variable_type>ROOT_JOB</variable_type>
         </field>
         <field>
-          <variable_name>REPORT_FILE</variable_name>
-          <variable_value>${REPORT_PATH}\rapport_daily_booking_${DATE_CURR}</variable_value>
+          <variable_name>LS_REPORT_FILE</variable_name>
+          <variable_value>${REPORT_PATH}\LastShip_${DATE_CURR}</variable_value>
           <variable_type>ROOT_JOB</variable_type>
         </field>
         <field>
-          <variable_name>EX_FILE_NAME</variable_name>
-          <variable_value>rapport_daily_booking_${DATE_CURR}.xls</variable_value>
+          <variable_name>LS_EX_FILE_NAME</variable_name>
+          <variable_value>LastShip_${DATE_CURR}.xls</variable_value>
           <variable_type>ROOT_JOB</variable_type>
         </field>
         <field>
-          <variable_name>TMP_FILE_NAME</variable_name>
-          <variable_value>/tmp/rapport_daily_booking_${DATE_CURR}.xls</variable_value>
+          <variable_name>LS_TMP_REPORT_FILE</variable_name>
+          <variable_value>/tmp/LastShip_${DATE_CURR}.xls</variable_value>
           <variable_type>ROOT_JOB</variable_type>
         </field>
         <field>
-          <variable_name>TMP_REPORT_FILE</variable_name>
-          <variable_value>${REPORT_PATH}\rapport_daily_booking_${DATE_CURR}.xls</variable_value>
-          <variable_type>ROOT_JOB</variable_type>
-        </field>
-        <field>
-          <variable_name>DELETE_FILE</variable_name>
-          <variable_value>${REPORT_PATH}\rapport_daily_booking_*.xls</variable_value>
+          <variable_name>LS_TMP_FILE</variable_name>
+          <variable_value>${REPORT_PATH}\LastShip_${DATE_CURR}.xls</variable_value>
           <variable_type>ROOT_JOB</variable_type>
         </field>
       </fields>
@@ -556,26 +548,13 @@ File: ${EX_FILE_NAME}
       <yloc>96</yloc>
     </entry>
     <entry>
-      <name>Write To Log</name>
-      <description />
-      <type>WRITE_TO_LOG</type>
-      <logmessage>------*************************---- ^^^^EXCEL FILE=${TMP_REPORT_FILE}</logmessage>
-      <loglevel>Basic</loglevel>
-      <logsubject>---- LOG ---</logsubject>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>384</xloc>
-      <yloc>224</yloc>
-    </entry>
-    <entry>
-      <name>Rapport_Upload to Box V6</name>
+      <name>Infolease_LastShip_Upload_to_Box_V1</name>
       <description />
       <type>JOB</type>
       <specification_method>rep_name</specification_method>
       <job_object_id />
       <filename />
-      <jobname>Rapport_Upload_to_Box_V6</jobname>
+      <jobname>Infolease_LastShip_Upload_to_Box_V1</jobname>
       <directory>${Internal.Entry.Current.Directory}</directory>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -599,8 +578,8 @@ File: ${EX_FILE_NAME}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>784</xloc>
-      <yloc>336</yloc>
+      <xloc>976</xloc>
+      <yloc>352</yloc>
     </entry>
     <entry>
       <name>Return_Current_Date</name>
@@ -610,7 +589,7 @@ File: ${EX_FILE_NAME}
       <trans_object_id />
       <filename />
       <transname>Get_Curr_Date</transname>
-      <directory>${Internal.Entry.Current.Directory}</directory>
+      <directory>/home/admin</directory>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
@@ -644,8 +623,8 @@ File: ${EX_FILE_NAME}
       <description />
       <type>WRITE_TO_LOG</type>
       <logmessage>%%%%%%% DATE=${DATE_CURR} \n
-
-%%%%%%% FILE=${REPORT_FILE}</logmessage>
+LS_REPORT_FILE=${LS_REPORT_FILE}
+LS_TMP_FILE={LS_TMP_FILE}</logmessage>
       <loglevel>Basic</loglevel>
       <logsubject>****** </logsubject>
       <parallel>N</parallel>
@@ -655,31 +634,23 @@ File: ${EX_FILE_NAME}
       <yloc>224</yloc>
     </entry>
     <entry>
-      <name>Write To Log 3</name>
+      <name>LastShip Write To Log 3</name>
       <description />
       <type>WRITE_TO_LOG</type>
-      <logmessage>********^^^^^^^^^^^^^^^********* EX_FILE_NAME=${EX_FILE_NAME}
-********^^^^^^^^^^^^^^^********* TMP_FILE_NAME=${TMP_FILE_NAME}
-********^^^^^^^^^^^^^^^********* TMP_REPORT_FILE_NAME=${TMP_REPORT_FILE}</logmessage>
+      <logmessage>********^^^^^^^^^^^^^^^********* EX_FILE_NAME=${LS_EX_FILE_NAME}
+********^^^^^^^^^^^^^^^********* TMP_FILE_NAME=${ls_TMP_FILE_NAME}
+********^^^^^^^^^^^^^^^********* lS_TMP_FILE=${LS_TMP_FILE}
+********^^^^^^^^^^^^^^^********* LS_REPORT_FILE=${LS_REPORT_FILE}</logmessage>
       <loglevel>Basic</loglevel>
       <logsubject>^^^^ FILENAMES -----</logsubject>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>512</xloc>
-      <yloc>336</yloc>
+      <xloc>592</xloc>
+      <yloc>368</yloc>
     </entry>
   </entries>
   <hops>
-    <hop>
-      <from>Write To Log</from>
-      <to>Checks if files exist</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
     <hop>
       <from>START</from>
       <to>Return_Current_Date</to>
@@ -700,7 +671,7 @@ File: ${EX_FILE_NAME}
     </hop>
     <hop>
       <from>Delete file</from>
-      <to>Run_Rapport_Query</to>
+      <to>Run_LastShip_Query</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -726,8 +697,8 @@ File: ${EX_FILE_NAME}
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Run_Rapport_Query</from>
-      <to>Write To Log</to>
+      <from>Run_LastShip_Query</from>
+      <to>Checks if files exist</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -736,7 +707,7 @@ File: ${EX_FILE_NAME}
     </hop>
     <hop>
       <from>Checks if files exist</from>
-      <to>Rapport_Upload to Box V6</to>
+      <to>Infolease_LastShip_Upload_to_Box_V1</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -754,12 +725,12 @@ File: ${EX_FILE_NAME}
     </hop>
     <hop>
       <from>Checks if files exist</from>
-      <to>Write To Log 3</to>
+      <to>LastShip Write To Log 3</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
+      <unconditional>Y</unconditional>
     </hop>
   </hops>
   <notepads>
