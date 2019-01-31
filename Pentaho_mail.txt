@@ -1,0 +1,11 @@
+<h2>Rapport Daily Booking Report </h2>
+<br>
+
+<pre>
+
+Files were uploaded to box.com:
+https://olympus.app.box.com/folder/52920620434
+
+File: ${EX_FILE_NAME}
+
+</pre>
