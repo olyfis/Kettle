@@ -28,3 +28,4 @@
 *.accdb 
 
 Access/
+Tmp/*

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>SF_Rest_getToken_V1</name>
+    <name>Dashboard_Excel_Upload_to_Box_v1</name>
     <description />
     <extended_description />
     <trans_version />
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
-    <directory>/home/admin/Development/SalesforceRestDev</directory>
+    <directory>/home/admin/Production/Dashboard_Excel</directory>
     <parameters>
     </parameters>
     <log>
@@ -441,9 +441,9 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2018/12/14 10:25:19.049</created_date>
+    <created_date>2018/09/06 14:57:33.746</created_date>
     <modified_user>admin</modified_user>
-    <modified_date>2019/02/07 15:23:40.794</modified_date>
+    <modified_date>2019/02/01 09:48:40.189</modified_date>
     <key_for_session_key />
     <is_key_private>N</is_key_private>
   </info>
@@ -451,29 +451,39 @@
   </notepads>
   <order>
     <hop>
-      <from>Setup REST URI - Generate Rows</from>
-      <to>REST Client</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Set Variables</from>
-      <to>SF_getToken Log</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>REST Client</from>
+      <from>Execute a process</from>
       <to>Concat Fields</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>Generate Rows</from>
+      <to>Get Variables</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get Variables</from>
+      <to>Execute a process</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>Get Variables</from>
+      <to>Execute a process</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Concat Fields</from>
-      <to>Set Variables</to>
+      <to>Dashboard_Upload to Box_V1</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Concat Fields</from>
+      <to>Dashboard_Box_Upload_Log</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>REST Client</name>
-    <type>Rest</type>
+    <name>Dashboard_Upload to Box_V1</name>
+    <type>SSH</type>
     <description />
     <distribute>Y</distribute>
     <custom_distribution />
@@ -482,33 +492,23 @@
       <method>none</method>
       <schema_name />
     </partitioning>
-    <applicationType>TEXT PLAIN</applicationType>
-    <method>GET</method>
-    <url> </url>
-    <urlInField>Y</urlInField>
-    <dynamicMethod>N</dynamicMethod>
-    <methodFieldName />
-    <urlField>url</urlField>
-    <bodyField />
-    <httpLogin />
-    <httpPassword>Encrypted </httpPassword>
+    <dynamicCommandField>Y</dynamicCommandField>
+    <command />
+    <commandfieldname>run_cmd</commandfieldname>
+    <port>22</port>
+    <servername>brehj1a28v</servername>
+    <userName>idsroot</userName>
+    <password>Encrypted 2be98afc86aa79b8aad16a275df81aa8b</password>
+    <usePrivateKey>N</usePrivateKey>
+    <keyFileName />
+    <passPhrase>Encrypted </passPhrase>
+    <stdOutFieldName>stdOut</stdOutFieldName>
+    <stdErrFieldName>stdErr</stdErrFieldName>
+    <timeOut>0</timeOut>
     <proxyHost />
     <proxyPort />
-    <preemptive>N</preemptive>
-    <trustStoreFile />
-    <trustStorePassword>Encrypted </trustStorePassword>
-    <headers>
-      </headers>
-    <parameters>
-      </parameters>
-    <matrixParameters>
-      </matrixParameters>
-    <result>
-      <name>sfToken</name>
-      <code />
-      <response_time />
-      <response_header />
-    </result>
+    <proxyUsername />
+    <proxyPassword>Encrypted </proxyPassword>
     <cluster_schema />
     <remotesteps>
       <input>
@@ -517,137 +517,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>256</xloc>
-      <yloc>192</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>SF_getToken Log</name>
-    <type>WriteToLog</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <loglevel>log_level_basic</loglevel>
-    <displayHeader>Y</displayHeader>
-    <limitRows>N</limitRows>
-    <limitRowsNumber>0</limitRowsNumber>
-    <logmessage>***^^SF_getToken Log^^****RESULT=${sfToken}
-
-***^^SF_getToken Log^^****Token=${Token}
-
-***^^SF_getToken Log^^****Auth_Token=${Auth_Token}</logmessage>
-    <fields>
-      <field>
-        <name>url</name>
-      </field>
-      <field>
-        <name>Auth_Token</name>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>592</xloc>
-      <yloc>416</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Setup REST URI - Generate Rows</name>
-    <type>RowGenerator</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <name>url</name>
-        <type>String</type>
-        <format />
-        <currency />
-        <decimal />
-        <group />
-        <nullif>http://rapportdev:8181/webreport/sfquery</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>BS</name>
-        <type>String</type>
-        <format />
-        <currency />
-        <decimal />
-        <group />
-        <nullif>Bearer </nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <limit>1</limit>
-    <never_ending>N</never_ending>
-    <interval_in_ms>5000</interval_in_ms>
-    <row_time_field>now</row_time_field>
-    <last_time_field>FiveSecondsAgo</last_time_field>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>80</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Set Variables</name>
-    <type>SetVariable</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <field_name>Auth_Token</field_name>
-        <variable_name>Auth_Token</variable_name>
-        <variable_type>ROOT_JOB</variable_type>
-        <default_value />
-      </field>
-    </fields>
-    <use_formatting>Y</use_formatting>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>592</xloc>
-      <yloc>192</yloc>
+      <xloc>800</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -695,7 +566,7 @@
     </file>
     <fields>
       <field>
-        <name>BS</name>
+        <name>cmd</name>
         <type>String</type>
         <format />
         <currency />
@@ -707,7 +578,43 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>sfToken</name>
+        <name>TK</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>DB_EX_FILE_NAME</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>DB_TMP_Excel</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>get_tok</name>
         <type>String</type>
         <format />
         <currency />
@@ -720,7 +627,7 @@
       </field>
     </fields>
     <ConcatFields>
-      <targetFieldName>Auth_Token</targetFieldName>
+      <targetFieldName>run_cmd</targetFieldName>
       <targetFieldLength>1</targetFieldLength>
       <removeSelectedFields>Y</removeSelectedFields>
     </ConcatFields>
@@ -732,8 +639,203 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>416</xloc>
-      <yloc>192</yloc>
+      <xloc>448</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Generate Rows</name>
+    <type>RowGenerator</type>
+    <description />
+    <distribute>N</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <field>
+        <name>cmd</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif>/home/idsroot/box/upload_box_dashboard.sh </nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>get_tok</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif>d:\box\get_token.bat</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <limit>1</limit>
+    <never_ending>N</never_ending>
+    <interval_in_ms>5000</interval_in_ms>
+    <row_time_field>now</row_time_field>
+    <last_time_field>FiveSecondsAgo</last_time_field>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>32</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Execute a process</name>
+    <type>ExecProcess</type>
+    <description />
+    <distribute>N</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <processfield>get_tok</processfield>
+    <resultfieldname>TK</resultfieldname>
+    <errorfieldname>Error output</errorfieldname>
+    <exitvaluefieldname>Exit value</exitvaluefieldname>
+    <failwhennotsuccess>N</failwhennotsuccess>
+    <outputlinedelimiter>junk</outputlinedelimiter>
+    <argumentsInFields>Y</argumentsInFields>
+    <argumentFields>
+    </argumentFields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>320</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get Variables</name>
+    <type>GetVariable</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <field>
+        <name>DB_EX_FILE_NAME</name>
+        <variable>${DB_EX_FILE_NAME}</variable>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>DB_TMP_FILE_NAME</name>
+        <variable>${DB_TMP_FILE_NAME}</variable>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>DB_TMP_FILE</name>
+        <variable>${DB_TMP_FILE}</variable>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>DB_TMP_Excel</name>
+        <variable>${DB_TMP_REPORT_FILE}</variable>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>176</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Dashboard_Box_Upload_Log</name>
+    <type>WriteToLog</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <loglevel>log_level_basic</loglevel>
+    <displayHeader>Y</displayHeader>
+    <limitRows>N</limitRows>
+    <limitRowsNumber>0</limitRowsNumber>
+    <logmessage>****^^^^^^***** CONCAT_CMD=${run_cmd}
+****^^^^^^*****  DB_TMP_FILE_NAME=${DB_TMP_FILE_NAME}
+****^^^^^^*****  DB_TMP_FILE=${DB_TMP_FILE}</logmessage>
+    <fields>
+      </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>448</xloc>
+      <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -742,4 +844,9 @@
   <slave-step-copy-partition-distribution>
   </slave-step-copy-partition-distribution>
   <slave_transformation>N</slave_transformation>
+  <attributes>
+    <group>
+      <name>explorerState</name>
+    </group>
+  </attributes>
 </transformation>
