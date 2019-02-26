@@ -1,0 +1,1342 @@
+2019/02/17 20:00:05 - LastShip_Upload_to_Box_v1 - Loading transformation from repository [Infolease_LastShip_Upload_to_Box_v1] in directory [/home/admin/Production/LastShip]
+2019/02/17 20:00:05 - LastShip_Upload_to_Box_v1 - Using run configuration [Pentaho local]
+2019/02/17 20:00:05 - LastShip_Upload_to_Box_v1 - Using legacy execution engine
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Dispatching to event bus: TransformationPrepareExecutionEvent
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Dispatching started for transformation [Infolease_LastShip_Upload_to_Box_v1]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Nr of arguments detected:1 
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - This is not a replay transformation
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - I found 6 different steps to launch.
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Allocating rowsets...
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocating rowsets for step 0 --> Execute a process
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Transformation allocated new rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocated 1 rowsets for step 0 --> Execute a process  
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocating rowsets for step 1 --> Concat Fields
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Infolease_LastShip_Upload to Box_V1.0]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Infolease_LastShip_Box_Upload_Log.0]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocated 3 rowsets for step 1 --> Concat Fields  
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocating rowsets for step 2 --> Generate Rows
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Transformation allocated new rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocated 4 rowsets for step 2 --> Generate Rows  
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocating rowsets for step 3 --> Get Variables
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Transformation allocated new rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocated 5 rowsets for step 3 --> Get Variables  
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocating rowsets for step 4 --> Infolease_LastShip_Upload to Box_V1
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocated 5 rowsets for step 4 --> Infolease_LastShip_Upload to Box_V1  
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocating rowsets for step 5 --> Infolease_LastShip_Box_Upload_Log
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Allocated 5 rowsets for step 5 --> Infolease_LastShip_Box_Upload_Log  
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Allocating Steps & StepData...
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation is about to allocate step [Execute a process] of type [ExecProcess]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:00:05 - Execute a process.0 - distribution de-activated
+2019/02/17 20:00:05 - Execute a process.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:00:05 - Execute a process.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 20:00:05 - Execute a process.0 - Got previous step from [Execute a process] #0 --> Get Variables
+2019/02/17 20:00:05 - Execute a process.0 - input rel is 1:1
+2019/02/17 20:00:05 - Execute a process.0 - Found input rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 20:00:05 - Execute a process.0 - output rel. is  1:1
+2019/02/17 20:00:05 - Execute a process.0 - Found output rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 20:00:05 - Execute a process.0 - Finished dispatching
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation has allocated a new step: [Execute a process].0
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation is about to allocate step [Concat Fields] of type [ConcatFields]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:00:05 - Concat Fields.0 - distribution de-activated
+2019/02/17 20:00:05 - Concat Fields.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:00:05 - Concat Fields.0 - Step info: nrinput=1 nroutput=2
+2019/02/17 20:00:05 - Concat Fields.0 - Got previous step from [Concat Fields] #0 --> Execute a process
+2019/02/17 20:00:05 - Concat Fields.0 - input rel is 1:1
+2019/02/17 20:00:05 - Concat Fields.0 - Found input rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 20:00:05 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 20:00:05 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Infolease_LastShip_Upload to Box_V1.0]
+2019/02/17 20:00:05 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 20:00:05 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Infolease_LastShip_Box_Upload_Log.0]
+2019/02/17 20:00:05 - Concat Fields.0 - Finished dispatching
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation has allocated a new step: [Concat Fields].0
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation is about to allocate step [Generate Rows] of type [RowGenerator]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:00:05 - Generate Rows.0 - distribution de-activated
+2019/02/17 20:00:05 - Generate Rows.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:00:05 - Generate Rows.0 - Step info: nrinput=0 nroutput=1
+2019/02/17 20:00:05 - Generate Rows.0 - output rel. is  1:1
+2019/02/17 20:00:05 - Generate Rows.0 - Found output rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 20:00:05 - Generate Rows.0 - Finished dispatching
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation has allocated a new step: [Generate Rows].0
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation is about to allocate step [Get Variables] of type [GetVariable]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:00:05 - Get Variables.0 - distribution activated
+2019/02/17 20:00:05 - Get Variables.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:00:05 - Get Variables.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 20:00:05 - Get Variables.0 - Got previous step from [Get Variables] #0 --> Generate Rows
+2019/02/17 20:00:05 - Get Variables.0 - input rel is 1:1
+2019/02/17 20:00:05 - Get Variables.0 - Found input rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 20:00:05 - Get Variables.0 - output rel. is  1:1
+2019/02/17 20:00:05 - Get Variables.0 - Found output rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 20:00:05 - Get Variables.0 - Finished dispatching
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation has allocated a new step: [Get Variables].0
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation is about to allocate step [Infolease_LastShip_Upload to Box_V1] of type [SSH]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:00:05 - Infolease_LastShip_Upload to Box_V1.0 - distribution activated
+2019/02/17 20:00:05 - Infolease_LastShip_Upload to Box_V1.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:00:05 - Infolease_LastShip_Upload to Box_V1.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 20:00:05 - Infolease_LastShip_Upload to Box_V1.0 - Got previous step from [Infolease_LastShip_Upload to Box_V1] #0 --> Concat Fields
+2019/02/17 20:00:05 - Infolease_LastShip_Upload to Box_V1.0 - input rel is 1:1
+2019/02/17 20:00:05 - Infolease_LastShip_Upload to Box_V1.0 - Found input rowset [Concat Fields.0 - Infolease_LastShip_Upload to Box_V1.0]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload to Box_V1.0 - Finished dispatching
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation has allocated a new step: [Infolease_LastShip_Upload to Box_V1].0
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation is about to allocate step [Infolease_LastShip_Box_Upload_Log] of type [WriteToLog]
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:00:05 - Infolease_LastShip_Box_Upload_Log.0 - distribution activated
+2019/02/17 20:00:05 - Infolease_LastShip_Box_Upload_Log.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:00:05 - Infolease_LastShip_Box_Upload_Log.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 20:00:05 - Infolease_LastShip_Box_Upload_Log.0 - Got previous step from [Infolease_LastShip_Box_Upload_Log] #0 --> Concat Fields
+2019/02/17 20:00:05 - Infolease_LastShip_Box_Upload_Log.0 - input rel is 1:1
+2019/02/17 20:00:05 - Infolease_LastShip_Box_Upload_Log.0 - Found input rowset [Concat Fields.0 - Infolease_LastShip_Box_Upload_Log.0]
+2019/02/17 20:00:05 - Infolease_LastShip_Box_Upload_Log.0 - Finished dispatching
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 -  Transformation has allocated a new step: [Infolease_LastShip_Box_Upload_Log].0
+2019/02/17 20:00:05 - live_logging_info - New database connection defined
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Opening log connection [live_logging_info]
+2019/02/17 20:00:05 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:05 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:00:05 - live_logging_info - Auto commit off
+2019/02/17 20:00:05 - live_logging_info - Auto commit off
+2019/02/17 20:00:05 - live_logging_info - launch DDL statement: 
+2019/02/17 20:00:05 - live_logging_info - LOCK TABLE pentaho_dilogs.trans_logs IN ACCESS EXCLUSIVE MODE
+2019/02/17 20:00:05 - live_logging_info - 1 statement executed
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Start date found from previous log entry: 2019-02-16 20:00:04.303
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - This transformation can be replayed with replay date: 2019/02/17 20:00:05
+2019/02/17 20:00:05 - live_logging_info - Preparing statement: 
+2019/02/17 20:00:05 - live_logging_info - INSERT INTO pentaho_dilogs.trans_logs (ID_BATCH, CHANNEL_ID, TRANSNAME, STATUS, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS, STARTDATE, ENDDATE, LOGDATE, DEPDATE, REPLAYDATE, LOG_FIELD) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:00:05 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:00:05 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:00:05 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:05 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:00:05 - live_logging_info - Connection to database closed!
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Initialising 6 steps...
+2019/02/17 20:00:05 - Concat Fields.0 - Released server socket on port 0
+2019/02/17 20:00:05 - Execute a process.0 - Released server socket on port 0
+2019/02/17 20:00:05 - Infolease_LastShip_Upload to Box_V1.0 - Released server socket on port 0
+2019/02/17 20:00:05 - Get Variables.0 - Released server socket on port 0
+2019/02/17 20:00:05 - Generate Rows.0 - Released server socket on port 0
+2019/02/17 20:00:05 - Infolease_LastShip_Box_Upload_Log.0 - Released server socket on port 0
+2019/02/17 20:00:05 - Infolease_LastShip_Upload to Box_V1.0 - New Connection opened.
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Step [Execute a process.0] initialized flawlessly.
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Step [Concat Fields.0] initialized flawlessly.
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Step [Generate Rows.0] initialized flawlessly.
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Step [Get Variables.0] initialized flawlessly.
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Step [Infolease_LastShip_Upload to Box_V1.0] initialized flawlessly.
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Step [Infolease_LastShip_Box_Upload_Log.0] initialized flawlessly.
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Dispatching to event bus: TransformationStartEvent
+2019/02/17 20:00:05 - Infolease_LastShip_Upload_to_Box_v1 - Transformation has allocated 6 threads and 5 rowsets.
+2019/02/17 20:00:05 - Execute a process.0 - Starting to run...
+2019/02/17 20:00:05 - Concat Fields.0 - Starting to run...
+2019/02/17 20:00:05 - Generate Rows.0 - Starting to run...
+2019/02/17 20:00:05 - Generate Rows.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 20:00:05 - Generate Rows.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2019/02/17 20:00:05 - Infolease_LastShip_Box_Upload_Log.0 - Starting to run...
+2019/02/17 20:00:05 - Infolease_LastShip_Upload to Box_V1.0 - Starting to run...
+2019/02/17 20:00:05 - Get Variables.0 - Starting to run...
+2019/02/17 20:00:05 - Get Variables.0 - field [LS_EX_FILE_NAME] has value [LastShip_2019-02-17.xls]
+2019/02/17 20:00:05 - Get Variables.0 - field [LS_TMP_FILE_NAME] has value [${LS_TMP_FILE_NAME}]
+2019/02/17 20:00:05 - Get Variables.0 - field [LS_TMP_FILE] has value [D:\Kettle\Tmp\LastShip_Reports\LastShip_2019-02-17.xls]
+2019/02/17 20:00:05 - Get Variables.0 - field [LS_TMP_Excel] has value [/tmp/LastShip_2019-02-17.xls]
+2019/02/17 20:00:05 - Get Variables.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 20:00:05 - Get Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - 
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - ------------> Linenr 1------------------------------
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - ****^^^^^^***** CONCAT_CMD=${run_cmd}
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - ****^^^^^^*****  LS_TMP_FILE_NAME=${LS_TMP_FILE_NAME}
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - ****^^^^^^*****  LS_TMP_FILE=D:\Kettle\Tmp\LastShip_Reports\LastShip_2019-02-17.xls
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - 
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - LS_TMP_FILE_NAME = ${LS_TMP_FILE_NAME}
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - LS_TMP_FILE = D:\Kettle\Tmp\LastShip_Reports\LastShip_2019-02-17.xls
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - Error output = 
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - Exit value = 0
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - run_cmd = /home/idsroot/box/upload_box_infolease_lastship.sh 	 	IrqNU4SNLDdJHoBLEYNjqhU24D4P0Qeb	 	LastShip_2019-02-17.xls	 	/tmp/LastShip_2019-02-17.xls	 	d:\box\get_token.bat
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - 
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - ====================
+2019/02/17 20:00:09 - Execute a process.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 20:00:09 - Execute a process.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:00:09 - Infolease_LastShip_Upload to Box_V1.0 - New session opened.
+2019/02/17 20:00:09 - Infolease_LastShip_Upload to Box_V1.0 - Running command [/home/idsroot/box/upload_box_infolease_lastship.sh 	 	IrqNU4SNLDdJHoBLEYNjqhU24D4P0Qeb	 	LastShip_2019-02-17.xls	 	/tmp/LastShip_2019-02-17.xls	 	d:\box\get_token.bat] ...
+2019/02/17 20:00:09 - Concat Fields.0 - Signaling 'output done' to 2 output rowsets.
+2019/02/17 20:00:09 - Concat Fields.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 20:00:09 - Infolease_LastShip_Box_Upload_Log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:00:10 - Infolease_LastShip_Upload to Box_V1.0 - Runned command [/home/idsroot/box/upload_box_infolease_lastship.sh 	 	IrqNU4SNLDdJHoBLEYNjqhU24D4P0Qeb	 	LastShip_2019-02-17.xls	 	/tmp/LastShip_2019-02-17.xls	 	d:\box\get_token.bat]. StdOut = {"total_count":1,"entries":[{"type":"file","id":"404515839359","file_version":{"type":"file_version","id":"427671767759","sha1":"c8e25f99a0f558914e1bc701ad51e43fb4a5a8ea"},"sequence_id":"0","etag":"0","sha1":"c8e25f99a0f558914e1bc701ad51e43fb4a5a8ea","name":"LastShip_2019-02-17.xls","description":"","size":84480,"path_collection":{"total_count":4,"entries":[{"type":"folder","id":"0","sequence_id":null,"etag":null,"name":"All Files"},{"type":"folder","id":"50078215209","sequence_id":"0","etag":"0","name":"FIS General"},{"type":"folder","id":"65447461595","sequence_id":"1","etag":"1","name":"Web Reports"},{"type":"folder","id":"65451650312","sequence_id":"1","etag":"1","name":"Last Ship Report"}]},"created_at":"2019-02-17T17:00:10-08:00","modified_at":"2019-02-17T17:00:10-08:00","trashed_at":null,"purged_at":null,"content_created_at":"2019-02-17T17:00:10-08:00","content_modified_at":"2019-02-17T17:00:10-08:00","created_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"modified_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"owned_by":{"type":"user","id":"3590801780","name":"Victoria Lening","login":"victoria.lening@olympus.com"},"shared_link":null,"parent":{"type":"folder","id":"65451650312","sequence_id":"1","etag":"1","name":"Last Ship Report"},"item_status":"active"}]}. StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0 84859    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 86247  106  1388  100 84859   1404  85894 --:--:-- --:--:-- --:--:--  105k
+100 86247  106  1388  100 84859   1404  85890 --:--:-- --:--:-- --:--:--  105k.
+2019/02/17 20:00:10 - Infolease_LastShip_Upload to Box_V1.0 - Session closed.
+2019/02/17 20:00:10 - Infolease_LastShip_Upload to Box_V1.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 20:00:10 - Infolease_LastShip_Upload to Box_V1.0 - Connection closed.
+2019/02/17 20:00:10 - Infolease_LastShip_Upload to Box_V1.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:00:10 - Infolease_LastShip_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:10 - Infolease_LastShip_Upload_to_Box_v1 - Dispatching to event bus: TransformationFinishEvent
+2019/02/17 20:00:10 - Infolease_LastShip_Upload_to_Box_v1 - searching for annotations
+2019/02/17 20:00:10 - Infolease_LastShip_Upload_to_Box_v1 - no annotations found
+2019/02/17 20:00:10 - live_logging_info - New database connection defined
+2019/02/17 20:00:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:10 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:00:10 - live_logging_info - Auto commit off
+2019/02/17 20:00:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:00:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:00:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:10 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:00:10 - live_logging_info - Connection to database closed!
+2019/02/17 20:00:10 - live_logging_info - New database connection defined
+2019/02/17 20:00:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:10 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:00:10 - live_logging_info - Auto commit off
+2019/02/17 20:00:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:00:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:00:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:10 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:00:10 - live_logging_info - Connection to database closed!
+2019/02/17 20:00:10 - live_logging_info - New database connection defined
+2019/02/17 20:00:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:10 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:00:10 - live_logging_info - Auto commit off
+2019/02/17 20:00:10 - live_logging_info - Preparing statement: 
+2019/02/17 20:00:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:00:10 - live_logging_info - Preparing statement: 
+2019/02/17 20:00:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:00:10 - live_logging_info - Preparing statement: 
+2019/02/17 20:00:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:00:10 - live_logging_info - Preparing statement: 
+2019/02/17 20:00:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:00:10 - live_logging_info - Preparing statement: 
+2019/02/17 20:00:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:00:10 - live_logging_info - Preparing statement: 
+2019/02/17 20:00:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:00:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:00:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:00:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:00:10 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:00:10 - live_logging_info - Connection to database closed!
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Loading transformation from repository [Infolease_Util_Upload_to_Box_v1] in directory [/home/admin/Production/Utilization Report]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Using run configuration [Pentaho local]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Using legacy execution engine
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Dispatching to event bus: TransformationPrepareExecutionEvent
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Dispatching started for transformation [Infolease_Util_Upload_to_Box_v1]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Nr of arguments detected:1 
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - This is not a replay transformation
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - I found 6 different steps to launch.
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Allocating rowsets...
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocating rowsets for step 0 --> Execute a process
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Transformation allocated new rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocated 1 rowsets for step 0 --> Execute a process  
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocating rowsets for step 1 --> Concat Fields
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Infolease_Util_Upload to Box_V1.0]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Infolease_Util_Box_Upload_Log.0]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocated 3 rowsets for step 1 --> Concat Fields  
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocating rowsets for step 2 --> Generate Rows
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Transformation allocated new rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocated 4 rowsets for step 2 --> Generate Rows  
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocating rowsets for step 3 --> Get Variables
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Transformation allocated new rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocated 5 rowsets for step 3 --> Get Variables  
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocating rowsets for step 4 --> Infolease_Util_Upload to Box_V1
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocated 5 rowsets for step 4 --> Infolease_Util_Upload to Box_V1  
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocating rowsets for step 5 --> Infolease_Util_Box_Upload_Log
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Allocated 5 rowsets for step 5 --> Infolease_Util_Box_Upload_Log  
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Allocating Steps & StepData...
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation is about to allocate step [Execute a process] of type [ExecProcess]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:15:06 - Execute a process.0 - distribution de-activated
+2019/02/17 20:15:06 - Execute a process.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:15:06 - Execute a process.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 20:15:06 - Execute a process.0 - Got previous step from [Execute a process] #0 --> Get Variables
+2019/02/17 20:15:06 - Execute a process.0 - input rel is 1:1
+2019/02/17 20:15:06 - Execute a process.0 - Found input rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 20:15:06 - Execute a process.0 - output rel. is  1:1
+2019/02/17 20:15:06 - Execute a process.0 - Found output rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 20:15:06 - Execute a process.0 - Finished dispatching
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation has allocated a new step: [Execute a process].0
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation is about to allocate step [Concat Fields] of type [ConcatFields]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:15:06 - Concat Fields.0 - distribution de-activated
+2019/02/17 20:15:06 - Concat Fields.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:15:06 - Concat Fields.0 - Step info: nrinput=1 nroutput=2
+2019/02/17 20:15:06 - Concat Fields.0 - Got previous step from [Concat Fields] #0 --> Execute a process
+2019/02/17 20:15:06 - Concat Fields.0 - input rel is 1:1
+2019/02/17 20:15:06 - Concat Fields.0 - Found input rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 20:15:06 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 20:15:06 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Infolease_Util_Upload to Box_V1.0]
+2019/02/17 20:15:06 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 20:15:06 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Infolease_Util_Box_Upload_Log.0]
+2019/02/17 20:15:06 - Concat Fields.0 - Finished dispatching
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation has allocated a new step: [Concat Fields].0
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation is about to allocate step [Generate Rows] of type [RowGenerator]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:15:06 - Generate Rows.0 - distribution de-activated
+2019/02/17 20:15:06 - Generate Rows.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:15:06 - Generate Rows.0 - Step info: nrinput=0 nroutput=1
+2019/02/17 20:15:06 - Generate Rows.0 - output rel. is  1:1
+2019/02/17 20:15:06 - Generate Rows.0 - Found output rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 20:15:06 - Generate Rows.0 - Finished dispatching
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation has allocated a new step: [Generate Rows].0
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation is about to allocate step [Get Variables] of type [GetVariable]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:15:06 - Get Variables.0 - distribution activated
+2019/02/17 20:15:06 - Get Variables.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:15:06 - Get Variables.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 20:15:06 - Get Variables.0 - Got previous step from [Get Variables] #0 --> Generate Rows
+2019/02/17 20:15:06 - Get Variables.0 - input rel is 1:1
+2019/02/17 20:15:06 - Get Variables.0 - Found input rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 20:15:06 - Get Variables.0 - output rel. is  1:1
+2019/02/17 20:15:06 - Get Variables.0 - Found output rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 20:15:06 - Get Variables.0 - Finished dispatching
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation has allocated a new step: [Get Variables].0
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation is about to allocate step [Infolease_Util_Upload to Box_V1] of type [SSH]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:15:06 - Infolease_Util_Upload to Box_V1.0 - distribution activated
+2019/02/17 20:15:06 - Infolease_Util_Upload to Box_V1.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:15:06 - Infolease_Util_Upload to Box_V1.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 20:15:06 - Infolease_Util_Upload to Box_V1.0 - Got previous step from [Infolease_Util_Upload to Box_V1] #0 --> Concat Fields
+2019/02/17 20:15:06 - Infolease_Util_Upload to Box_V1.0 - input rel is 1:1
+2019/02/17 20:15:06 - Infolease_Util_Upload to Box_V1.0 - Found input rowset [Concat Fields.0 - Infolease_Util_Upload to Box_V1.0]
+2019/02/17 20:15:06 - Infolease_Util_Upload to Box_V1.0 - Finished dispatching
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation has allocated a new step: [Infolease_Util_Upload to Box_V1].0
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation is about to allocate step [Infolease_Util_Box_Upload_Log] of type [WriteToLog]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:15:06 - Infolease_Util_Box_Upload_Log.0 - distribution activated
+2019/02/17 20:15:06 - Infolease_Util_Box_Upload_Log.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:15:06 - Infolease_Util_Box_Upload_Log.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 20:15:06 - Infolease_Util_Box_Upload_Log.0 - Got previous step from [Infolease_Util_Box_Upload_Log] #0 --> Concat Fields
+2019/02/17 20:15:06 - Infolease_Util_Box_Upload_Log.0 - input rel is 1:1
+2019/02/17 20:15:06 - Infolease_Util_Box_Upload_Log.0 - Found input rowset [Concat Fields.0 - Infolease_Util_Box_Upload_Log.0]
+2019/02/17 20:15:06 - Infolease_Util_Box_Upload_Log.0 - Finished dispatching
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 -  Transformation has allocated a new step: [Infolease_Util_Box_Upload_Log].0
+2019/02/17 20:15:06 - live_logging_info - New database connection defined
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Opening log connection [live_logging_info]
+2019/02/17 20:15:06 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:06 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:15:06 - live_logging_info - Auto commit off
+2019/02/17 20:15:06 - live_logging_info - Auto commit off
+2019/02/17 20:15:06 - live_logging_info - launch DDL statement: 
+2019/02/17 20:15:06 - live_logging_info - LOCK TABLE pentaho_dilogs.trans_logs IN ACCESS EXCLUSIVE MODE
+2019/02/17 20:15:06 - live_logging_info - 1 statement executed
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Start date found from previous log entry: 2019-02-16 20:15:05.232
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - This transformation can be replayed with replay date: 2019/02/17 20:15:06
+2019/02/17 20:15:06 - live_logging_info - Preparing statement: 
+2019/02/17 20:15:06 - live_logging_info - INSERT INTO pentaho_dilogs.trans_logs (ID_BATCH, CHANNEL_ID, TRANSNAME, STATUS, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS, STARTDATE, ENDDATE, LOGDATE, DEPDATE, REPLAYDATE, LOG_FIELD) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:15:06 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:15:06 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:15:06 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:06 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:15:06 - live_logging_info - Connection to database closed!
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Initialising 6 steps...
+2019/02/17 20:15:06 - Concat Fields.0 - Released server socket on port 0
+2019/02/17 20:15:06 - Get Variables.0 - Released server socket on port 0
+2019/02/17 20:15:06 - Execute a process.0 - Released server socket on port 0
+2019/02/17 20:15:06 - Generate Rows.0 - Released server socket on port 0
+2019/02/17 20:15:06 - Infolease_Util_Upload to Box_V1.0 - Released server socket on port 0
+2019/02/17 20:15:06 - Infolease_Util_Box_Upload_Log.0 - Released server socket on port 0
+2019/02/17 20:15:06 - Infolease_Util_Upload to Box_V1.0 - New Connection opened.
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Step [Execute a process.0] initialized flawlessly.
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Step [Concat Fields.0] initialized flawlessly.
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Step [Generate Rows.0] initialized flawlessly.
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Step [Get Variables.0] initialized flawlessly.
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Step [Infolease_Util_Upload to Box_V1.0] initialized flawlessly.
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Step [Infolease_Util_Box_Upload_Log.0] initialized flawlessly.
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:06 - Concat Fields.0 - Starting to run...
+2019/02/17 20:15:06 - Get Variables.0 - Starting to run...
+2019/02/17 20:15:06 - Infolease_Util_Box_Upload_Log.0 - Starting to run...
+2019/02/17 20:15:06 - Execute a process.0 - Starting to run...
+2019/02/17 20:15:06 - Generate Rows.0 - Starting to run...
+2019/02/17 20:15:06 - Generate Rows.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 20:15:06 - Generate Rows.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2019/02/17 20:15:06 - Get Variables.0 - field [UT_EX_FILE_NAME] has value [Utilization_2019-02-17.xls]
+2019/02/17 20:15:06 - Get Variables.0 - field [UT_TMP_FILE_NAME] has value []
+2019/02/17 20:15:06 - Infolease_Util_Upload to Box_V1.0 - Starting to run...
+2019/02/17 20:15:06 - Get Variables.0 - field [UT_TMP_FILE] has value [D:\Kettle\Tmp\Utilization_Reports\Utilization_2019-02-17.xls]
+2019/02/17 20:15:06 - Get Variables.0 - field [UT_TMP_Excel] has value [/tmp/Utilization_2019-02-17.xls]
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Dispatching to event bus: TransformationStartEvent
+2019/02/17 20:15:06 - Infolease_Util_Upload_to_Box_v1 - Transformation has allocated 6 threads and 5 rowsets.
+2019/02/17 20:15:06 - Get Variables.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 20:15:06 - Get Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - 
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - ------------> Linenr 1------------------------------
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - ****^^^^^^***** CONCAT_CMD=${run_cmd}
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - ****^^^^^^*****  UT_TMP_FILE_NAME=
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - ****^^^^^^*****  UT_TMP_FILE=D:\Kettle\Tmp\Utilization_Reports\Utilization_2019-02-17.xls
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - 
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - UT_TMP_FILE_NAME = 
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - UT_TMP_FILE = D:\Kettle\Tmp\Utilization_Reports\Utilization_2019-02-17.xls
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - Error output = 
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - Exit value = 0
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - run_cmd = /home/idsroot/box/upload_box_infolease_util.sh 	 	Di5ETv2pO2rgZMzr6kuF8M3ThyxvIGfK	 	Utilization_2019-02-17.xls	 	/tmp/Utilization_2019-02-17.xls	 	d:\box\get_token.bat
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - 
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - ====================
+2019/02/17 20:15:08 - Execute a process.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 20:15:08 - Execute a process.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:15:08 - Infolease_Util_Upload to Box_V1.0 - New session opened.
+2019/02/17 20:15:08 - Infolease_Util_Upload to Box_V1.0 - Running command [/home/idsroot/box/upload_box_infolease_util.sh 	 	Di5ETv2pO2rgZMzr6kuF8M3ThyxvIGfK	 	Utilization_2019-02-17.xls	 	/tmp/Utilization_2019-02-17.xls	 	d:\box\get_token.bat] ...
+2019/02/17 20:15:08 - Concat Fields.0 - Signaling 'output done' to 2 output rowsets.
+2019/02/17 20:15:08 - Concat Fields.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 20:15:08 - Infolease_Util_Box_Upload_Log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:15:09 - Infolease_Util_Upload to Box_V1.0 - Runned command [/home/idsroot/box/upload_box_infolease_util.sh 	 	Di5ETv2pO2rgZMzr6kuF8M3ThyxvIGfK	 	Utilization_2019-02-17.xls	 	/tmp/Utilization_2019-02-17.xls	 	d:\box\get_token.bat]. StdOut = {"total_count":1,"entries":[{"type":"file","id":"404509964986","file_version":{"type":"file_version","id":"427665886186","sha1":"1922995574e4c7164f465341f8763839738086c2"},"sequence_id":"0","etag":"0","sha1":"1922995574e4c7164f465341f8763839738086c2","name":"Utilization_2019-02-17.xls","description":"","size":137216,"path_collection":{"total_count":4,"entries":[{"type":"folder","id":"0","sequence_id":null,"etag":null,"name":"All Files"},{"type":"folder","id":"50078215209","sequence_id":"0","etag":"0","name":"FIS General"},{"type":"folder","id":"65447461595","sequence_id":"1","etag":"1","name":"Web Reports"},{"type":"folder","id":"65447683410","sequence_id":"1","etag":"1","name":"Utilization Report"}]},"created_at":"2019-02-17T17:15:09-08:00","modified_at":"2019-02-17T17:15:09-08:00","trashed_at":null,"purged_at":null,"content_created_at":"2019-02-17T17:15:09-08:00","content_modified_at":"2019-02-17T17:15:09-08:00","created_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"modified_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"owned_by":{"type":"user","id":"3590801780","name":"Victoria Lening","login":"victoria.lening@olympus.com"},"shared_link":null,"parent":{"type":"folder","id":"65447683410","sequence_id":"1","etag":"1","name":"Utilization Report"},"item_status":"active"}]}. StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0  134k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  135k  107  1396  100  134k   1196   115k  0:00:01  0:00:01 --:--:--  141k
+100  135k  107  1396  100  134k   1196   115k  0:00:01  0:00:01 --:--:--  141k.
+2019/02/17 20:15:09 - Infolease_Util_Upload to Box_V1.0 - Session closed.
+2019/02/17 20:15:09 - Infolease_Util_Upload to Box_V1.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 20:15:09 - Infolease_Util_Upload to Box_V1.0 - Connection closed.
+2019/02/17 20:15:09 - Infolease_Util_Upload to Box_V1.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:15:09 - Infolease_Util_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:09 - Infolease_Util_Upload_to_Box_v1 - Dispatching to event bus: TransformationFinishEvent
+2019/02/17 20:15:09 - Infolease_Util_Upload_to_Box_v1 - searching for annotations
+2019/02/17 20:15:09 - Infolease_Util_Upload_to_Box_v1 - no annotations found
+2019/02/17 20:15:09 - live_logging_info - New database connection defined
+2019/02/17 20:15:09 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:09 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:15:09 - live_logging_info - Auto commit off
+2019/02/17 20:15:09 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:15:09 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:15:09 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:09 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:15:09 - live_logging_info - Connection to database closed!
+2019/02/17 20:15:09 - live_logging_info - New database connection defined
+2019/02/17 20:15:09 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:09 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:15:09 - live_logging_info - Auto commit off
+2019/02/17 20:15:09 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:15:09 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:15:09 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:09 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:15:09 - live_logging_info - Connection to database closed!
+2019/02/17 20:15:09 - live_logging_info - New database connection defined
+2019/02/17 20:15:09 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:09 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:15:09 - live_logging_info - Auto commit off
+2019/02/17 20:15:09 - live_logging_info - Preparing statement: 
+2019/02/17 20:15:09 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:15:09 - live_logging_info - Preparing statement: 
+2019/02/17 20:15:09 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:15:09 - live_logging_info - Preparing statement: 
+2019/02/17 20:15:09 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:15:09 - live_logging_info - Preparing statement: 
+2019/02/17 20:15:09 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:15:09 - live_logging_info - Preparing statement: 
+2019/02/17 20:15:09 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:15:09 - live_logging_info - Preparing statement: 
+2019/02/17 20:15:09 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:15:09 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:15:09 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:15:09 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:15:09 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:15:09 - live_logging_info - Connection to database closed!
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Loading transformation from repository [Infolease_Snapshot_Upload_to_Box_v1] in directory [/home/admin/Production/Snapshot Report]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Using run configuration [Pentaho local]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Using legacy execution engine
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Dispatching to event bus: TransformationPrepareExecutionEvent
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Dispatching started for transformation [Infolease_Snapshot_Upload_to_Box_v1]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Nr of arguments detected:1 
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - This is not a replay transformation
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - I found 6 different steps to launch.
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Allocating rowsets...
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocating rowsets for step 0 --> Execute a process
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Transformation allocated new rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocated 1 rowsets for step 0 --> Execute a process  
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocating rowsets for step 1 --> Concat Fields
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Infolease_Snapshot_Upload to Box_V1.0]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Infolease_Snapshot_Box_Upload_Log.0]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocated 3 rowsets for step 1 --> Concat Fields  
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocating rowsets for step 2 --> Generate Rows
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Transformation allocated new rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocated 4 rowsets for step 2 --> Generate Rows  
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocating rowsets for step 3 --> Get Variables
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Transformation allocated new rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocated 5 rowsets for step 3 --> Get Variables  
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocating rowsets for step 4 --> Infolease_Snapshot_Upload to Box_V1
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocated 5 rowsets for step 4 --> Infolease_Snapshot_Upload to Box_V1  
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocating rowsets for step 5 --> Infolease_Snapshot_Box_Upload_Log
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Allocated 5 rowsets for step 5 --> Infolease_Snapshot_Box_Upload_Log  
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Allocating Steps & StepData...
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation is about to allocate step [Execute a process] of type [ExecProcess]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:30:11 - Execute a process.0 - distribution de-activated
+2019/02/17 20:30:11 - Execute a process.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:30:11 - Execute a process.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 20:30:11 - Execute a process.0 - Got previous step from [Execute a process] #0 --> Get Variables
+2019/02/17 20:30:11 - Execute a process.0 - input rel is 1:1
+2019/02/17 20:30:11 - Execute a process.0 - Found input rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 20:30:11 - Execute a process.0 - output rel. is  1:1
+2019/02/17 20:30:11 - Execute a process.0 - Found output rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 20:30:11 - Execute a process.0 - Finished dispatching
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation has allocated a new step: [Execute a process].0
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation is about to allocate step [Concat Fields] of type [ConcatFields]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:30:11 - Concat Fields.0 - distribution de-activated
+2019/02/17 20:30:11 - Concat Fields.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:30:11 - Concat Fields.0 - Step info: nrinput=1 nroutput=2
+2019/02/17 20:30:11 - Concat Fields.0 - Got previous step from [Concat Fields] #0 --> Execute a process
+2019/02/17 20:30:11 - Concat Fields.0 - input rel is 1:1
+2019/02/17 20:30:11 - Concat Fields.0 - Found input rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 20:30:11 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 20:30:11 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Infolease_Snapshot_Upload to Box_V1.0]
+2019/02/17 20:30:11 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 20:30:11 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Infolease_Snapshot_Box_Upload_Log.0]
+2019/02/17 20:30:11 - Concat Fields.0 - Finished dispatching
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation has allocated a new step: [Concat Fields].0
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation is about to allocate step [Generate Rows] of type [RowGenerator]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:30:11 - Generate Rows.0 - distribution de-activated
+2019/02/17 20:30:11 - Generate Rows.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:30:11 - Generate Rows.0 - Step info: nrinput=0 nroutput=1
+2019/02/17 20:30:11 - Generate Rows.0 - output rel. is  1:1
+2019/02/17 20:30:11 - Generate Rows.0 - Found output rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 20:30:11 - Generate Rows.0 - Finished dispatching
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation has allocated a new step: [Generate Rows].0
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation is about to allocate step [Get Variables] of type [GetVariable]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:30:11 - Get Variables.0 - distribution activated
+2019/02/17 20:30:11 - Get Variables.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:30:11 - Get Variables.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 20:30:11 - Get Variables.0 - Got previous step from [Get Variables] #0 --> Generate Rows
+2019/02/17 20:30:11 - Get Variables.0 - input rel is 1:1
+2019/02/17 20:30:11 - Get Variables.0 - Found input rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 20:30:11 - Get Variables.0 - output rel. is  1:1
+2019/02/17 20:30:11 - Get Variables.0 - Found output rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 20:30:11 - Get Variables.0 - Finished dispatching
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation has allocated a new step: [Get Variables].0
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation is about to allocate step [Infolease_Snapshot_Upload to Box_V1] of type [SSH]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload to Box_V1.0 - distribution activated
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload to Box_V1.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload to Box_V1.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload to Box_V1.0 - Got previous step from [Infolease_Snapshot_Upload to Box_V1] #0 --> Concat Fields
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload to Box_V1.0 - input rel is 1:1
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload to Box_V1.0 - Found input rowset [Concat Fields.0 - Infolease_Snapshot_Upload to Box_V1.0]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload to Box_V1.0 - Finished dispatching
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation has allocated a new step: [Infolease_Snapshot_Upload to Box_V1].0
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation is about to allocate step [Infolease_Snapshot_Box_Upload_Log] of type [WriteToLog]
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 20:30:11 - Infolease_Snapshot_Box_Upload_Log.0 - distribution activated
+2019/02/17 20:30:11 - Infolease_Snapshot_Box_Upload_Log.0 - Starting allocation of buffers & new threads...
+2019/02/17 20:30:11 - Infolease_Snapshot_Box_Upload_Log.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 20:30:11 - Infolease_Snapshot_Box_Upload_Log.0 - Got previous step from [Infolease_Snapshot_Box_Upload_Log] #0 --> Concat Fields
+2019/02/17 20:30:11 - Infolease_Snapshot_Box_Upload_Log.0 - input rel is 1:1
+2019/02/17 20:30:11 - Infolease_Snapshot_Box_Upload_Log.0 - Found input rowset [Concat Fields.0 - Infolease_Snapshot_Box_Upload_Log.0]
+2019/02/17 20:30:11 - Infolease_Snapshot_Box_Upload_Log.0 - Finished dispatching
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 -  Transformation has allocated a new step: [Infolease_Snapshot_Box_Upload_Log].0
+2019/02/17 20:30:11 - live_logging_info - New database connection defined
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Opening log connection [live_logging_info]
+2019/02/17 20:30:11 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:11 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:30:11 - live_logging_info - Auto commit off
+2019/02/17 20:30:11 - live_logging_info - Auto commit off
+2019/02/17 20:30:11 - live_logging_info - launch DDL statement: 
+2019/02/17 20:30:11 - live_logging_info - LOCK TABLE pentaho_dilogs.trans_logs IN ACCESS EXCLUSIVE MODE
+2019/02/17 20:30:11 - live_logging_info - 1 statement executed
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Start date found from previous log entry: 2019-02-16 20:30:11.237
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - This transformation can be replayed with replay date: 2019/02/17 20:30:11
+2019/02/17 20:30:11 - live_logging_info - Preparing statement: 
+2019/02/17 20:30:11 - live_logging_info - INSERT INTO pentaho_dilogs.trans_logs (ID_BATCH, CHANNEL_ID, TRANSNAME, STATUS, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS, STARTDATE, ENDDATE, LOGDATE, DEPDATE, REPLAYDATE, LOG_FIELD) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:30:11 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:30:11 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:30:11 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:11 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:30:11 - live_logging_info - Connection to database closed!
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Initialising 6 steps...
+2019/02/17 20:30:11 - Execute a process.0 - Released server socket on port 0
+2019/02/17 20:30:11 - Concat Fields.0 - Released server socket on port 0
+2019/02/17 20:30:11 - Generate Rows.0 - Released server socket on port 0
+2019/02/17 20:30:11 - Infolease_Snapshot_Box_Upload_Log.0 - Released server socket on port 0
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload to Box_V1.0 - Released server socket on port 0
+2019/02/17 20:30:11 - Get Variables.0 - Released server socket on port 0
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload to Box_V1.0 - New Connection opened.
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Step [Execute a process.0] initialized flawlessly.
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Step [Concat Fields.0] initialized flawlessly.
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Step [Generate Rows.0] initialized flawlessly.
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Step [Get Variables.0] initialized flawlessly.
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Step [Infolease_Snapshot_Upload to Box_V1.0] initialized flawlessly.
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Step [Infolease_Snapshot_Box_Upload_Log.0] initialized flawlessly.
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Dispatching to event bus: TransformationStartEvent
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload_to_Box_v1 - Transformation has allocated 6 threads and 5 rowsets.
+2019/02/17 20:30:11 - Concat Fields.0 - Starting to run...
+2019/02/17 20:30:11 - Get Variables.0 - Starting to run...
+2019/02/17 20:30:11 - Infolease_Snapshot_Box_Upload_Log.0 - Starting to run...
+2019/02/17 20:30:11 - Execute a process.0 - Starting to run...
+2019/02/17 20:30:11 - Generate Rows.0 - Starting to run...
+2019/02/17 20:30:11 - Generate Rows.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 20:30:11 - Infolease_Snapshot_Upload to Box_V1.0 - Starting to run...
+2019/02/17 20:30:11 - Generate Rows.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2019/02/17 20:30:11 - Get Variables.0 - field [SN_EX_FILE_NAME] has value [Snapshot_Reports_2019-02-17.xls]
+2019/02/17 20:30:11 - Get Variables.0 - field [SN_TMP_FILE_NAME] has value []
+2019/02/17 20:30:11 - Get Variables.0 - field [SN_TMP_FILE] has value [D:\Kettle\Tmp\Snapshot_Reports\Snapshot_Reports_2019-02-17.xls]
+2019/02/17 20:30:11 - Get Variables.0 - field [SN_TMP_Excel] has value [/tmp/Snapshot_Reports_2019-02-17.xls]
+2019/02/17 20:30:11 - Get Variables.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 20:30:11 - Get Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - 
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - ------------> Linenr 1------------------------------
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - ****^^^^^^***** CONCAT_CMD=${run_cmd}
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - ****^^^^^^*****  SN_TMP_FILE_NAME=
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - ****^^^^^^*****  SN_TMP_FILE=D:\Kettle\Tmp\Snapshot_Reports\Snapshot_Reports_2019-02-17.xls
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - 
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - SN_TMP_FILE_NAME = 
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - SN_TMP_FILE = D:\Kettle\Tmp\Snapshot_Reports\Snapshot_Reports_2019-02-17.xls
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - Error output = 
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - Exit value = 0
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - run_cmd = /home/idsroot/box/upload_box_infolease_snap.sh 	 	w7XKqsgDbfcET6rVlaE3Epal0nzCm5zv	 	Snapshot_Reports_2019-02-17.xls	 	/tmp/Snapshot_Reports_2019-02-17.xls	 	d:\box\get_token.bat
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - 
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - ====================
+2019/02/17 20:30:13 - Execute a process.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 20:30:13 - Execute a process.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:30:13 - Infolease_Snapshot_Upload to Box_V1.0 - New session opened.
+2019/02/17 20:30:13 - Infolease_Snapshot_Upload to Box_V1.0 - Running command [/home/idsroot/box/upload_box_infolease_snap.sh 	 	w7XKqsgDbfcET6rVlaE3Epal0nzCm5zv	 	Snapshot_Reports_2019-02-17.xls	 	/tmp/Snapshot_Reports_2019-02-17.xls	 	d:\box\get_token.bat] ...
+2019/02/17 20:30:13 - Concat Fields.0 - Signaling 'output done' to 2 output rowsets.
+2019/02/17 20:30:13 - Concat Fields.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 20:30:13 - Infolease_Snapshot_Box_Upload_Log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:30:15 - Infolease_Snapshot_Upload to Box_V1.0 - Runned command [/home/idsroot/box/upload_box_infolease_snap.sh 	 	w7XKqsgDbfcET6rVlaE3Epal0nzCm5zv	 	Snapshot_Reports_2019-02-17.xls	 	/tmp/Snapshot_Reports_2019-02-17.xls	 	d:\box\get_token.bat]. StdOut = {"total_count":1,"entries":[{"type":"file","id":"404520783006","file_version":{"type":"file_version","id":"427677430206","sha1":"934345dc6e3518a0f6a9dcd554754cc9e57f1ba2"},"sequence_id":"0","etag":"0","sha1":"934345dc6e3518a0f6a9dcd554754cc9e57f1ba2","name":"Snapshot_Reports_2019-02-17.xls","description":"","size":1442304,"path_collection":{"total_count":4,"entries":[{"type":"folder","id":"0","sequence_id":null,"etag":null,"name":"All Files"},{"type":"folder","id":"50078215209","sequence_id":"0","etag":"0","name":"FIS General"},{"type":"folder","id":"65447461595","sequence_id":"1","etag":"1","name":"Web Reports"},{"type":"folder","id":"65449586541","sequence_id":"1","etag":"1","name":"Snapshot Report"}]},"created_at":"2019-02-17T17:30:15-08:00","modified_at":"2019-02-17T17:30:15-08:00","trashed_at":null,"purged_at":null,"content_created_at":"2019-02-17T17:30:15-08:00","content_modified_at":"2019-02-17T17:30:15-08:00","created_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"modified_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"owned_by":{"type":"user","id":"3590801780","name":"Victoria Lening","login":"victoria.lening@olympus.com"},"shared_link":null,"parent":{"type":"folder","id":"65449586541","sequence_id":"1","etag":"1","name":"Snapshot Report"},"item_status":"active"}]}. StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0 1408k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1408k    0     0  100 1408k      0  1021k  0:00:01  0:00:01 --:--:-- 1185k
+100 1410k  107  1396  100 1408k    641   647k  0:00:02  0:00:02 --:--:--  709k
+100 1410k  107  1396  100 1408k    641   647k  0:00:02  0:00:02 --:--:--  709k.
+2019/02/17 20:30:15 - Infolease_Snapshot_Upload to Box_V1.0 - Session closed.
+2019/02/17 20:30:16 - Infolease_Snapshot_Upload to Box_V1.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 20:30:16 - Infolease_Snapshot_Upload to Box_V1.0 - Connection closed.
+2019/02/17 20:30:16 - Infolease_Snapshot_Upload to Box_V1.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 20:30:16 - Infolease_Snapshot_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:16 - Infolease_Snapshot_Upload_to_Box_v1 - Dispatching to event bus: TransformationFinishEvent
+2019/02/17 20:30:16 - Infolease_Snapshot_Upload_to_Box_v1 - searching for annotations
+2019/02/17 20:30:16 - Infolease_Snapshot_Upload_to_Box_v1 - no annotations found
+2019/02/17 20:30:16 - live_logging_info - New database connection defined
+2019/02/17 20:30:16 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:16 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:30:16 - live_logging_info - Auto commit off
+2019/02/17 20:30:16 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:30:16 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:30:16 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:16 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:30:16 - live_logging_info - Connection to database closed!
+2019/02/17 20:30:16 - live_logging_info - New database connection defined
+2019/02/17 20:30:16 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:16 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:30:16 - live_logging_info - Auto commit off
+2019/02/17 20:30:16 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:30:16 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:30:16 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:16 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:30:16 - live_logging_info - Connection to database closed!
+2019/02/17 20:30:16 - live_logging_info - New database connection defined
+2019/02/17 20:30:16 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:16 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 20:30:16 - live_logging_info - Auto commit off
+2019/02/17 20:30:16 - live_logging_info - Preparing statement: 
+2019/02/17 20:30:16 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:30:16 - live_logging_info - Preparing statement: 
+2019/02/17 20:30:16 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:30:16 - live_logging_info - Preparing statement: 
+2019/02/17 20:30:16 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:30:16 - live_logging_info - Preparing statement: 
+2019/02/17 20:30:16 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:30:16 - live_logging_info - Preparing statement: 
+2019/02/17 20:30:16 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:30:16 - live_logging_info - Preparing statement: 
+2019/02/17 20:30:16 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 20:30:16 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:30:16 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 20:30:16 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 20:30:16 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 20:30:16 - live_logging_info - Connection to database closed!
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Loading transformation from repository [Infolease_CCAN_Upload_to_Box_v1] in directory [/home/admin/Production/CCAN]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Using run configuration [Pentaho local]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Using legacy execution engine
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Dispatching to event bus: TransformationPrepareExecutionEvent
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Dispatching started for transformation [Infolease_CCAN_Upload_to_Box_v1]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Nr of arguments detected:0 
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - This is not a replay transformation
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - I found 6 different steps to launch.
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Allocating rowsets...
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocating rowsets for step 0 --> Execute a process
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Transformation allocated new rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocated 1 rowsets for step 0 --> Execute a process  
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocating rowsets for step 1 --> Concat Fields
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Infolease_CCAN_Upload to Box_V1.0]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Infolease_CCAN_Box_Upload_Log.0]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocated 3 rowsets for step 1 --> Concat Fields  
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocating rowsets for step 2 --> Generate Rows
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Transformation allocated new rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocated 4 rowsets for step 2 --> Generate Rows  
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocating rowsets for step 3 --> Get Variables
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Transformation allocated new rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocated 5 rowsets for step 3 --> Get Variables  
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocating rowsets for step 4 --> Infolease_CCAN_Upload to Box_V1
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocated 5 rowsets for step 4 --> Infolease_CCAN_Upload to Box_V1  
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocating rowsets for step 5 --> Infolease_CCAN_Box_Upload_Log
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Allocated 5 rowsets for step 5 --> Infolease_CCAN_Box_Upload_Log  
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Allocating Steps & StepData...
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation is about to allocate step [Execute a process] of type [ExecProcess]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:10:14 - Execute a process.0 - distribution de-activated
+2019/02/17 21:10:14 - Execute a process.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:10:14 - Execute a process.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 21:10:14 - Execute a process.0 - Got previous step from [Execute a process] #0 --> Get Variables
+2019/02/17 21:10:14 - Execute a process.0 - input rel is 1:1
+2019/02/17 21:10:14 - Execute a process.0 - Found input rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 21:10:14 - Execute a process.0 - output rel. is  1:1
+2019/02/17 21:10:14 - Execute a process.0 - Found output rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 21:10:14 - Execute a process.0 - Finished dispatching
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation has allocated a new step: [Execute a process].0
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation is about to allocate step [Concat Fields] of type [ConcatFields]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:10:14 - Concat Fields.0 - distribution de-activated
+2019/02/17 21:10:14 - Concat Fields.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:10:14 - Concat Fields.0 - Step info: nrinput=1 nroutput=2
+2019/02/17 21:10:14 - Concat Fields.0 - Got previous step from [Concat Fields] #0 --> Execute a process
+2019/02/17 21:10:14 - Concat Fields.0 - input rel is 1:1
+2019/02/17 21:10:14 - Concat Fields.0 - Found input rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 21:10:14 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 21:10:14 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Infolease_CCAN_Upload to Box_V1.0]
+2019/02/17 21:10:14 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 21:10:14 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Infolease_CCAN_Box_Upload_Log.0]
+2019/02/17 21:10:14 - Concat Fields.0 - Finished dispatching
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation has allocated a new step: [Concat Fields].0
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation is about to allocate step [Generate Rows] of type [RowGenerator]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:10:14 - Generate Rows.0 - distribution de-activated
+2019/02/17 21:10:14 - Generate Rows.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:10:14 - Generate Rows.0 - Step info: nrinput=0 nroutput=1
+2019/02/17 21:10:14 - Generate Rows.0 - output rel. is  1:1
+2019/02/17 21:10:14 - Generate Rows.0 - Found output rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 21:10:14 - Generate Rows.0 - Finished dispatching
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation has allocated a new step: [Generate Rows].0
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation is about to allocate step [Get Variables] of type [GetVariable]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:10:14 - Get Variables.0 - distribution activated
+2019/02/17 21:10:14 - Get Variables.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:10:14 - Get Variables.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 21:10:14 - Get Variables.0 - Got previous step from [Get Variables] #0 --> Generate Rows
+2019/02/17 21:10:14 - Get Variables.0 - input rel is 1:1
+2019/02/17 21:10:14 - Get Variables.0 - Found input rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 21:10:14 - Get Variables.0 - output rel. is  1:1
+2019/02/17 21:10:14 - Get Variables.0 - Found output rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 21:10:14 - Get Variables.0 - Finished dispatching
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation has allocated a new step: [Get Variables].0
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation is about to allocate step [Infolease_CCAN_Upload to Box_V1] of type [SSH]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:10:14 - Infolease_CCAN_Upload to Box_V1.0 - distribution activated
+2019/02/17 21:10:14 - Infolease_CCAN_Upload to Box_V1.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:10:14 - Infolease_CCAN_Upload to Box_V1.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 21:10:14 - Infolease_CCAN_Upload to Box_V1.0 - Got previous step from [Infolease_CCAN_Upload to Box_V1] #0 --> Concat Fields
+2019/02/17 21:10:14 - Infolease_CCAN_Upload to Box_V1.0 - input rel is 1:1
+2019/02/17 21:10:14 - Infolease_CCAN_Upload to Box_V1.0 - Found input rowset [Concat Fields.0 - Infolease_CCAN_Upload to Box_V1.0]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload to Box_V1.0 - Finished dispatching
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation has allocated a new step: [Infolease_CCAN_Upload to Box_V1].0
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation is about to allocate step [Infolease_CCAN_Box_Upload_Log] of type [WriteToLog]
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:10:14 - Infolease_CCAN_Box_Upload_Log.0 - distribution activated
+2019/02/17 21:10:14 - Infolease_CCAN_Box_Upload_Log.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:10:14 - Infolease_CCAN_Box_Upload_Log.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 21:10:14 - Infolease_CCAN_Box_Upload_Log.0 - Got previous step from [Infolease_CCAN_Box_Upload_Log] #0 --> Concat Fields
+2019/02/17 21:10:14 - Infolease_CCAN_Box_Upload_Log.0 - input rel is 1:1
+2019/02/17 21:10:14 - Infolease_CCAN_Box_Upload_Log.0 - Found input rowset [Concat Fields.0 - Infolease_CCAN_Box_Upload_Log.0]
+2019/02/17 21:10:14 - Infolease_CCAN_Box_Upload_Log.0 - Finished dispatching
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 -  Transformation has allocated a new step: [Infolease_CCAN_Box_Upload_Log].0
+2019/02/17 21:10:14 - live_logging_info - New database connection defined
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Opening log connection [live_logging_info]
+2019/02/17 21:10:14 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:14 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 21:10:14 - live_logging_info - Auto commit off
+2019/02/17 21:10:14 - live_logging_info - Auto commit off
+2019/02/17 21:10:14 - live_logging_info - launch DDL statement: 
+2019/02/17 21:10:14 - live_logging_info - LOCK TABLE pentaho_dilogs.trans_logs IN ACCESS EXCLUSIVE MODE
+2019/02/17 21:10:14 - live_logging_info - 1 statement executed
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Start date found from previous log entry: 2019-02-16 21:10:15.349
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - This transformation can be replayed with replay date: 2019/02/17 21:10:14
+2019/02/17 21:10:14 - live_logging_info - Preparing statement: 
+2019/02/17 21:10:14 - live_logging_info - INSERT INTO pentaho_dilogs.trans_logs (ID_BATCH, CHANNEL_ID, TRANSNAME, STATUS, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS, STARTDATE, ENDDATE, LOGDATE, DEPDATE, REPLAYDATE, LOG_FIELD) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:10:14 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:10:14 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:10:14 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:14 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 21:10:14 - live_logging_info - Connection to database closed!
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Initialising 6 steps...
+2019/02/17 21:10:14 - Concat Fields.0 - Released server socket on port 0
+2019/02/17 21:10:14 - Get Variables.0 - Released server socket on port 0
+2019/02/17 21:10:14 - Execute a process.0 - Released server socket on port 0
+2019/02/17 21:10:14 - Generate Rows.0 - Released server socket on port 0
+2019/02/17 21:10:14 - Infolease_CCAN_Box_Upload_Log.0 - Released server socket on port 0
+2019/02/17 21:10:14 - Infolease_CCAN_Upload to Box_V1.0 - Released server socket on port 0
+2019/02/17 21:10:14 - Infolease_CCAN_Upload to Box_V1.0 - New Connection opened.
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Step [Execute a process.0] initialized flawlessly.
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Step [Concat Fields.0] initialized flawlessly.
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Step [Generate Rows.0] initialized flawlessly.
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Step [Get Variables.0] initialized flawlessly.
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Step [Infolease_CCAN_Upload to Box_V1.0] initialized flawlessly.
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Step [Infolease_CCAN_Box_Upload_Log.0] initialized flawlessly.
+2019/02/17 21:10:14 - Execute a process.0 - Starting to run...
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:14 - Concat Fields.0 - Starting to run...
+2019/02/17 21:10:14 - Get Variables.0 - Starting to run...
+2019/02/17 21:10:14 - Generate Rows.0 - Starting to run...
+2019/02/17 21:10:14 - Generate Rows.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 21:10:14 - Generate Rows.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2019/02/17 21:10:14 - Infolease_CCAN_Upload to Box_V1.0 - Starting to run...
+2019/02/17 21:10:14 - Infolease_CCAN_Box_Upload_Log.0 - Starting to run...
+2019/02/17 21:10:14 - Get Variables.0 - field [CC_EX_FILE_NAME] has value [CCAN_2019-02-17.xls]
+2019/02/17 21:10:14 - Get Variables.0 - field [CC_TMP_FILE_NAME] has value [${CC_TMP_FILE_NAME}]
+2019/02/17 21:10:14 - Get Variables.0 - field [CC_TMP_FILE] has value [D:\Kettle\Tmp\CCAN\CCAN_2019-02-17.xls]
+2019/02/17 21:10:14 - Get Variables.0 - field [CC_TMP_Excel] has value [/tmp/CCAN_2019-02-17.xls]
+2019/02/17 21:10:14 - Get Variables.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 21:10:14 - Get Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Dispatching to event bus: TransformationStartEvent
+2019/02/17 21:10:14 - Infolease_CCAN_Upload_to_Box_v1 - Transformation has allocated 6 threads and 5 rowsets.
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - 
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - ------------> Linenr 1------------------------------
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - ****^^^^^^***** CONCAT_CMD=${run_cmd}
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - ****^^^^^^*****  CC_TMP_FILE_NAME=${CC_TMP_FILE_NAME}
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - ****^^^^^^*****  CC_TMP_FILE=D:\Kettle\Tmp\CCAN\CCAN_2019-02-17.xls
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - 
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - CC_TMP_FILE_NAME = ${CC_TMP_FILE_NAME}
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - CC_TMP_FILE = D:\Kettle\Tmp\CCAN\CCAN_2019-02-17.xls
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - Error output = 
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - Exit value = 0
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - run_cmd = /home/idsroot/box/upload_box_infolease_ccan.sh 	 	wMTSByo0j5e8lbOYhoBhT8MLA87rQGHR	 	CCAN_2019-02-17.xls	 	/tmp/CCAN_2019-02-17.xls	 	d:\box\get_token.bat
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - 
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - ====================
+2019/02/17 21:10:17 - Execute a process.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 21:10:17 - Execute a process.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 21:10:17 - Infolease_CCAN_Upload to Box_V1.0 - New session opened.
+2019/02/17 21:10:17 - Infolease_CCAN_Upload to Box_V1.0 - Running command [/home/idsroot/box/upload_box_infolease_ccan.sh 	 	wMTSByo0j5e8lbOYhoBhT8MLA87rQGHR	 	CCAN_2019-02-17.xls	 	/tmp/CCAN_2019-02-17.xls	 	d:\box\get_token.bat] ...
+2019/02/17 21:10:17 - Concat Fields.0 - Signaling 'output done' to 2 output rowsets.
+2019/02/17 21:10:17 - Concat Fields.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 21:10:17 - Infolease_CCAN_Box_Upload_Log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 21:10:20 - Infolease_CCAN_Upload to Box_V1.0 - Runned command [/home/idsroot/box/upload_box_infolease_ccan.sh 	 	wMTSByo0j5e8lbOYhoBhT8MLA87rQGHR	 	CCAN_2019-02-17.xls	 	/tmp/CCAN_2019-02-17.xls	 	d:\box\get_token.bat]. StdOut = {"total_count":1,"entries":[{"type":"file","id":"404526270128","file_version":{"type":"file_version","id":"427683686528","sha1":"66f1b5173cefe1d9ea392bb5c7ff9aeb23d814eb"},"sequence_id":"0","etag":"0","sha1":"66f1b5173cefe1d9ea392bb5c7ff9aeb23d814eb","name":"CCAN_2019-02-17.xls","description":"","size":2639360,"path_collection":{"total_count":4,"entries":[{"type":"folder","id":"0","sequence_id":null,"etag":null,"name":"All Files"},{"type":"folder","id":"50078215209","sequence_id":"0","etag":"0","name":"FIS General"},{"type":"folder","id":"65447461595","sequence_id":"1","etag":"1","name":"Web Reports"},{"type":"folder","id":"65582698834","sequence_id":"0","etag":"0","name":"CCAN Report"}]},"created_at":"2019-02-17T18:10:19-08:00","modified_at":"2019-02-17T18:10:19-08:00","trashed_at":null,"purged_at":null,"content_created_at":"2019-02-17T18:10:19-08:00","content_modified_at":"2019-02-17T18:10:19-08:00","created_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"modified_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"owned_by":{"type":"user","id":"3590801780","name":"Victoria Lening","login":"victoria.lening@olympus.com"},"shared_link":null,"parent":{"type":"folder","id":"65582698834","sequence_id":"0","etag":"0","name":"CCAN Report"},"item_status":"active"}]}. StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0 2577k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0 2577k    0     0    0 16707      0  20552  0:02:08 --:--:--  0:02:08 61197
+ 42 2577k    0     0   42 1104k      0   633k  0:00:04  0:00:01  0:00:03  917k
+100 2579k  105  1376  100 2577k    502   941k  0:00:02  0:00:02 --:--:-- 1172k
+100 2579k  105  1376  100 2577k    502   941k  0:00:02  0:00:02 --:--:-- 1172k.
+2019/02/17 21:10:20 - Infolease_CCAN_Upload to Box_V1.0 - Session closed.
+2019/02/17 21:10:20 - Infolease_CCAN_Upload to Box_V1.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 21:10:20 - Infolease_CCAN_Upload to Box_V1.0 - Connection closed.
+2019/02/17 21:10:20 - Infolease_CCAN_Upload to Box_V1.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 21:10:20 - Infolease_CCAN_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:20 - Infolease_CCAN_Upload_to_Box_v1 - Dispatching to event bus: TransformationFinishEvent
+2019/02/17 21:10:20 - Infolease_CCAN_Upload_to_Box_v1 - searching for annotations
+2019/02/17 21:10:20 - Infolease_CCAN_Upload_to_Box_v1 - no annotations found
+2019/02/17 21:10:20 - live_logging_info - New database connection defined
+2019/02/17 21:10:20 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:20 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 21:10:20 - live_logging_info - Auto commit off
+2019/02/17 21:10:20 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:10:20 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:10:20 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:20 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 21:10:20 - live_logging_info - Connection to database closed!
+2019/02/17 21:10:20 - live_logging_info - New database connection defined
+2019/02/17 21:10:20 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:20 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 21:10:20 - live_logging_info - Auto commit off
+2019/02/17 21:10:20 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:10:20 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:10:20 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:20 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 21:10:20 - live_logging_info - Connection to database closed!
+2019/02/17 21:10:20 - live_logging_info - New database connection defined
+2019/02/17 21:10:20 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:20 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 21:10:20 - live_logging_info - Auto commit off
+2019/02/17 21:10:20 - live_logging_info - Preparing statement: 
+2019/02/17 21:10:20 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:10:20 - live_logging_info - Preparing statement: 
+2019/02/17 21:10:20 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:10:20 - live_logging_info - Preparing statement: 
+2019/02/17 21:10:20 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:10:20 - live_logging_info - Preparing statement: 
+2019/02/17 21:10:20 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:10:20 - live_logging_info - Preparing statement: 
+2019/02/17 21:10:20 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:10:20 - live_logging_info - Preparing statement: 
+2019/02/17 21:10:20 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:10:20 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:10:20 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:10:20 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:10:20 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 21:10:20 - live_logging_info - Connection to database closed!
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Loading transformation from repository [Dashboard_Excel_Upload_to_Box_v1] in directory [/home/admin/Production/Dashboard_Excel]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Using run configuration [Pentaho local]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Using legacy execution engine
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Dispatching to event bus: TransformationPrepareExecutionEvent
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Dispatching started for transformation [Dashboard_Excel_Upload_to_Box_v1]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Nr of arguments detected:1 
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - This is not a replay transformation
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - I found 6 different steps to launch.
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Allocating rowsets...
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocating rowsets for step 0 --> Execute a process
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Transformation allocated new rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocated 1 rowsets for step 0 --> Execute a process  
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocating rowsets for step 1 --> Concat Fields
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Dashboard_Upload to Box_V1.0]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Dashboard_Box_Upload_Log.0]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocated 3 rowsets for step 1 --> Concat Fields  
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocating rowsets for step 2 --> Generate Rows
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Transformation allocated new rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocated 4 rowsets for step 2 --> Generate Rows  
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocating rowsets for step 3 --> Get Variables
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Transformation allocated new rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocated 5 rowsets for step 3 --> Get Variables  
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocating rowsets for step 4 --> Dashboard_Upload to Box_V1
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocated 5 rowsets for step 4 --> Dashboard_Upload to Box_V1  
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocating rowsets for step 5 --> Dashboard_Box_Upload_Log
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Allocated 5 rowsets for step 5 --> Dashboard_Box_Upload_Log  
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Allocating Steps & StepData...
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation is about to allocate step [Execute a process] of type [ExecProcess]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:20:07 - Execute a process.0 - distribution de-activated
+2019/02/17 21:20:07 - Execute a process.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:20:07 - Execute a process.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 21:20:07 - Execute a process.0 - Got previous step from [Execute a process] #0 --> Get Variables
+2019/02/17 21:20:07 - Execute a process.0 - input rel is 1:1
+2019/02/17 21:20:07 - Execute a process.0 - Found input rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 21:20:07 - Execute a process.0 - output rel. is  1:1
+2019/02/17 21:20:07 - Execute a process.0 - Found output rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 21:20:07 - Execute a process.0 - Finished dispatching
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation has allocated a new step: [Execute a process].0
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation is about to allocate step [Concat Fields] of type [ConcatFields]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:20:07 - Concat Fields.0 - distribution de-activated
+2019/02/17 21:20:07 - Concat Fields.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:20:07 - Concat Fields.0 - Step info: nrinput=1 nroutput=2
+2019/02/17 21:20:07 - Concat Fields.0 - Got previous step from [Concat Fields] #0 --> Execute a process
+2019/02/17 21:20:07 - Concat Fields.0 - input rel is 1:1
+2019/02/17 21:20:07 - Concat Fields.0 - Found input rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 21:20:07 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 21:20:07 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Dashboard_Upload to Box_V1.0]
+2019/02/17 21:20:07 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 21:20:07 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Dashboard_Box_Upload_Log.0]
+2019/02/17 21:20:07 - Concat Fields.0 - Finished dispatching
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation has allocated a new step: [Concat Fields].0
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation is about to allocate step [Generate Rows] of type [RowGenerator]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:20:07 - Generate Rows.0 - distribution de-activated
+2019/02/17 21:20:07 - Generate Rows.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:20:07 - Generate Rows.0 - Step info: nrinput=0 nroutput=1
+2019/02/17 21:20:07 - Generate Rows.0 - output rel. is  1:1
+2019/02/17 21:20:07 - Generate Rows.0 - Found output rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 21:20:07 - Generate Rows.0 - Finished dispatching
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation has allocated a new step: [Generate Rows].0
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation is about to allocate step [Get Variables] of type [GetVariable]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:20:07 - Get Variables.0 - distribution activated
+2019/02/17 21:20:07 - Get Variables.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:20:07 - Get Variables.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 21:20:07 - Get Variables.0 - Got previous step from [Get Variables] #0 --> Generate Rows
+2019/02/17 21:20:07 - Get Variables.0 - input rel is 1:1
+2019/02/17 21:20:07 - Get Variables.0 - Found input rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 21:20:07 - Get Variables.0 - output rel. is  1:1
+2019/02/17 21:20:07 - Get Variables.0 - Found output rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 21:20:07 - Get Variables.0 - Finished dispatching
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation has allocated a new step: [Get Variables].0
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation is about to allocate step [Dashboard_Upload to Box_V1] of type [SSH]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:20:07 - Dashboard_Upload to Box_V1.0 - distribution activated
+2019/02/17 21:20:07 - Dashboard_Upload to Box_V1.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:20:07 - Dashboard_Upload to Box_V1.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 21:20:07 - Dashboard_Upload to Box_V1.0 - Got previous step from [Dashboard_Upload to Box_V1] #0 --> Concat Fields
+2019/02/17 21:20:07 - Dashboard_Upload to Box_V1.0 - input rel is 1:1
+2019/02/17 21:20:07 - Dashboard_Upload to Box_V1.0 - Found input rowset [Concat Fields.0 - Dashboard_Upload to Box_V1.0]
+2019/02/17 21:20:07 - Dashboard_Upload to Box_V1.0 - Finished dispatching
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation has allocated a new step: [Dashboard_Upload to Box_V1].0
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation is about to allocate step [Dashboard_Box_Upload_Log] of type [WriteToLog]
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 21:20:07 - Dashboard_Box_Upload_Log.0 - distribution activated
+2019/02/17 21:20:07 - Dashboard_Box_Upload_Log.0 - Starting allocation of buffers & new threads...
+2019/02/17 21:20:07 - Dashboard_Box_Upload_Log.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 21:20:07 - Dashboard_Box_Upload_Log.0 - Got previous step from [Dashboard_Box_Upload_Log] #0 --> Concat Fields
+2019/02/17 21:20:07 - Dashboard_Box_Upload_Log.0 - input rel is 1:1
+2019/02/17 21:20:07 - Dashboard_Box_Upload_Log.0 - Found input rowset [Concat Fields.0 - Dashboard_Box_Upload_Log.0]
+2019/02/17 21:20:07 - Dashboard_Box_Upload_Log.0 - Finished dispatching
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 -  Transformation has allocated a new step: [Dashboard_Box_Upload_Log].0
+2019/02/17 21:20:07 - live_logging_info - New database connection defined
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Opening log connection [live_logging_info]
+2019/02/17 21:20:07 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:07 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 21:20:07 - live_logging_info - Auto commit off
+2019/02/17 21:20:07 - live_logging_info - Auto commit off
+2019/02/17 21:20:07 - live_logging_info - launch DDL statement: 
+2019/02/17 21:20:07 - live_logging_info - LOCK TABLE pentaho_dilogs.trans_logs IN ACCESS EXCLUSIVE MODE
+2019/02/17 21:20:07 - live_logging_info - 1 statement executed
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Start date found from previous log entry: 2019-02-16 21:20:07.222
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - This transformation can be replayed with replay date: 2019/02/17 21:20:07
+2019/02/17 21:20:07 - live_logging_info - Preparing statement: 
+2019/02/17 21:20:07 - live_logging_info - INSERT INTO pentaho_dilogs.trans_logs (ID_BATCH, CHANNEL_ID, TRANSNAME, STATUS, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS, STARTDATE, ENDDATE, LOGDATE, DEPDATE, REPLAYDATE, LOG_FIELD) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:20:07 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:20:07 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:20:07 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:07 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 21:20:07 - live_logging_info - Connection to database closed!
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Initialising 6 steps...
+2019/02/17 21:20:07 - Execute a process.0 - Released server socket on port 0
+2019/02/17 21:20:07 - Generate Rows.0 - Released server socket on port 0
+2019/02/17 21:20:07 - Get Variables.0 - Released server socket on port 0
+2019/02/17 21:20:07 - Concat Fields.0 - Released server socket on port 0
+2019/02/17 21:20:07 - Dashboard_Box_Upload_Log.0 - Released server socket on port 0
+2019/02/17 21:20:07 - Dashboard_Upload to Box_V1.0 - Released server socket on port 0
+2019/02/17 21:20:07 - Dashboard_Upload to Box_V1.0 - New Connection opened.
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Step [Execute a process.0] initialized flawlessly.
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Step [Concat Fields.0] initialized flawlessly.
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Step [Generate Rows.0] initialized flawlessly.
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Step [Get Variables.0] initialized flawlessly.
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Step [Dashboard_Upload to Box_V1.0] initialized flawlessly.
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Step [Dashboard_Box_Upload_Log.0] initialized flawlessly.
+2019/02/17 21:20:07 - Execute a process.0 - Starting to run...
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:07 - Generate Rows.0 - Starting to run...
+2019/02/17 21:20:07 - Generate Rows.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 21:20:07 - Generate Rows.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2019/02/17 21:20:07 - Dashboard_Box_Upload_Log.0 - Starting to run...
+2019/02/17 21:20:07 - Get Variables.0 - Starting to run...
+2019/02/17 21:20:07 - Get Variables.0 - field [DB_EX_FILE_NAME] has value [Dashboard_2019-02-17.xls]
+2019/02/17 21:20:07 - Get Variables.0 - field [DB_TMP_FILE_NAME] has value []
+2019/02/17 21:20:07 - Get Variables.0 - field [DB_TMP_FILE] has value [D:\Kettle\Tmp\Dashboard\Dashboard_2019-02-17.xls]
+2019/02/17 21:20:07 - Get Variables.0 - field [DB_TMP_Excel] has value [/tmp/Dashboard_2019-02-17.xls]
+2019/02/17 21:20:07 - Concat Fields.0 - Starting to run...
+2019/02/17 21:20:07 - Dashboard_Upload to Box_V1.0 - Starting to run...
+2019/02/17 21:20:07 - Get Variables.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 21:20:07 - Get Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Dispatching to event bus: TransformationStartEvent
+2019/02/17 21:20:07 - Dashboard_Excel_Upload_to_Box_v1 - Transformation has allocated 6 threads and 5 rowsets.
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - 
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - ------------> Linenr 1------------------------------
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - ****^^^^^^***** CONCAT_CMD=${run_cmd}
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - ****^^^^^^*****  DB_TMP_FILE_NAME=
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - ****^^^^^^*****  DB_TMP_FILE=D:\Kettle\Tmp\Dashboard\Dashboard_2019-02-17.xls
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - 
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - DB_TMP_FILE_NAME = 
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - DB_TMP_FILE = D:\Kettle\Tmp\Dashboard\Dashboard_2019-02-17.xls
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - Error output = 
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - Exit value = 0
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - run_cmd = /home/idsroot/box/upload_box_dashboard.sh 	 	F3eqsmNSIUmVTOqyOYv52AATOjaPHcGq	 	Dashboard_2019-02-17.xls	 	/tmp/Dashboard_2019-02-17.xls	 	d:\box\get_token.bat
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - 
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - ====================
+2019/02/17 21:20:09 - Dashboard_Upload to Box_V1.0 - New session opened.
+2019/02/17 21:20:09 - Dashboard_Upload to Box_V1.0 - Running command [/home/idsroot/box/upload_box_dashboard.sh 	 	F3eqsmNSIUmVTOqyOYv52AATOjaPHcGq	 	Dashboard_2019-02-17.xls	 	/tmp/Dashboard_2019-02-17.xls	 	d:\box\get_token.bat] ...
+2019/02/17 21:20:09 - Execute a process.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 21:20:09 - Execute a process.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 21:20:09 - Concat Fields.0 - Signaling 'output done' to 2 output rowsets.
+2019/02/17 21:20:09 - Concat Fields.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 21:20:09 - Dashboard_Box_Upload_Log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 21:20:10 - Dashboard_Upload to Box_V1.0 - Runned command [/home/idsroot/box/upload_box_dashboard.sh 	 	F3eqsmNSIUmVTOqyOYv52AATOjaPHcGq	 	Dashboard_2019-02-17.xls	 	/tmp/Dashboard_2019-02-17.xls	 	d:\box\get_token.bat]. StdOut = {"total_count":1,"entries":[{"type":"file","id":"404542049897","file_version":{"type":"file_version","id":"427699390697","sha1":"d1bd7db70803ade8fdc78e4d5292b06a5dc8e956"},"sequence_id":"0","etag":"0","sha1":"d1bd7db70803ade8fdc78e4d5292b06a5dc8e956","name":"Dashboard_2019-02-17.xls","description":"","size":270336,"path_collection":{"total_count":4,"entries":[{"type":"folder","id":"0","sequence_id":null,"etag":null,"name":"All Files"},{"type":"folder","id":"50078215209","sequence_id":"0","etag":"0","name":"FIS General"},{"type":"folder","id":"65447461595","sequence_id":"1","etag":"1","name":"Web Reports"},{"type":"folder","id":"65717030940","sequence_id":"1","etag":"1","name":"Dashboard"}]},"created_at":"2019-02-17T18:20:10-08:00","modified_at":"2019-02-17T18:20:10-08:00","trashed_at":null,"purged_at":null,"content_created_at":"2019-02-17T18:20:10-08:00","content_modified_at":"2019-02-17T18:20:10-08:00","created_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"modified_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"owned_by":{"type":"user","id":"3590801780","name":"Victoria Lening","login":"victoria.lening@olympus.com"},"shared_link":null,"parent":{"type":"folder","id":"65717030940","sequence_id":"1","etag":"1","name":"Dashboard"},"item_status":"active"}]}. StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0  264k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0  264k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  265k  105  1376  100  264k   1213   233k  0:00:01  0:00:01 --:--:--  284k.
+2019/02/17 21:20:10 - Dashboard_Upload to Box_V1.0 - Session closed.
+2019/02/17 21:20:10 - Dashboard_Upload to Box_V1.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 21:20:10 - Dashboard_Upload to Box_V1.0 - Connection closed.
+2019/02/17 21:20:10 - Dashboard_Upload to Box_V1.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 21:20:10 - Dashboard_Excel_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:10 - Dashboard_Excel_Upload_to_Box_v1 - Dispatching to event bus: TransformationFinishEvent
+2019/02/17 21:20:10 - Dashboard_Excel_Upload_to_Box_v1 - searching for annotations
+2019/02/17 21:20:10 - Dashboard_Excel_Upload_to_Box_v1 - no annotations found
+2019/02/17 21:20:10 - live_logging_info - New database connection defined
+2019/02/17 21:20:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:10 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 21:20:10 - live_logging_info - Auto commit off
+2019/02/17 21:20:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:20:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:20:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:10 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 21:20:10 - live_logging_info - Connection to database closed!
+2019/02/17 21:20:10 - live_logging_info - New database connection defined
+2019/02/17 21:20:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:10 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 21:20:10 - live_logging_info - Auto commit off
+2019/02/17 21:20:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:20:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:20:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:10 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 21:20:10 - live_logging_info - Connection to database closed!
+2019/02/17 21:20:10 - live_logging_info - New database connection defined
+2019/02/17 21:20:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:10 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 21:20:10 - live_logging_info - Auto commit off
+2019/02/17 21:20:10 - live_logging_info - Preparing statement: 
+2019/02/17 21:20:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:20:10 - live_logging_info - Preparing statement: 
+2019/02/17 21:20:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:20:10 - live_logging_info - Preparing statement: 
+2019/02/17 21:20:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:20:10 - live_logging_info - Preparing statement: 
+2019/02/17 21:20:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:20:10 - live_logging_info - Preparing statement: 
+2019/02/17 21:20:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:20:10 - live_logging_info - Preparing statement: 
+2019/02/17 21:20:10 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 21:20:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:20:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 21:20:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 21:20:10 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 21:20:10 - live_logging_info - Connection to database closed!
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Loading transformation from repository [Infolease_Cust_List_Upload_to_Box_v1] in directory [/home/admin/Production/Customer List Report]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Using run configuration [Pentaho local]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Using legacy execution engine
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Dispatching to event bus: TransformationPrepareExecutionEvent
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Dispatching started for transformation [Infolease_Cust_List_Upload_to_Box_v1]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Nr of arguments detected:1 
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - This is not a replay transformation
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - I found 6 different steps to launch.
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Allocating rowsets...
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocating rowsets for step 0 --> Execute a process
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Transformation allocated new rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocated 1 rowsets for step 0 --> Execute a process  
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocating rowsets for step 1 --> Concat Fields
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Infolease_Cust_List_Upload to Box_V1.0]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Transformation allocated new rowset [Concat Fields.0 - Infolease_Cust_List_Box_Upload_Log.0]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocated 3 rowsets for step 1 --> Concat Fields  
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocating rowsets for step 2 --> Generate Rows
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Transformation allocated new rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocated 4 rowsets for step 2 --> Generate Rows  
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocating rowsets for step 3 --> Get Variables
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   prevcopies = 1, nextcopies=1
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Transformation allocated new rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocated 5 rowsets for step 3 --> Get Variables  
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocating rowsets for step 4 --> Infolease_Cust_List_Upload to Box_V1
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocated 5 rowsets for step 4 --> Infolease_Cust_List_Upload to Box_V1  
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocating rowsets for step 5 --> Infolease_Cust_List_Box_Upload_Log
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Allocated 5 rowsets for step 5 --> Infolease_Cust_List_Box_Upload_Log  
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Allocating Steps & StepData...
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation is about to allocate step [Execute a process] of type [ExecProcess]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 22:00:10 - Execute a process.0 - distribution de-activated
+2019/02/17 22:00:10 - Execute a process.0 - Starting allocation of buffers & new threads...
+2019/02/17 22:00:10 - Execute a process.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 22:00:10 - Execute a process.0 - Got previous step from [Execute a process] #0 --> Get Variables
+2019/02/17 22:00:10 - Execute a process.0 - input rel is 1:1
+2019/02/17 22:00:10 - Execute a process.0 - Found input rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 22:00:10 - Execute a process.0 - output rel. is  1:1
+2019/02/17 22:00:10 - Execute a process.0 - Found output rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 22:00:10 - Execute a process.0 - Finished dispatching
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation has allocated a new step: [Execute a process].0
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation is about to allocate step [Concat Fields] of type [ConcatFields]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 22:00:10 - Concat Fields.0 - distribution de-activated
+2019/02/17 22:00:10 - Concat Fields.0 - Starting allocation of buffers & new threads...
+2019/02/17 22:00:10 - Concat Fields.0 - Step info: nrinput=1 nroutput=2
+2019/02/17 22:00:10 - Concat Fields.0 - Got previous step from [Concat Fields] #0 --> Execute a process
+2019/02/17 22:00:10 - Concat Fields.0 - input rel is 1:1
+2019/02/17 22:00:10 - Concat Fields.0 - Found input rowset [Execute a process.0 - Concat Fields.0]
+2019/02/17 22:00:10 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 22:00:10 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Infolease_Cust_List_Upload to Box_V1.0]
+2019/02/17 22:00:10 - Concat Fields.0 - output rel. is  1:1
+2019/02/17 22:00:10 - Concat Fields.0 - Found output rowset [Concat Fields.0 - Infolease_Cust_List_Box_Upload_Log.0]
+2019/02/17 22:00:10 - Concat Fields.0 - Finished dispatching
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation has allocated a new step: [Concat Fields].0
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation is about to allocate step [Generate Rows] of type [RowGenerator]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 22:00:10 - Generate Rows.0 - distribution de-activated
+2019/02/17 22:00:10 - Generate Rows.0 - Starting allocation of buffers & new threads...
+2019/02/17 22:00:10 - Generate Rows.0 - Step info: nrinput=0 nroutput=1
+2019/02/17 22:00:10 - Generate Rows.0 - output rel. is  1:1
+2019/02/17 22:00:10 - Generate Rows.0 - Found output rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 22:00:10 - Generate Rows.0 - Finished dispatching
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation has allocated a new step: [Generate Rows].0
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation is about to allocate step [Get Variables] of type [GetVariable]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 22:00:10 - Get Variables.0 - distribution activated
+2019/02/17 22:00:10 - Get Variables.0 - Starting allocation of buffers & new threads...
+2019/02/17 22:00:10 - Get Variables.0 - Step info: nrinput=1 nroutput=1
+2019/02/17 22:00:10 - Get Variables.0 - Got previous step from [Get Variables] #0 --> Generate Rows
+2019/02/17 22:00:10 - Get Variables.0 - input rel is 1:1
+2019/02/17 22:00:10 - Get Variables.0 - Found input rowset [Generate Rows.0 - Get Variables.0]
+2019/02/17 22:00:10 - Get Variables.0 - output rel. is  1:1
+2019/02/17 22:00:10 - Get Variables.0 - Found output rowset [Get Variables.0 - Execute a process.0]
+2019/02/17 22:00:10 - Get Variables.0 - Finished dispatching
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation has allocated a new step: [Get Variables].0
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation is about to allocate step [Infolease_Cust_List_Upload to Box_V1] of type [SSH]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload to Box_V1.0 - distribution activated
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload to Box_V1.0 - Starting allocation of buffers & new threads...
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload to Box_V1.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload to Box_V1.0 - Got previous step from [Infolease_Cust_List_Upload to Box_V1] #0 --> Concat Fields
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload to Box_V1.0 - input rel is 1:1
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload to Box_V1.0 - Found input rowset [Concat Fields.0 - Infolease_Cust_List_Upload to Box_V1.0]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload to Box_V1.0 - Finished dispatching
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation has allocated a new step: [Infolease_Cust_List_Upload to Box_V1].0
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation is about to allocate step [Infolease_Cust_List_Box_Upload_Log] of type [WriteToLog]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -   Step has nrcopies=1
+2019/02/17 22:00:10 - Infolease_Cust_List_Box_Upload_Log.0 - distribution activated
+2019/02/17 22:00:10 - Infolease_Cust_List_Box_Upload_Log.0 - Starting allocation of buffers & new threads...
+2019/02/17 22:00:10 - Infolease_Cust_List_Box_Upload_Log.0 - Step info: nrinput=1 nroutput=0
+2019/02/17 22:00:10 - Infolease_Cust_List_Box_Upload_Log.0 - Got previous step from [Infolease_Cust_List_Box_Upload_Log] #0 --> Concat Fields
+2019/02/17 22:00:10 - Infolease_Cust_List_Box_Upload_Log.0 - input rel is 1:1
+2019/02/17 22:00:10 - Infolease_Cust_List_Box_Upload_Log.0 - Found input rowset [Concat Fields.0 - Infolease_Cust_List_Box_Upload_Log.0]
+2019/02/17 22:00:10 - Infolease_Cust_List_Box_Upload_Log.0 - Finished dispatching
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 -  Transformation has allocated a new step: [Infolease_Cust_List_Box_Upload_Log].0
+2019/02/17 22:00:10 - live_logging_info - New database connection defined
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Opening log connection [live_logging_info]
+2019/02/17 22:00:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:10 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 22:00:10 - live_logging_info - Auto commit off
+2019/02/17 22:00:10 - live_logging_info - Auto commit off
+2019/02/17 22:00:10 - live_logging_info - launch DDL statement: 
+2019/02/17 22:00:10 - live_logging_info - LOCK TABLE pentaho_dilogs.trans_logs IN ACCESS EXCLUSIVE MODE
+2019/02/17 22:00:10 - live_logging_info - 1 statement executed
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Start date found from previous log entry: 2019-02-16 22:00:10.294
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - This transformation can be replayed with replay date: 2019/02/17 22:00:10
+2019/02/17 22:00:10 - live_logging_info - Preparing statement: 
+2019/02/17 22:00:10 - live_logging_info - INSERT INTO pentaho_dilogs.trans_logs (ID_BATCH, CHANNEL_ID, TRANSNAME, STATUS, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS, STARTDATE, ENDDATE, LOGDATE, DEPDATE, REPLAYDATE, LOG_FIELD) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 22:00:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 22:00:10 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 22:00:10 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:10 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 22:00:10 - live_logging_info - Connection to database closed!
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Initialising 6 steps...
+2019/02/17 22:00:10 - Execute a process.0 - Released server socket on port 0
+2019/02/17 22:00:10 - Generate Rows.0 - Released server socket on port 0
+2019/02/17 22:00:10 - Concat Fields.0 - Released server socket on port 0
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload to Box_V1.0 - Released server socket on port 0
+2019/02/17 22:00:10 - Get Variables.0 - Released server socket on port 0
+2019/02/17 22:00:10 - Infolease_Cust_List_Box_Upload_Log.0 - Released server socket on port 0
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload to Box_V1.0 - New Connection opened.
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Step [Execute a process.0] initialized flawlessly.
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Step [Concat Fields.0] initialized flawlessly.
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Step [Generate Rows.0] initialized flawlessly.
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Step [Get Variables.0] initialized flawlessly.
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Step [Infolease_Cust_List_Upload to Box_V1.0] initialized flawlessly.
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Step [Infolease_Cust_List_Box_Upload_Log.0] initialized flawlessly.
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:10 - Execute a process.0 - Starting to run...
+2019/02/17 22:00:10 - Concat Fields.0 - Starting to run...
+2019/02/17 22:00:10 - Generate Rows.0 - Starting to run...
+2019/02/17 22:00:10 - Generate Rows.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 22:00:10 - Generate Rows.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2019/02/17 22:00:10 - Infolease_Cust_List_Box_Upload_Log.0 - Starting to run...
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload to Box_V1.0 - Starting to run...
+2019/02/17 22:00:10 - Get Variables.0 - Starting to run...
+2019/02/17 22:00:10 - Get Variables.0 - field [CL_EX_FILE_NAME] has value [Customer_List_Reports_2019-02-17.xls]
+2019/02/17 22:00:10 - Get Variables.0 - field [CL_TMP_FILE_NAME] has value []
+2019/02/17 22:00:10 - Get Variables.0 - field [CL_TMP_FILE] has value [D:\Kettle\Tmp\Customer_List_Reports\Customer_List_Reports_2019-02-17.xls]
+2019/02/17 22:00:10 - Get Variables.0 - field [CL_TMP_Excel] has value [/tmp/Customer_List_Reports_2019-02-17.xls]
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Dispatching to event bus: TransformationStartEvent
+2019/02/17 22:00:10 - Infolease_Cust_List_Upload_to_Box_v1 - Transformation has allocated 6 threads and 5 rowsets.
+2019/02/17 22:00:10 - Get Variables.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 22:00:10 - Get Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - 
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - ------------> Linenr 1------------------------------
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - ****^^^^^^***** CONCAT_CMD=${run_cmd}
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - ****^^^^^^*****  CL_TMP_FILE_NAME=
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - ****^^^^^^*****  CL_TMP_FILE=D:\Kettle\Tmp\Customer_List_Reports\Customer_List_Reports_2019-02-17.xls
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - 
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - CL_TMP_FILE_NAME = 
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - CL_TMP_FILE = D:\Kettle\Tmp\Customer_List_Reports\Customer_List_Reports_2019-02-17.xls
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - Error output = 
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - Exit value = 0
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - run_cmd = /home/idsroot/box/upload_box_infolease_cust.sh 	 	Q8TcWAR5I1WC5kX48b9f377jeH3qvkU7	 	Customer_List_Reports_2019-02-17.xls	 	/tmp/Customer_List_Reports_2019-02-17.xls	 	d:\box\get_token.bat
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - 
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - ====================
+2019/02/17 22:00:12 - Execute a process.0 - Signaling 'output done' to 1 output rowsets.
+2019/02/17 22:00:12 - Execute a process.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 22:00:12 - Infolease_Cust_List_Upload to Box_V1.0 - New session opened.
+2019/02/17 22:00:12 - Infolease_Cust_List_Upload to Box_V1.0 - Running command [/home/idsroot/box/upload_box_infolease_cust.sh 	 	Q8TcWAR5I1WC5kX48b9f377jeH3qvkU7	 	Customer_List_Reports_2019-02-17.xls	 	/tmp/Customer_List_Reports_2019-02-17.xls	 	d:\box\get_token.bat] ...
+2019/02/17 22:00:12 - Concat Fields.0 - Signaling 'output done' to 2 output rowsets.
+2019/02/17 22:00:12 - Concat Fields.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 22:00:12 - Infolease_Cust_List_Box_Upload_Log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 22:00:14 - Infolease_Cust_List_Upload to Box_V1.0 - Runned command [/home/idsroot/box/upload_box_infolease_cust.sh 	 	Q8TcWAR5I1WC5kX48b9f377jeH3qvkU7	 	Customer_List_Reports_2019-02-17.xls	 	/tmp/Customer_List_Reports_2019-02-17.xls	 	d:\box\get_token.bat]. StdOut = {"total_count":1,"entries":[{"type":"file","id":"404541589147","file_version":{"type":"file_version","id":"427699102747","sha1":"2c597fe47420b31f6321ccf010f181ec026d6529"},"sequence_id":"0","etag":"0","sha1":"2c597fe47420b31f6321ccf010f181ec026d6529","name":"Customer_List_Reports_2019-02-17.xls","description":"","size":1203200,"path_collection":{"total_count":4,"entries":[{"type":"folder","id":"0","sequence_id":null,"etag":null,"name":"All Files"},{"type":"folder","id":"50078215209","sequence_id":"0","etag":"0","name":"FIS General"},{"type":"folder","id":"65447461595","sequence_id":"1","etag":"1","name":"Web Reports"},{"type":"folder","id":"65444703532","sequence_id":"1","etag":"1","name":"Customer List Report"}]},"created_at":"2019-02-17T19:00:14-08:00","modified_at":"2019-02-17T19:00:14-08:00","trashed_at":null,"purged_at":null,"content_created_at":"2019-02-17T19:00:14-08:00","content_modified_at":"2019-02-17T19:00:14-08:00","created_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"modified_by":{"type":"user","id":"3739731538","name":"Joseph Balshi","login":"joseph.balshi@olympus.com"},"owned_by":{"type":"user","id":"3590801780","name":"Victoria Lening","login":"victoria.lening@olympus.com"},"shared_link":null,"parent":{"type":"folder","id":"65444703532","sequence_id":"1","etag":"1","name":"Customer List Report"},"item_status":"active"}]}. StdErr =   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0 1175k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1175k    0     0  100 1175k      0   862k  0:00:01  0:00:01 --:--:-- 1002k
+100 1176k  100  1411  100 1175k    805   671k  0:00:01  0:00:01 --:--:--  752k
+100 1176k  100  1411  100 1175k    805   671k  0:00:01  0:00:01 --:--:--  752k.
+2019/02/17 22:00:14 - Infolease_Cust_List_Upload to Box_V1.0 - Session closed.
+2019/02/17 22:00:14 - Infolease_Cust_List_Upload to Box_V1.0 - Signaling 'output done' to 0 output rowsets.
+2019/02/17 22:00:14 - Infolease_Cust_List_Upload to Box_V1.0 - Connection closed.
+2019/02/17 22:00:14 - Infolease_Cust_List_Upload to Box_V1.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/02/17 22:00:14 - Infolease_Cust_List_Upload_to_Box_v1 - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:14 - Infolease_Cust_List_Upload_to_Box_v1 - Dispatching to event bus: TransformationFinishEvent
+2019/02/17 22:00:14 - Infolease_Cust_List_Upload_to_Box_v1 - searching for annotations
+2019/02/17 22:00:14 - Infolease_Cust_List_Upload_to_Box_v1 - no annotations found
+2019/02/17 22:00:14 - live_logging_info - New database connection defined
+2019/02/17 22:00:14 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:14 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 22:00:14 - live_logging_info - Auto commit off
+2019/02/17 22:00:14 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 22:00:14 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 22:00:14 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:14 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 22:00:14 - live_logging_info - Connection to database closed!
+2019/02/17 22:00:14 - live_logging_info - New database connection defined
+2019/02/17 22:00:14 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:14 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 22:00:14 - live_logging_info - Auto commit off
+2019/02/17 22:00:14 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 22:00:14 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 22:00:14 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:14 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 22:00:14 - live_logging_info - Connection to database closed!
+2019/02/17 22:00:14 - live_logging_info - New database connection defined
+2019/02/17 22:00:14 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:14 - live_logging_info - Dispatching to event bus: DatabaseConnectedEvent
+2019/02/17 22:00:14 - live_logging_info - Auto commit off
+2019/02/17 22:00:14 - live_logging_info - Preparing statement: 
+2019/02/17 22:00:14 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 22:00:14 - live_logging_info - Preparing statement: 
+2019/02/17 22:00:14 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 22:00:14 - live_logging_info - Preparing statement: 
+2019/02/17 22:00:14 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 22:00:14 - live_logging_info - Preparing statement: 
+2019/02/17 22:00:14 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 22:00:14 - live_logging_info - Preparing statement: 
+2019/02/17 22:00:14 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 22:00:14 - live_logging_info - Preparing statement: 
+2019/02/17 22:00:14 - live_logging_info - INSERT INTO pentaho_dilogs.step_logs (ID_BATCH, CHANNEL_ID, LOG_DATE, TRANSNAME, STEPNAME, STEP_COPY, LINES_READ, LINES_WRITTEN, LINES_UPDATED, LINES_INPUT, LINES_OUTPUT, LINES_REJECTED, ERRORS) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2019/02/17 22:00:14 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 22:00:14 - live_logging_info - Commit on database connection [live_logging_info]
+2019/02/17 22:00:14 - live_logging_info - No user-defined ExtensionPoint configuration; defaulting to plugin defined ones (monitoring.properties)
+2019/02/17 22:00:14 - live_logging_info - Dispatching to event bus: DatabaseDisconnectedEvent
+2019/02/17 22:00:14 - live_logging_info - Connection to database closed!

@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformation>
+  <info>
+    <name>UPMC_Queries_V2</name>
+    <description />
+    <extended_description />
+    <trans_version />
+    <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
+    <directory>/home/admin/Production/UPMC</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <trans-log-table>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STATUS</id>
+          <enabled>Y</enabled>
+          <name>STATUS</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+          <subject />
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>STARTDATE</id>
+          <enabled>Y</enabled>
+          <name>STARTDATE</name>
+        </field>
+        <field>
+          <id>ENDDATE</id>
+          <enabled>Y</enabled>
+          <name>ENDDATE</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>DEPDATE</id>
+          <enabled>Y</enabled>
+          <name>DEPDATE</name>
+        </field>
+        <field>
+          <id>REPLAYDATE</id>
+          <enabled>Y</enabled>
+          <name>REPLAYDATE</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>Y</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+        <field>
+          <id>EXECUTING_SERVER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_SERVER</name>
+        </field>
+        <field>
+          <id>EXECUTING_USER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_USER</name>
+        </field>
+        <field>
+          <id>CLIENT</id>
+          <enabled>N</enabled>
+          <name>CLIENT</name>
+        </field>
+      </trans-log-table>
+      <perf-log-table>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>SEQ_NR</id>
+          <enabled>Y</enabled>
+          <name>SEQ_NR</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>INPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>INPUT_BUFFER_ROWS</name>
+        </field>
+        <field>
+          <id>OUTPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>OUTPUT_BUFFER_ROWS</name>
+        </field>
+      </perf-log-table>
+      <channel-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>LOGGING_OBJECT_TYPE</id>
+          <enabled>Y</enabled>
+          <name>LOGGING_OBJECT_TYPE</name>
+        </field>
+        <field>
+          <id>OBJECT_NAME</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_NAME</name>
+        </field>
+        <field>
+          <id>OBJECT_COPY</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_COPY</name>
+        </field>
+        <field>
+          <id>REPOSITORY_DIRECTORY</id>
+          <enabled>Y</enabled>
+          <name>REPOSITORY_DIRECTORY</name>
+        </field>
+        <field>
+          <id>FILENAME</id>
+          <enabled>Y</enabled>
+          <name>FILENAME</name>
+        </field>
+        <field>
+          <id>OBJECT_ID</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_ID</name>
+        </field>
+        <field>
+          <id>OBJECT_REVISION</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_REVISION</name>
+        </field>
+        <field>
+          <id>PARENT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>PARENT_CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>ROOT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>ROOT_CHANNEL_ID</name>
+        </field>
+      </channel-log-table>
+      <step-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>N</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+      </step-log-table>
+      <metrics-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_DATE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_CODE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_CODE</name>
+        </field>
+        <field>
+          <id>METRICS_DESCRIPTION</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DESCRIPTION</name>
+        </field>
+        <field>
+          <id>METRICS_SUBJECT</id>
+          <enabled>Y</enabled>
+          <name>METRICS_SUBJECT</name>
+        </field>
+        <field>
+          <id>METRICS_TYPE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_TYPE</name>
+        </field>
+        <field>
+          <id>METRICS_VALUE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_VALUE</name>
+        </field>
+      </metrics-log-table>
+    </log>
+    <maxdate>
+      <connection />
+      <table />
+      <field />
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file />
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+      <slaveserver>
+        <name>Carte localhost</name>
+        <hostname>localhost</hostname>
+        <port>8081</port>
+        <webAppName>Spoon</webAppName>
+        <username />
+        <password>Encrypted </password>
+        <proxy_hostname />
+        <proxy_port />
+        <non_proxy_hosts />
+        <master>Y</master>
+        <sslMode>N</sslMode>
+      </slaveserver>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+    <created_user>-</created_user>
+    <created_date>2018/09/13 10:54:24.103</created_date>
+    <modified_user>admin</modified_user>
+    <modified_date>2019/02/14 09:14:59.442</modified_date>
+    <key_for_session_key />
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+  </notepads>
+  <connection>
+    <name>unidata</name>
+    <server />
+    <type>GENERIC</type>
+    <access>Native</access>
+    <database />
+    <port>1521</port>
+    <username>PROD9F</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79f756eea080fe</password>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
+    <attributes>
+      <attribute>
+        <code>CUSTOM_DRIVER_CLASS</code>
+        <attribute>com.rs.u2.jdbc.UniJDBCDriver</attribute>
+      </attribute>
+      <attribute>
+        <code>CUSTOM_URL</code>
+        <attribute>jdbc:rs-u2://cvyhj3a80v.oai.olympusglobal.com//info/PROD9F/PROD9F_SQL;dbmstype=UNIDATA</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>1521</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <order>
+    <hop>
+      <from>Active_Asset_Query</from>
+      <to>Select values</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values</from>
+      <to>Sort rows Q1</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort rows Q2</from>
+      <to>Merge Join</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort rows Q1</from>
+      <to>Merge Join</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Asset_location_Query</from>
+      <to>Strings cut 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Strings cut 2</from>
+      <to>Select values 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 2</from>
+      <to>Sort rows Q2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Merge Join</from>
+      <to>Select values 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 3</from>
+      <to>Rapport to XML</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Rapport to XML</from>
+      <to>Microsoft Excel Writer 2</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <step>
+    <name>Active_Asset_Query</name>
+    <type>TableInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <connection>unidata</connection>
+    <sql>SELECT DISTINCT  
+	UATB_JS_ASSET_VENDOR_NAME,
+	AS_MASTER.ID,
+	CUST_ID,
+	UATB_SC_CUST_NAME,
+	CONTRACT_NO,
+	EQUIP_DESC,
+	MODEL,
+	SERIAL_NUMBER,
+	QUANTITY,
+	LS_MASTER.UATB_SC_ACTIV_DATE,
+	UATB_JS_EOT_LTR_TERM_DATE,
+	CONTRACT_TERM,
+	A_RENTAL_AMT 
+FROM 
+	AS_MASTER_RPTS_NF AS_MASTER,  
+	LS_MASTER_RPTS_NF LS_MASTER,  
+	CS_DEFAULTS_NF CS_DEFAULT,  
+	LS_BILLING_NF LS_BILLING,  
+	AS_MASTER_RPTS_A_LOCATIONS AS_MASTER_,  
+	AS_LOCATION_NF AS_LOCATION 
+WHERE 
+	AS_MASTER.CONTRACT_NO = LS_MASTER.ID
+	AND LS_MASTER.CUST_CREDIT_ACCT = CS_DEFAULT.ID
+	AND LS_MASTER.ID = LS_BILLING.ID
+	AND AS_MASTER.ID = AS_MASTER_.ID
+	AND AS_MASTER_.A_LOCATIONS = AS_LOCATION.ID
+	AND ( ( UATB_SC_NUM_OF_ASSETS &lt;&gt; 0
+	AND UATB_SC_CUST_NAME LIKE 'UPMC'
+	AND ( UATB_SC_INVOICE_CODE &lt;&gt; 'N'
+	AND A_DISP_DATE IS NULL)
+	AND MODEL NOT IN( 'B/O', 'ADJ', 'PREMIUM', 'PVFCF', 'PVRESIDUAL', 'EUA', 'NON DISC ITM' ))
+	AND EQUIP_DESC &lt;&gt; 'RETURNED') 
+ORDER BY 
+	3
+</sql>
+    <limit>0</limit>
+    <lookup />
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>96</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values</name>
+    <type>SelectValues</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <field>
+        <name>UATB_JS_ASSET_VENDOR_NAME</name>
+        <rename />
+      </field>
+      <field>
+        <name>ID</name>
+        <rename />
+      </field>
+      <field>
+        <name>CUST_ID</name>
+        <rename />
+      </field>
+      <field>
+        <name>UATB_SC_CUST_NAME</name>
+        <rename />
+      </field>
+      <field>
+        <name>CONTRACT_NO</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_DESC</name>
+        <rename />
+      </field>
+      <field>
+        <name>MODEL</name>
+        <rename />
+      </field>
+      <field>
+        <name>SERIAL_NUMBER</name>
+        <rename />
+      </field>
+      <field>
+        <name>QUANTITY</name>
+        <rename />
+      </field>
+      <field>
+        <name>UATB_SC_ACTIV_DATE</name>
+        <rename />
+      </field>
+      <field>
+        <name>UATB_JS_EOT_LTR_TERM_DATE</name>
+        <rename />
+      </field>
+      <field>
+        <name>CONTRACT_TERM</name>
+        <rename />
+      </field>
+      <field>
+        <name>A_RENTAL_AMT</name>
+        <rename />
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>320</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort rows Q1</name>
+    <type>SortRows</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory />
+    <compress>N</compress>
+    <compress_variable />
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>ID</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>480</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Asset_location_Query</name>
+    <type>TableInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <connection>unidata</connection>
+    <sql>SELECT DISTINCT  
+	AS_LOCATION.ID AS ID_2,
+	AS_MASTER.ID,
+	EQUIP_ADDR1,
+	EQUIP_ADDR2,
+	EQUIP_CITY,
+	EQUIP_STATE,
+	EQUIP_ZIP 
+FROM 
+	AS_MASTER_RPTS_NF AS_MASTER,  
+	LS_MASTER_RPTS_NF LS_MASTER,  
+	CS_DEFAULTS_NF CS_DEFAULT,  
+	LS_BILLING_NF LS_BILLING,  
+	AS_MASTER_RPTS_A_LOCATIONS AS_MASTER_,  
+	AS_LOCATION_NF AS_LOCATION 
+WHERE 
+	AS_MASTER.CONTRACT_NO = LS_MASTER.ID
+	AND LS_MASTER.CUST_CREDIT_ACCT = CS_DEFAULT.ID
+	AND LS_MASTER.ID = LS_BILLING.ID
+	AND AS_MASTER.ID = AS_MASTER_.ID
+	AND AS_MASTER_.A_LOCATIONS = AS_LOCATION.ID
+	AND ( ( ( UATB_SC_NUM_OF_ASSETS &lt;&gt; 0
+	AND UATB_SC_CUST_NAME LIKE 'UPMC'
+	AND ( UATB_SC_INVOICE_CODE &lt;&gt; 'N'
+	AND A_DISP_DATE IS NULL)
+	AND MODEL NOT IN( 'B/O', 'ADJ', 'PREMIUM', 'PVFCF', 'PVRESIDUAL', 'EUA', 'NON DISC ITM' ))
+	AND EQUIP_DESC &lt;&gt; 'RETURNED')
+	AND UATB_SC_CUST_NAME LIKE 'UPMC') 
+ORDER BY 
+	2
+
+</sql>
+    <limit>0</limit>
+    <lookup />
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>96</xloc>
+      <yloc>224</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 2</name>
+    <type>SelectValues</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <field>
+        <name>ID_3</name>
+        <rename />
+      </field>
+      <field>
+        <name>ID</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_ADDR1</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_ADDR2</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_CITY</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_STATE</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_ZIP</name>
+        <rename />
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>352</xloc>
+      <yloc>224</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort rows Q2</name>
+    <type>SortRows</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory />
+    <compress>N</compress>
+    <compress_variable />
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>ID_3</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>480</xloc>
+      <yloc>224</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Merge Join</name>
+    <type>MergeJoin</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <join_type>LEFT OUTER</join_type>
+    <step1>Sort rows Q1</step1>
+    <step2>Sort rows Q2</step2>
+    <keys_1>
+      <key>CONTRACT_NO</key>
+      <key>ID</key>
+    </keys_1>
+    <keys_2>
+      <key>ID_3</key>
+      <key>ID</key>
+    </keys_2>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>672</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Rapport to XML</name>
+    <type>XMLOutput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <encoding>UTF-8</encoding>
+    <name_space />
+    <xml_main_element>upmc_p</xml_main_element>
+    <xml_repeat_element>upmc_r</xml_repeat_element>
+    <file>
+      <name>D:\pentaho\Kettle\Dashboard\XML\UPMC</name>
+      <extention>xml</extention>
+      <servlet_output>N</servlet_output>
+      <do_not_open_newfile_init>N</do_not_open_newfile_init>
+      <split>N</split>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <omit_null_values>N</omit_null_values>
+      <date_time_format />
+      <add_to_result_filenames>N</add_to_result_filenames>
+      <zipped>N</zipped>
+      <splitevery>0</splitevery>
+    </file>
+    <fields>
+      <field>
+        <content_type>Element</content_type>
+        <name>A_RENTAL_AMT</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>2</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>CONTRACT_NO</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>CONTRACT_TERM</name>
+        <element />
+        <type>Integer</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>CUST_ID</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>EQUIP_ADDR1</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>EQUIP_ADDR2</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>EQUIP_CITY</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>EQUIP_DESC</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>EQUIP_STATE</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>EQUIP_ZIP</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>ID</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>ID_1</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>ID_3</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>MODEL</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>QUANTITY</name>
+        <element />
+        <type>Integer</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>SERIAL_NUMBER</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>UATB_JS_ASSET_VENDOR_NAME</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>UATB_JS_EOT_LTR_TERM_DATE</name>
+        <element />
+        <type>Date</type>
+        <format>yyyy-MM-dd</format>
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>UATB_SC_ACTIV_DATE</name>
+        <element />
+        <type>Date</type>
+        <format>yyyy-MM-dd</format>
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <content_type>Element</content_type>
+        <name>UATB_SC_CUST_NAME</name>
+        <element />
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Strings cut 2</name>
+    <type>StringCut</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>ID_2</in_stream_name>
+        <out_stream_name>ID_3</out_stream_name>
+        <cut_from>0</cut_from>
+        <cut_to>15</cut_to>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>224</xloc>
+      <yloc>224</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Microsoft Excel Writer 2</name>
+    <type>TypeExitExcelWriterStep</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <header>Y</header>
+    <footer>N</footer>
+    <makeSheetActive>Y</makeSheetActive>
+    <rowWritingMethod>overwrite</rowWritingMethod>
+    <startingCell>A1</startingCell>
+    <appendOmitHeader>N</appendOmitHeader>
+    <appendOffset>0</appendOffset>
+    <appendEmpty>0</appendEmpty>
+    <rowWritingMethod>overwrite</rowWritingMethod>
+    <forceFormulaRecalculation>N</forceFormulaRecalculation>
+    <leaveExistingStylesUnchanged>N</leaveExistingStylesUnchanged>
+    <appendLines>N</appendLines>
+    <add_to_result_filenames>Y</add_to_result_filenames>
+    <file>
+      <name>${UPLOAD_FILE_NS}</name>
+      <extention>xls</extention>
+      <do_not_open_newfile_init>N</do_not_open_newfile_init>
+      <split>N</split>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format />
+      <sheetname>Sheet1</sheetname>
+      <autosizecolums>Y</autosizecolums>
+      <stream_data>Y</stream_data>
+      <protect_sheet>N</protect_sheet>
+      <password>Encrypted </password>
+      <protected_by />
+      <splitevery>0</splitevery>
+      <if_file_exists>new</if_file_exists>
+      <if_sheet_exists>new</if_sheet_exists>
+    </file>
+    <template>
+      <enabled>N</enabled>
+      <sheet_enabled>N</sheet_enabled>
+      <filename>template.xls</filename>
+      <sheetname />
+      <hidden>N</hidden>
+    </template>
+    <fields>
+      <field>
+        <name>UATB_JS_ASSET_VENDOR_NAME</name>
+        <type>String</type>
+        <format />
+        <title>UATB_JS_ASSET_VENDOR_NAME</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>ID</name>
+        <type>String</type>
+        <format />
+        <title>ID</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>CUST_ID</name>
+        <type>String</type>
+        <format />
+        <title>CUST_ID</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>UATB_SC_CUST_NAME</name>
+        <type>String</type>
+        <format />
+        <title>UATB_SC_CUST_NAME</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>CONTRACT_NO</name>
+        <type>String</type>
+        <format />
+        <title>CONTRACT_NO</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>EQUIP_DESC</name>
+        <type>String</type>
+        <format />
+        <title>EQUIP_DESC</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>MODEL</name>
+        <type>String</type>
+        <format />
+        <title>MODEL</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>SERIAL_NUMBER</name>
+        <type>String</type>
+        <format />
+        <title>SERIAL_NUMBER</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>QUANTITY</name>
+        <type>Integer</type>
+        <format />
+        <title>QUANTITY</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>UATB_SC_ACTIV_DATE</name>
+        <type>Date</type>
+        <format>m/d/yy</format>
+        <title>UATB_SC_ACTIV_DATE</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>UATB_JS_EOT_LTR_TERM_DATE</name>
+        <type>Date</type>
+        <format>m/d/yy</format>
+        <title>UATB_JS_EOT_LTR_TERM_DATE</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>CONTRACT_TERM</name>
+        <type>Integer</type>
+        <format />
+        <title>CONTRACT_TERM</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>A_RENTAL_AMT</name>
+        <type>Number</type>
+        <format>0.00</format>
+        <title>A_RENTAL_AMT</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>ID_3</name>
+        <type>String</type>
+        <format />
+        <title>ID_3</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>ID_1</name>
+        <type>String</type>
+        <format />
+        <title>ID_1</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>EQUIP_ADDR1</name>
+        <type>String</type>
+        <format />
+        <title>EQUIP_ADDR1</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>EQUIP_ADDR2</name>
+        <type>String</type>
+        <format />
+        <title>EQUIP_ADDR2</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>EQUIP_CITY</name>
+        <type>String</type>
+        <format />
+        <title>EQUIP_CITY</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>EQUIP_STATE</name>
+        <type>String</type>
+        <format />
+        <title>EQUIP_STATE</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>EQUIP_ZIP</name>
+        <type>String</type>
+        <format />
+        <title>EQUIP_ZIP</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>944</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 3</name>
+    <type>SelectValues</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <field>
+        <name>UATB_JS_ASSET_VENDOR_NAME</name>
+        <rename />
+      </field>
+      <field>
+        <name>ID</name>
+        <rename />
+      </field>
+      <field>
+        <name>CUST_ID</name>
+        <rename />
+      </field>
+      <field>
+        <name>UATB_SC_CUST_NAME</name>
+        <rename />
+      </field>
+      <field>
+        <name>CONTRACT_NO</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_DESC</name>
+        <rename />
+      </field>
+      <field>
+        <name>MODEL</name>
+        <rename />
+      </field>
+      <field>
+        <name>SERIAL_NUMBER</name>
+        <rename />
+      </field>
+      <field>
+        <name>QUANTITY</name>
+        <rename />
+      </field>
+      <field>
+        <name>UATB_SC_ACTIV_DATE</name>
+        <rename />
+      </field>
+      <field>
+        <name>UATB_JS_EOT_LTR_TERM_DATE</name>
+        <rename />
+      </field>
+      <field>
+        <name>CONTRACT_TERM</name>
+        <rename />
+      </field>
+      <field>
+        <name>A_RENTAL_AMT</name>
+        <rename />
+      </field>
+      <field>
+        <name>ID_3</name>
+        <rename />
+      </field>
+      <field>
+        <name>ID_1</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_ADDR1</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_ADDR2</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_CITY</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_STATE</name>
+        <rename />
+      </field>
+      <field>
+        <name>EQUIP_ZIP</name>
+        <rename />
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>976</xloc>
+      <yloc>112</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step_error_handling>
+  </step_error_handling>
+  <slave-step-copy-partition-distribution>
+  </slave-step-copy-partition-distribution>
+  <slave_transformation>N</slave_transformation>
+  <attributes>
+    <group>
+      <name>explorerState</name>
+    </group>
+  </attributes>
+</transformation>
